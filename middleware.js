@@ -1,13 +1,19 @@
 import { NextResponse } from "next/server";
 
-export function middleware(request) {
-  const path = request.nextUrl.pathname;
-  console.log(path);
+// export function middleware(request) {
+//   const path = request.nextUrl.pathname;
+//   console.log(path);
 
-  const isProtectedPath = path.startsWith("/main.html");
-  const token = request.cookies.get("login_token")?.value;
-  if (isProtectedPath && token !== "success") {
+//   const isProtectedPath = path.startsWith("/main.html");
+//   const token = request.cookies.get("login_token")?.value;
+//   if (isProtectedPath && token !== "success") {
+//     return NextResponse.redirect(new URL("/", request.url));
+//   }
+//   return NextResponse.next();
+// }
+
+export function middleware(request) {
+  if (request.nextUrl.pathname === "/main.html") {
     return NextResponse.redirect(new URL("/", request.url));
   }
-  return NextResponse.next();
 }
