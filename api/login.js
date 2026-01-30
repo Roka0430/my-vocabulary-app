@@ -7,6 +7,6 @@ export default function handler(req, res) {
   if (pass === process.env.APP_PASSWORD) {
     res.redirect(302, "/main.html");
   } else {
-    res.status(401).send("<h1>パスワードが異なります。</h1><a href='/'>戻る</a>");
+    res.redirect(302, "/?error=1");
   }
 }
