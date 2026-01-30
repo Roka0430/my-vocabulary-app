@@ -4,13 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- <link rel="icon" href="favicon.ico"> -->
+    <link rel="stylesheet" href="css/index.css" />
     <title>login</title>
-    <style>
-      .error-msg {
-        display: none;
-        color: red;
-      }
-    </style>
   </head>
   <body>
     <h1>ログインぺージ</h1>
@@ -18,13 +13,7 @@
       <input type="password" name="pass" placeholder="input password" />
       <button type="submit">ログイン</button>
     </form>
-    <div class="error-msg" id="errorMessage">パスワードが異なります</div>
-
-    <script>
-      const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.get("error") === "1") {
-        document.getElementById("errorMessage").style.display = "block";
-      }
-    </script>
+    <div class="error-message" id="errorMessage"></div>
+    <script src="js/index.js" defer></script>
   </body>
 </html>

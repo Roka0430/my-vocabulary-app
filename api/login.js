@@ -6,7 +6,9 @@ export default function handler(req, res) {
   const { pass } = req.body;
   if (pass === process.env.APP_PASSWORD) {
     res.redirect(302, "/main.html");
+  } else if (pass === "") {
+    res.redirect(302, "/?error=empty");
   } else {
-    res.redirect(302, "/?error=1");
+    res.redirect(302, "/?error=wrong");
   }
 }
