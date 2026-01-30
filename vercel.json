@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/main.html",
+      "destination": "/api/check"
+    }
+  ]
+}
