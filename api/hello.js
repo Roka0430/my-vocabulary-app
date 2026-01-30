@@ -1,3 +1,4 @@
 export default function handler(req, res) {
-  res.status(200).send("<h1>変更してみた</h1>");
+  const MY_PASSWORD = process.env.APP_PASSWORD;
+  res.status(200).send("<h1>" + MY_PASSWORD + "</h1>");
 }
