@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 
 export function middleware(request) {
   const path = request.nextUrl.pathname;
+  console.log(path);
+
   const isProtectedPath = path.startsWith("/main.html");
   const token = request.cookies.get("login_token")?.value;
   if (isProtectedPath && token !== "success") {
