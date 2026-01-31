@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- <link rel="icon" href="favicon.ico"> -->
     <link rel="stylesheet" href="../source/default.css" />
-    <link rel="stylesheet" href="home/style.css" />
+    <link rel="stylesheet" href="/home/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,9 +19,8 @@
       <form class="study-setup" action="../study/" method="GET">
         <section class="study-setup__group">
           <div class="study-setup__title">問題選択</div>
-          <select name="range" class="study-range-select" id="studyRangeSelect" aria-label="select">
-            <option value="0-50">No.0 - 50</option>
-            <option value="51-100">No.51 - 100</option>
+          <select name="range" class="study-range-select" id="studyRangeSelect" aria-label="select" disabled>
+            <option value="">問題情報を読み込み中...</option>
           </select>
         </section>
         <section class="study-setup__group">
@@ -40,10 +39,10 @@
           </div>
         </section>
         <div class="study-setup__action">
-          <button type="submit" class="submit-button">学習を開始する</button>
+          <button type="submit" class="submit-button" id="submitButton" disabled>学習を開始する</button>
         </div>
       </form>
     </div>
-    <script src="script.js" defer></script>
+    <script src="/home/script.js" defer></script>
   </body>
 </html>

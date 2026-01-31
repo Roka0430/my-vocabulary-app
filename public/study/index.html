@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- <link rel="icon" href="favicon.ico"> -->
     <link rel="stylesheet" href="../source/default.css" />
-    <link rel="stylesheet" href="home/style.css" />
+    <link rel="stylesheet" href="/study/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,30 @@
   <body>
     <div class="container">
       <h1>英単語</h1>
+      <div class="study-content">
+        <section class="study-main">
+          <div class="study-main__progress-index" id="progressIndex">- / -</div>
+          <div class="study-main__progress-bar" id="progressBar" style="--rate: 0%"></div>
+          <div class="study-main__word" id="word">...</div>
+        </section>
+        <section class="study-answer">
+          <div class="study-answer__quiz hide" id="formatQuiz">
+            <div class="study-answer__option">～によると～によると～によると～によると～によると～によると</div>
+            <div class="study-answer__option">～によると</div>
+            <div class="study-answer__option">～によると</div>
+            <div class="study-answer__option">～によると</div>
+            <div class="study-answer__separator"></div>
+            <div class="study-answer__option unknown">わからない</div>
+          </div>
+          <div class="study-answer__sort hide" id="formatSort">
+            <div class="study-answer__means" id="means"></div>
+            <div class="study-answer__separator"></div>
+            <div class="study-answer__option">わかる</div>
+            <div class="study-answer__option">わからない</div>
+          </div>
+        </section>
+      </div>
     </div>
-    <script src="script.js" defer></script>
+    <script src="/study/script.js" defer></script>
   </body>
 </html>

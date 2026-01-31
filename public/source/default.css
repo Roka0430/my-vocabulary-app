@@ -1,8 +1,8 @@
 :root {
   --bg-main: #2e3e63;
+  --bg-sub: #1f2e4c;
   --text-main: #ffffff;
   --text-sub: #8899a6;
-  /* #1f2e4c */
 }
 
 * {
@@ -41,5 +41,5 @@ a {
 }
 
 .container h1 {
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
 }
