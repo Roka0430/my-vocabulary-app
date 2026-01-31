@@ -12,7 +12,7 @@ class ToeicVocabularyClass {
     try {
       const res = await fetch("/api/dataio");
       if (!res.ok) throw new Error("データの取得に失敗しました");
-      return await res.text();
+      return await res.json();
     } catch (error) {
       console.error("エラー:", error);
     }
