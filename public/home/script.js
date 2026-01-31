@@ -501,38 +501,35 @@ const TEST_DATA = [
   },
 ];
 
-class ToeicVocabularyClass {
-  constructor() {
-    this.init();
-    console.log(this.data);
-  }
+const initStudySetup = async () => {
+  const studyRangeSelect = document.getElementById("studyRangeSelect");
+  const RANGE_SIZE = 50;
 
-  async init() {
-    // this.data = await this.loadData();
-    this.data = TEST_DATA;
-  }
+  try {
+    // const res = await fetch("/api/dataio");
+    // if (!res.ok) throw new Error("データの取得に失敗しました");
 
-  async loadData() {
-    try {
-      const res = await fetch("/api/dataio");
-      if (!res.ok) throw new Error("データの取得に失敗しました");
-      return await res.json();
-    } catch (error) {
-      console.error("エラー:", error);
+    // const words = await res.json();
+    const words = TEST_DATA;
+    const totalGroups = Math.ceil(words.length / RANGE_SIZE);
+
+    const fragment = document.createDocumentFragment();
+    studyRangeSelect.textContent = "";
+
+    for (let i = 0; i < totalGroups; i++) {
+      const startNo = i * RANGE_SIZE + 1;
+      const endNo = Math.min((i + 1) * RANGE_SIZE, words.length);
+
+      const option = document.createElement("option");
+      option.value = `${startNo}-${endNo}`;
+      option.textContent = `No.${startNo} - ${endNo}`;
+      fragment.appendChild(option);
     }
+
+    studyRangeSelect.appendChild(fragment);
+  } catch (error) {
+    console.error("エラー:", error);
   }
-}
+};
 
-const tvc = new ToeicVocabularyClass();
-
-window.addEventListener("click", () => {
-  console.log(speechSynthesis.getVoices());
-
-  const uttr = new SpeechSynthesisUtterance();
-  uttr.text = "eat";
-  uttr.lang = "en-GB";
-  uttr.volume = 1.0;
-  uttr.late = 1.0;
-  uttr.pitch = 1.0;
-  window.speechSynthesis.speak(uttr);
-});
+document.addEventListener("DOMContentLoaded", initStudySetup);
