@@ -2,20 +2,27 @@ import csv
 import json
 
 
-keys = ["n", "v", "adj", "adv", "prep"]
+keys = ["noun", "verb", "adjective", "adverb", "preposition"]
 output = []
 with open(r"C:\Workspace\Shell\my-vocabulary-app\resource\vocabulary.csv", "r") as f:
     reader = csv.reader(f)
-    for r in reader:
+    for i, r in enumerate(reader):
         addition = {
-            "id": r[0],
+            "id": int(r[0]),
+            "level": 600,
             "word": r[1],
-            "means": {
-                keys[i]: val.split("、") for i, val in enumerate(r[2:]) if val != ""
-            },
+            "definitions": [],
         }
+        for i, m in enumerate(r[2:]):
+            if m == "":
+                continue
+            addition["definitions"].append(
+                {
+                    "parts": keys[i],
+                    "meaning": m,
+                }
+            )
         output.append(addition)
-
 
 with open(r"C:\Workspace\Shell\my-vocabulary-app\resource\vocabulary.json", "w") as f:
     json.dump(output, f, ensure_ascii=False, separators=(",", ":"))
