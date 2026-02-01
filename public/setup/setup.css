@@ -1,0 +1,26 @@
+.setup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.setup-section {
+  padding: 20px;
+  border: solid 1px var(--border);
+  border-radius: 5px;
+}
+
+.setup-section__title {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.setup-section__content {
+  margin: 15px 0 0 0;
+}
+
+.setup-range__select {
+  width: 100%;
+  padding: 6px 15px;
+  outline: none;
+}

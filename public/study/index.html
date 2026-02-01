@@ -4,42 +4,41 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- <link rel="icon" href="favicon.ico"> -->
-    <link rel="stylesheet" href="../source/default.css" />
-    <link rel="stylesheet" href="/study/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap" rel="stylesheet" />
-
-    <title>my app | Study</title>
+    <link rel="stylesheet" href="/resource/default.css" />
+    <link rel="stylesheet" href="/study/study.css" />
+    <title>MyApp | Study</title>
   </head>
   <body>
     <div class="container">
-      <h1>英単語</h1>
-      <div class="study-content">
-        <section class="study-main">
-          <div class="study-main__progress-index" id="progressIndex">- / -</div>
-          <div class="study-main__progress-bar" id="progressBar" style="--rate: 0%"></div>
-          <div class="study-main__word" id="word">...</div>
-        </section>
-        <section class="study-answer">
-          <div class="study-answer__quiz hide" id="formatQuiz">
-            <div class="study-answer__option">～によると～によると～によると～によると～によると～によると</div>
-            <div class="study-answer__option">～によると</div>
-            <div class="study-answer__option">～によると</div>
-            <div class="study-answer__option">～によると</div>
-            <div class="study-answer__separator"></div>
-            <div class="study-answer__option unknown">わからない</div>
+      <div class="study-wrapper">
+        <section class="study-question" id="question">
+          <div class="study-question__progress">
+            <div class="study-question__progress__index" data-target="progress_index">...</div>
+            <div class="study-question__progress__bar" data-target="progress_bar" style="--rate: 0%"></div>
           </div>
-          <div class="study-answer__sort hide" id="formatSort">
-            <div class="study-answer__means" id="means"></div>
-            <div class="study-answer__separator"></div>
-            <div class="study-answer__option">わかる</div>
-            <div class="study-answer__option">わからない</div>
-          </div>
+          <div class="study-question__word" data-target="word">...</div>
         </section>
+        <section class="study-answer" id="container"></section>
       </div>
     </div>
-    <script src="/study/script.js" defer></script>
+
+    <!-- わかる・わからない仕分け -->
+    <template id="template_sort">
+      <div class="study-answer__means" data-target="means">...</div>
+      <button class="study-answer__option" data-target="btn_known" disabled>わかる</button>
+      <button class="study-answer__option" data-target="btn_unknown" disabled>わからない</button>
+    </template>
+
+    <!-- 四肢択一問題 -->
+    <template id="template_quiz">
+      <button class="study-answer__option">選択肢１</button>
+      <button class="study-answer__option">選択肢２</button>
+      <button class="study-answer__option">選択肢３</button>
+      <button class="study-answer__option">選択肢４</button>
+      <button class="study-answer__option">わからない</button>
+    </template>
+
+    <script src="/resource/default.js" defer></script>
+    <script src="/study/study.js" defer></script>
   </body>
 </html>
