@@ -128,7 +128,9 @@ textarea {
 
 .outer {
   width: 100%;
+  max-width: 400px;
   height: 100vh;
+  margin: 0 auto 0;
   padding: 30px;
 }
 
@@ -138,9 +140,7 @@ textarea {
 
 .container {
   width: 100%;
-  max-width: 600px;
   height: 100%;
-  margin: 0 auto 0;
 }
 
 .study {
