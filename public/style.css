@@ -1,6 +1,6 @@
 @font-face {
   font-family: "MyFont";
-  src: url("/fonts/LINESeed.ttf") format("trueType");
+  src: url("/resource/LINESeed.ttf") format("trueType");
 }
 
 :root {
@@ -8,7 +8,8 @@
   --bg-sub: #49515f;
   --text-main: #ffffff;
   --text-sub: #9da5b4;
-  --border: #9da5b4;
+  --border: #e0e0e0;
+  --accent: #4a90e2;
 }
 
 * {
@@ -38,172 +39,89 @@ textarea {
   padding: 30px;
 }
 
-.wrapper {
-  height: 100%;
-}
-
-.setup-form {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  margin: 0 0 15px 0;
-}
-
-.setup-section {
-  padding: 20px;
-  border: solid 1px var(--border);
-  border-radius: 10px;
-}
-
-.setup-section__title {
-  margin: 0 0 12px 0;
-  font-size: 0.9rem;
-  line-height: 1;
-}
-
-.setup-section__select {
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin: 5px 0;
-  padding: 5px 12px;
-}
-
-.setup-action {
-  margin: 10px 0 0 0;
-  text-align: center;
-}
-
-.setup-action__button {
-  padding: 8px 20px;
-}
-
-.setup-form.disable .setup-action__button {
-  color: var(--text-sub);
-  pointer-events: none;
-}
-
-.setting-button {
-  padding: 0 5px;
-  font-size: 0.7rem;
-}
-
-.study-frame {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   height: 100%;
+  padding: 30px;
+  z-index: 1000;
 }
 
-.study-info__header {
-  font-size: 0.8rem;
+.popup.visible {
+  display: block;
 }
 
-.study-info__progress-index {
-  margin: 10px 0 0 0;
-  text-align: center;
-}
-
-.study-info__progress-bar {
+.popup__cover {
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 6px;
-  margin: 10px 0 0 0;
-  background: linear-gradient(to right, var(--text-main) 0% var(--rate), var(--bg-sub) var(--rate) 100%);
-  border-radius: 3px;
+  height: 100%;
+  background: var(--text-main);
+  backdrop-filter: blur(4px);
+  z-index: 1010;
 }
 
-.study-info__word {
-  padding: 30px 0;
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.study-answer__content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.study-answer__definitions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8px;
+.popup__content {
   position: relative;
-  height: 180px;
-  margin: 0 0 20px 0;
+  width: 100%;
+  background: #ffffff;
   padding: 20px;
-  border: solid 1px var(--border);
-  border-radius: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  z-index: 1020;
 }
 
-.study-answer__definitions::after {
-  content: "";
+.popup__message {
+  color: var(--bg-main);
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.popup__actions {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.popup.disable .popup__actions::after {
+  content: "3秒後にボタンが出現";
   position: absolute;
   top: 50%;
-  left: 80px;
-  transform: translateY(-50%);
-  width: 0%;
-  height: 6px;
-  background: var(--bg-sub);
-  border-radius: 3px;
-  pointer-events: none;
-  transition: all 0.1s;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--bg-sub);
+  font-size: 0.75rem;
+  white-space: nowrap;
 }
 
-.study-answer__content.disable .study-answer__definitions::after {
-  animation: timer 1.5s linear forwards;
+.popup__button {
+  width: 100%;
+  padding: 7px 0;
+  background: var(--bg-main);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-@keyframes timer {
-  0% {
-    width: 0%;
-    transform: tra;
-  }
-  100% {
-    width: calc(100% - 160px);
-  }
-}
-
-.study-answer__meaning {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  line-height: 1.3;
-  transition: all 0.1s;
-}
-
-.study-answer__content.disable .study-answer__definitions .study-answer__meaning {
+.popup.disable .popup__button {
   opacity: 0;
 }
 
-.study-answer__meaning .parts {
-  flex-shrink: 0;
-  width: 1.5rem;
-  height: 1.5rem;
-  border: solid 1px var(--border);
-  font-size: 0.9rem;
-  line-height: 1.4rem;
-  text-align: center;
+.popup__button--no {
+  background: var(--text-sub);
 }
 
-.study-answer__option {
-  height: 60px;
-  padding: 0 20px;
-  background: transparent;
-  border: solid 1px var(--border);
-  border-radius: 30px;
-  color: var(--text-main);
-  line-height: 59px;
-  transition: all 0.1s;
-}
-
-.study-answer__option.--center {
-  text-align: center;
-}
-
-.study-answer__content.disable .study-answer__option {
-  pointer-events: none;
-  color: var(--text-sub);
+.popup__button--yes {
+  background: var(--bg-main);
 }
 
 .hide {

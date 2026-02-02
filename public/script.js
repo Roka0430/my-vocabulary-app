@@ -1,233 +1,190 @@
-class AppStorage {
-  constructor(key) {
-    this.key = key;
-  }
+class localStorageManager {
+  #KEYS = {
+    WORDS: "LocalWordsData",
+    PROGRESS: "LocalProgressData",
+  };
 
-  get() {
-    const data = localStorage.getItem(this.key);
+  #load(key) {
+    const data = localStorage.getItem(key);
     return data ? JSON.parse(data) : null;
   }
 
-  set(data) {
-    localStorage.setItem(this.key, JSON.stringify(data));
+  #save(key, payload) {
+    localStorage.setItem(key, JSON.stringify(payload));
+  }
+
+  loadWords() {
+    return this.#load(this.#KEYS.WORDS) || [];
+  }
+
+  loadProgress() {
+    return this.#load(this.#KEYS.PROGRESS) || {};
+  }
+
+  saveWords(words) {
+    this.#save(this.#KEYS.WORDS, words);
+  }
+
+  saveProgress(progress) {
+    this.#save(this.#KEYS.PROGRESS, progress);
   }
 }
 
-class DataManager {
-  constructor() {
-    this.wordsStorage = new AppStorage("UserVocabularyData");
-    this.progressStorage = new AppStorage("UserProgressData");
-  }
-
-  async fetchWords() {
-    const cached = this.wordsStorage.get();
-    if (cached) return cached;
-    const res = await fetch("/resource/vocabulary.json");
-    const data = await res.json();
-    this.wordsStorage.set(data);
-    console.log("fetchWords");
-    return data;
-  }
-
-  async fetchProgress(forceRead = false) {
-    const cached = this.progressStorage.get();
-    if (!forceRead && cached) return cached;
-    const res = await fetch("/api/progress", {
+class ApiClient {
+  async #fetch(body) {
+    const res = await fetch("/api/dataio", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "load" }),
+      body: JSON.stringify(body),
     });
-    const data = await res.json();
-    this.progressStorage.set(data);
-    console.log("fetchProgress");
-    return data;
+    const text = await res.text();
+    return text ? JSON.parse(text) : null;
+  }
+
+  async loadWords() {
+    const res = await fetch("/resource/vocabulary.json");
+    return res.json();
+  }
+
+  async loadProgress() {
+    return (await this.#fetch({ action: "load" })) || [];
   }
 
   async saveProgress(progress) {
-    this.progressStorage.set(progress);
-    return fetch("/api/progress", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "save", payload: progress }),
-    });
+    await this.#fetch({ action: "save", payload: progress });
   }
 }
 
-class MyVocabularyApp {
-  PARTS = { noun: "名", verb: "動", adjective: "形", adverb: "副", preposition: "前" };
-
+class DataRepository {
   constructor() {
-    this.manager = new DataManager();
-    this.words = [];
-    this.progress = null;
-    this.ui = {};
+    this.local = new localStorageManager();
+    this.server = new ApiClient();
   }
 
-  async init() {
-    const [words, progress] = await Promise.all([this.manager.fetchWords(), this.manager.fetchProgress()]);
-    this.words = words;
-    this.progress = progress;
-    this.current = {};
-
-    this.setElements();
-    this.bindEvents();
-    this.switchView();
-    // this.switchView("study");
-    this.ui.setupForm.classList.remove("disable");
+  loadFromLocal() {
+    const words = this.local.loadWords();
+    const progress = this.local.loadProgress();
+    return { words, progress };
   }
 
-  setElements() {
-    [...document.querySelectorAll("[data-target]")].forEach((el) => (this.ui[el.dataset.target] = el));
+  saveToLocal({ words, progress }) {
+    if (words) this.local.saveWords(words);
+    if (progress) this.local.saveProgress(progress);
   }
 
-  bindEvents() {
-    let timeout1, timeout2;
-    this.ui.settingReadDB.addEventListener("click", () => {
-      switch (this.ui.settingReadDB.dataset.index) {
-        case "0":
-          this.ui.settingReadDB.textContent = "データベースから読み出し、本当にいいの？";
-          this.ui.settingReadDB.dataset.index = "1";
-          break;
-        case "1":
-          this.ui.settingReadDB.textContent = "データベースから読み出し、本当にいいの？ほんとに？";
-          this.ui.settingReadDB.dataset.index = "2";
-          break;
-        case "2":
-          this.ui.settingReadDB.textContent = "Run";
-          this.ui.settingReadDB.dataset.index = "3";
-          break;
-        case "3":
-          this.ui.settingReadDB.textContent = "データベースから読み出し";
-          this.ui.settingReadDB.dataset.index = "0";
-          this.manager.fetchProgress(true);
-          break;
-      }
-      if (timeout1) clearTimeout(timeout1);
-      timeout1 = setTimeout(() => {
-        this.ui.settingReadDB.textContent = "データベースから読み出し";
-        this.ui.settingReadDB.dataset.index = "0";
-      }, 1000);
-    });
-    this.ui.settingWriteDB.addEventListener("click", () => {
-      switch (this.ui.settingWriteDB.dataset.index) {
-        case "0":
-          this.ui.settingWriteDB.textContent = "データベースを上書き、本当にいいの？";
-          this.ui.settingWriteDB.dataset.index = "1";
-          break;
-        case "1":
-          this.ui.settingWriteDB.textContent = "データベースを上書き、本当にいいの？ほんとに？";
-          this.ui.settingWriteDB.dataset.index = "2";
-          break;
-        case "2":
-          this.ui.settingWriteDB.textContent = "Run";
-          this.ui.settingWriteDB.dataset.index = "3";
-          break;
-        case "3":
-          this.ui.settingWriteDB.textContent = "データベースを上書き";
-          this.ui.settingWriteDB.dataset.index = "0";
-          this.manager.saveProgress(this.progress);
-          break;
-      }
-      if (timeout1) clearTimeout(timeout1);
-      timeout1 = setTimeout(() => {
-        this.ui.settingWriteDB.textContent = "データベースを上書き";
-        this.ui.settingWriteDB.dataset.index = "0";
-      }, 1000);
-    });
-    this.ui.realTimeData.addEventListener("click", () => {
-      this.ui.container.textContent = "";
-      const html = `<textarea style="width: 100%; height: 100%">${JSON.stringify(this.progress, null, 2)}</textarea>`;
-      this.ui.container.insertAdjacentHTML("beforeend", html);
-    });
-
-    this.ui.setupForm.addEventListener("submit", (e) => this.submitSetup(e));
-    this.ui.sortOptionKnown.addEventListener("click", () => this.answer(true));
-    this.ui.sortOptionUnknown.addEventListener("click", () => this.answer(false));
+  async loadFromServer() {
+    const words = await this.server.loadWords();
+    const progress = await this.server.loadProgress();
+    return { words, progress };
   }
 
-  switchView(view = "setup") {
-    [...document.getElementsByClassName("wrapper")].forEach((el) => el.classList.add("hide"));
-    document.getElementById(view).classList.remove("hide");
-  }
-
-  randomShuffle(data) {
-    for (let i = data.length - 1; i > 0; i--) {
-      const r = Math.floor(Math.random() * (i + 1));
-      [data[i], data[r]] = [data[r], data[i]];
-    }
-    return data;
-  }
-
-  submitSetup(e) {
-    e.preventDefault();
-
-    const formData = new FormData(this.ui.setupForm);
-    const config = Object.fromEntries(formData.entries());
-
-    const [start, end] = config.range.split("-").map(Number);
-    const targetWords = this.words.slice(start - 1, end);
-    this.current.words = config.order == "random" ? this.randomShuffle(targetWords) : targetWords;
-    this.current.index = 0;
-    this.current.format = config.format;
-
-    const studyAnswerKeys = Object.keys(this.ui).filter((key) => key.startsWith("studyAnswer"));
-    studyAnswerKeys.forEach((key) => this.ui[key].classList.add("hide"));
-    this.ui[`studyAnswer_${this.current.format}`].classList.remove("hide");
-
-    this.render();
-    this.switchView("study");
-  }
-
-  render() {
-    const currentWord = this.current.words[this.current.index];
-    this.ui.progressIndex.textContent = `${this.current.index + 1} / ${this.current.words.length}`;
-    this.ui.progressBar.style = `--rate: ${(this.current.index / this.current.words.length) * 100}%`;
-    this.ui.word.textContent = currentWord.word;
-
-    this.ui.studyAnswer_sort.classList.add("disable");
-    this.ui.definitions.textContent = "";
-    for (const definition of currentWord.definitions) {
-      const html = `<div class="study-answer__meaning"><span class="parts">${this.PARTS[definition.parts]}</span><span>${definition.meaning}</span></div>`;
-      this.ui.definitions.insertAdjacentHTML("beforeend", html);
-    }
-
-    setTimeout(() => this.ui.studyAnswer_sort.classList.remove("disable"), 1500);
-  }
-
-  answer(isKnown) {
-    const id = this.current.words[this.current.index].id;
-    if (isKnown) {
-      if (this.progress.weak.includes(id)) {
-        this.progress.weak.splice(this.progress.weak.indexOf(id), 1);
-        this.progress.learning.push(id);
-      } else if (this.progress.learning.includes(id)) {
-        this.progress.learning.splice(this.progress.learning.indexOf(id), 1);
-        this.progress.mastered.push(id);
-      } else {
-        this.progress.learning.push(id);
-      }
-    } else {
-      if (!this.progress.weak.includes(id)) {
-        if (this.progress.learning.includes(id)) this.progress.learning.splice(this.progress.learning.indexOf(id), 1);
-        if (this.progress.mastered.includes(id)) this.progress.mastered.splice(this.progress.mastered.indexOf(id), 1);
-        this.progress.weak.push(id);
-      }
-    }
-
-    this.next();
-  }
-
-  next() {
-    this.current.index++;
-    if (this.current.index > this.current.words.length - 1) this.finish();
-    else this.render();
-  }
-
-  finish() {
-    this.manager.saveProgress(this.progress);
-    this.switchView("result");
+  async saveToServer(progress) {
+    await this.server.saveProgress(progress);
   }
 }
 
-const app = new MyVocabularyApp();
+class Popup {
+  constructor(id) {
+    this.popupEl = document.getElementById(id);
+    this.popupCoverEl = this.popupEl.querySelector(".popup__cover");
+    this.popupMessageEl = this.popupEl.querySelector(".popup__message");
+    this.popupButtonYesEl = this.popupEl.querySelector(".popup__button--yes");
+    this.popupButtonNoEl = this.popupEl.querySelector(".popup__button--no");
+  }
+
+  confirm(message = null) {
+    this.popupMessageEl.textContent = message || "確認（y/n）";
+    this.popupEl.classList.add("visible");
+
+    this.popupEl.classList.add("disable");
+    this.popupButtonYesEl.disabled = true;
+    this.popupButtonNoEl.disabled = true;
+    setTimeout(() => {
+      this.popupEl.classList.remove("disable");
+      this.popupButtonYesEl.disabled = false;
+      this.popupButtonNoEl.disabled = false;
+    }, 3000);
+
+    return new Promise((resolve) => {
+      const onYes = () => {
+        cleanup();
+        resolve(true);
+      };
+
+      const onNo = () => {
+        cleanup();
+        resolve(false);
+      };
+
+      const cleanup = () => {
+        this.popupCoverEl.removeEventListener("click", onNo);
+        this.popupButtonYesEl.removeEventListener("click", onYes);
+        this.popupButtonNoEl.removeEventListener("click", onNo);
+        this.popupEl.classList.remove("visible");
+      };
+
+      this.popupCoverEl.addEventListener("click", onNo);
+      this.popupButtonYesEl.addEventListener("click", onYes);
+      this.popupButtonNoEl.addEventListener("click", onNo);
+    });
+  }
+}
+
+class App {
+  constructor() {
+    this.dataRepository = new DataRepository();
+    this.popup = new Popup("popup");
+
+    this.words = [];
+    this.progress = {};
+  }
+
+  init() {
+    this.loadLocal();
+  }
+
+  loadLocal() {
+    const loadData = this.dataRepository.loadFromLocal();
+    this.words = loadData.words;
+    this.progress = loadData.progress;
+  }
+
+  saveLocal() {
+    const data = { words: this.words, progress: this.progress };
+    this.dataRepository.saveToLocal(data);
+  }
+
+  async pullServer() {
+    const data = await this.dataRepository.loadFromServer();
+    this.words = data.words;
+    this.progress = data.progress;
+    this.saveLocal();
+    console.log("PULL SUCCESS");
+  }
+
+  async pushServer() {
+    this.saveLocal();
+    await this.dataRepository.saveToServer(this.progress);
+    console.log("PUSH SUCCESS");
+  }
+
+  async handleServerAction(actionType = null) {
+    let message, action;
+    if (actionType === "pull") {
+      message = "サーバーからデータを取得しますか？";
+      action = () => this.pullServer();
+    } else if (actionType === "push") {
+      message = "現在の進捗をサーバーに保存しますか？";
+      action = () => this.pushServer();
+    } else return;
+
+    const confirmed = await this.popup.confirm(message);
+    if (!confirmed) return;
+
+    console.log("ok");
+  }
+}
+
+const app = new App();
 app.init();
+app.handleServerAction("push");
