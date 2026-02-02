@@ -131,16 +131,40 @@ class Popup {
 }
 
 class App {
+  PARTS = { noun: "名", verb: "動", adjective: "形", adverb: "副", preposition: "前" };
+
   constructor() {
     this.dataRepository = new DataRepository();
     this.popup = new Popup("popup");
 
     this.words = [];
     this.progress = {};
+    this.ui = {};
+    this.containers = {};
+    this.current = {};
   }
 
   init() {
     this.loadLocal();
+    this.getElements();
+    this.bindEvents();
+
+    this.switchView("setup");
+  }
+
+  getElements() {
+    [...document.querySelectorAll("[data-target]")].forEach((el) => (this.ui[el.dataset.target] = el));
+    [...this.ui.outer.children].forEach((el) => (this.containers[el.dataset.container] = el));
+  }
+
+  bindEvents() {
+    this.ui.setupForm.addEventListener("submit", (e) => this.startStudy(e));
+    this.ui.openSettingButton.addEventListener("click", () => this.openSetting());
+    this.ui.pullServerButton.addEventListener("click", () => this.handleServerAction("pull"));
+    this.ui.pushServerButton.addEventListener("click", () => this.handleServerAction("push"));
+    this.ui.answerButtonKnown.addEventListener("click", () => this.answer(true));
+    this.ui.answerButtonUnknown.addEventListener("click", () => this.answer(false));
+    this.ui.backHomeButton.addEventListener("click", () => this.switchView("setup"));
   }
 
   loadLocal() {
@@ -149,8 +173,9 @@ class App {
     this.progress = loadData.progress;
   }
 
-  saveLocal() {
-    const data = { words: this.words, progress: this.progress };
+  saveLocal(saveWords = false) {
+    const data = { progress: this.progress };
+    if (saveWords) data.words = this.words;
     this.dataRepository.saveToLocal(data);
   }
 
@@ -158,7 +183,7 @@ class App {
     const data = await this.dataRepository.loadFromServer();
     this.words = data.words;
     this.progress = data.progress;
-    this.saveLocal();
+    this.saveLocal(true);
     console.log("PULL SUCCESS");
   }
 
@@ -180,11 +205,150 @@ class App {
 
     const confirmed = await this.popup.confirm(message);
     if (!confirmed) return;
+    await action();
+    window.location.reload();
+  }
 
-    console.log("ok");
+  switchView(container = null) {
+    if (!container) return;
+    Object.values(this.containers).forEach((el) => el.classList.add("hide"));
+    this.containers[container].classList.remove("hide");
+  }
+
+  startStudy(e) {
+    e.preventDefault();
+
+    const formData = new FormData(this.ui.setupForm);
+    const { range, format } = Object.fromEntries(formData.entries());
+    const [start, end] = range.split("-").map(Number);
+
+    const words = this.randomShuffle(this.words.slice(start - 1, end));
+    switch (format) {
+      case "all":
+        this.current.words = words;
+        break;
+      case "level0": {
+        const filtered = Object.values(this.progress).slice(1).flat();
+        this.current.words = words.filter((word) => !filtered.includes(word.id));
+        break;
+      }
+      case "level12": {
+        const filtered = Object.values(this.progress).slice(1, 3).flat();
+        this.current.words = words.filter((word) => filtered.includes(word.id));
+        break;
+      }
+      case "level3": {
+        const filtered = this.progress.level3;
+        this.current.words = words.filter((word) => filtered.includes(word.id));
+        break;
+      }
+    }
+    this.current.index = 0;
+    this.current.unknown = [];
+
+    if (this.current.words.length === 0) return;
+    this.render();
+    this.switchView("study");
+  }
+
+  randomShuffle(data) {
+    const shuffled = [...data];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const r = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[r]] = [shuffled[r], shuffled[i]];
+    }
+    return shuffled;
+  }
+
+  render() {
+    this.ui.studyDefinitions.classList.add("hidden");
+    this.ui.answerButtonKnown.disabled = true;
+    this.ui.answerButtonUnknown.disabled = true;
+
+    const currentWord = this.current.words[this.current.index];
+    this.ui.studyProgress.textContent = `${this.current.index + 1} / ${this.current.words.length}`;
+    this.ui.studyWordId.textContent = `- ${currentWord.id} -`;
+    this.ui.studyWord.textContent = currentWord.word;
+
+    this.ui.studyDefinitions.textContent = "";
+    for (const definition of currentWord.definitions) {
+      const html = `<div class="study__meaning"><span class="parts">${this.PARTS[definition.parts]}</span><span>${definition.meaning}</span></div>`;
+      this.ui.studyDefinitions.insertAdjacentHTML("beforeend", html);
+    }
+
+    setTimeout(() => {
+      this.ui.studyDefinitions.classList.remove("hidden");
+      this.ui.answerButtonKnown.disabled = false;
+      this.ui.answerButtonUnknown.disabled = false;
+    }, 1500);
+  }
+
+  answer(isKnown) {
+    const currentId = this.current.words[this.current.index].id;
+    if (isKnown) {
+      this.levelUpProgress(currentId);
+    } else {
+      this.current.unknown.push(currentId);
+      this.addProgress(currentId, "level0");
+    }
+    this.saveLocal();
+    this.next();
+  }
+
+  levelUpProgress(id) {
+    for (const [key, val] of Object.entries(this.progress)) {
+      if (!val.includes(id)) continue;
+      const next = this.generateNextLevelKey(key);
+      this.addProgress(id, next);
+      return;
+    }
+    this.addProgress(id, "level1");
+  }
+
+  generateNextLevelKey(level) {
+    const next = Number(level.at(-1)) + 1;
+    return next > 3 ? "level3" : "level" + String(next);
+  }
+
+  addProgress(id, level) {
+    if (id === undefined || level === undefined || this.progress[level] === undefined) return;
+    this.removeProgress(id);
+    this.progress[level].push(id);
+  }
+
+  removeProgress(id) {
+    if (id === undefined) return;
+    for (const [key, val] of Object.entries(this.progress)) {
+      if (!val.includes(id)) continue;
+      this.progress[key].splice(this.progress[key].indexOf(id), 1);
+    }
+  }
+
+  next() {
+    this.current.index++;
+    if (this.current.index > this.current.words.length - 1) this.finish();
+    else this.render();
+  }
+
+  finish() {
+    const unknownWords = this.words.filter((word) => this.current.unknown.includes(word.id));
+    this.ui.unknownWords.textContent = "";
+    for (const word of unknownWords) {
+      const definition = word.definitions.map((v) => `[${this.PARTS[v.parts]}]${v.meaning}`).join("　");
+      const html = `<div class="result__unknown-word"><div><span class="unknown-word__id">${word.id}</span><span class="unknown-word__word">${word.word}</span></div><div class="unknown-word__meaning">${definition}</div></div>`;
+      this.ui.unknownWords.insertAdjacentHTML("beforeend", html);
+    }
+
+    this.switchView("result");
+    this.current = {};
+  }
+
+  openSetting() {
+    this.switchView("setting");
+    this.ui.resourceWords.textContent = `Only First 10 Words\nAll Words: ${this.words.length}\n\n` + JSON.stringify(this.words.slice(0, 10), null, 2);
+    this.ui.resourceProgress.textContent = JSON.stringify(this.progress, null, 2);
   }
 }
 
 const app = new App();
 app.init();
-app.handleServerAction("push");
