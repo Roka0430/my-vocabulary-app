@@ -186,7 +186,7 @@ class App {
   }
 
   saveLocal(saveWords = false) {
-    const data = { progress: this.progress };
+    const data = { progress: this.progress, lastUpdate: this.lastUpdate };
     if (saveWords) data.words = this.words;
     this.dataRepository.saveToLocal(data);
   }
@@ -206,18 +206,22 @@ class App {
   }
 
   async handleServerAction(actionType = null) {
-    let message, action;
+    let message, log, action;
     if (actionType === "pull") {
       message = "サーバーからデータを取得しますか？";
+      log = "[取得] ";
       action = () => this.pullServer();
     } else if (actionType === "push") {
       message = "現在の進捗をサーバーに保存しますか？";
+      log = "[保存] ";
       action = () => this.pushServer();
     } else return;
 
     const confirmed = await this.popup.confirm(message);
     if (!confirmed) return;
     await action();
+    this.lastUpdate = log + new Date().toLocaleString("ja-JP", { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" });
+    this.saveLocal();
     window.location.reload();
   }
 
@@ -359,6 +363,7 @@ class App {
     this.switchView("setting");
     this.ui.resourceWords.textContent = `Only First 10 Words\nAll Words: ${this.words.length}\n\n` + JSON.stringify(this.words.slice(0, 10), null, 2);
     this.ui.resourceProgress.textContent = JSON.stringify(this.progress, null, 2);
+    this.ui.lastUpdate.textContent = this.lastUpdate.date || "なし";
   }
 }
 
