@@ -23,7 +23,7 @@ class localStorageManager {
   }
 
   loadLastUpdate() {
-    return this.#load(this.#KEYS.LAST_UPDATE) || {};
+    return this.#load(this.#KEYS.LAST_UPDATE) || "";
   }
 
   saveWords(words) {
@@ -363,7 +363,7 @@ class App {
     this.switchView("setting");
     this.ui.resourceWords.textContent = `Only First 10 Words\nAll Words: ${this.words.length}\n\n` + JSON.stringify(this.words.slice(0, 10), null, 2);
     this.ui.resourceProgress.textContent = JSON.stringify(this.progress, null, 2);
-    this.ui.lastUpdate.textContent = this.lastUpdate.date || "なし";
+    this.ui.lastUpdate.textContent = this.lastUpdate || "なし";
   }
 }
 
