@@ -2,6 +2,7 @@ class localStorageManager {
   #KEYS = {
     WORDS: "LocalWordsData",
     PROGRESS: "LocalProgressData",
+    LAST_UPDATE: "LocalLastUpdateData",
   };
 
   #load(key) {
@@ -21,12 +22,20 @@ class localStorageManager {
     return this.#load(this.#KEYS.PROGRESS) || {};
   }
 
+  loadLastUpdate() {
+    return this.#load(this.#KEYS.LAST_UPDATE) || {};
+  }
+
   saveWords(words) {
     this.#save(this.#KEYS.WORDS, words);
   }
 
   saveProgress(progress) {
     this.#save(this.#KEYS.PROGRESS, progress);
+  }
+
+  saveLastUpdate(lastUpdate) {
+    this.#save(this.#KEYS.LAST_UPDATE, lastUpdate);
   }
 }
 
@@ -64,12 +73,14 @@ class DataRepository {
   loadFromLocal() {
     const words = this.local.loadWords();
     const progress = this.local.loadProgress();
-    return { words, progress };
+    const lastUpdate = this.local.loadLastUpdate();
+    return { words, progress, lastUpdate };
   }
 
-  saveToLocal({ words, progress }) {
+  saveToLocal({ words, progress, lastUpdate }) {
     if (words) this.local.saveWords(words);
     if (progress) this.local.saveProgress(progress);
+    if (lastUpdate) this.local.saveLastUpdate(lastUpdate);
   }
 
   async loadFromServer() {
@@ -171,6 +182,7 @@ class App {
     const loadData = this.dataRepository.loadFromLocal();
     this.words = loadData.words;
     this.progress = loadData.progress;
+    this.lastUpdate = loadData.lastUpdate;
   }
 
   saveLocal(saveWords = false) {
