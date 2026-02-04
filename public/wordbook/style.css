@@ -59,7 +59,9 @@
 .wordbook-table__definitions {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2px;
+  height: inherit;
   padding: 10px 15px;
 }
 
