@@ -1,4 +1,6 @@
-const words = localStorage.getItem("LocalWordsData") || [];
+const cashed = localStorage.getItem("LocalWordsData");
+const words = cashed ? JSON.parse(cashed) : [];
+
 const wordbookTbodyEl = document.getElementById("wordbookTbody");
 const wordbookTemplateEl = document.getElementById("wordbookTemplate");
 
