@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <link rel="stylesheet" href="/wordbook/style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" /> -->
+    <title>Wordbook</title>
+  </head>
+  <body>
+    <template><h1>Wordbook</h1></template>
+    <div class="outer">
+      <div class="container">
+        <table class="wordbook-table" aria-label="table">
+          <tbody id="wordbookTbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <template id="wordbookTemplate">
+      <tr class="wordbook-table__row">
+        <td class="wordbook-table__headword">
+          <div class="wordbook-table__id" data-target="id"></div>
+          <div class="wordbook-table__word" data-target="word"></div>
+        </td>
+        <td class="wordbook-table__definitions" data-target="definitions"></td>
+      </tr>
+    </template>
+    <script src="/wordbook/script.js" defer></script>
+    <!-- <script src="script.js" defer></script> -->
+  </body>
+</html>

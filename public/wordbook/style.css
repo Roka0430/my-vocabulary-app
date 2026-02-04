@@ -1,0 +1,78 @@
+.container {
+  overflow-y: scroll;
+}
+
+.wordbook-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: solid 1px var(--text-sub);
+}
+
+.wordbook-table__row {
+  height: 70px;
+  border-bottom: solid 1px var(--text-sub);
+}
+
+.wordbook-table__headword {
+  position: relative;
+  width: 0;
+  padding: 8px 15px 0 15px;
+  /* background: var(--accent); */
+  white-space: nowrap;
+}
+
+.wordbook-table__headword::after {
+  content: "";
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--text-sub);
+  z-index: -1;
+}
+
+.wordbook-table__id {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  padding: 1px 0;
+  font-size: 0.65rem;
+  text-align: center;
+  background: var(--text-sub);
+  border-radius: 0 0 2px 2px;
+  line-height: 1;
+}
+
+.wordbook-table__word {
+  width: fit-content;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.wordbook-table__definitions {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 15px;
+}
+
+.wordbook-table__meaning {
+  display: flex;
+  gap: 5px;
+  font-size: 0.75rem;
+}
+
+.wordbook-table__parts {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin: 2px 0 0 0;
+  border: solid 1px var(--text-main);
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 15px;
+  text-align: center;
+}
