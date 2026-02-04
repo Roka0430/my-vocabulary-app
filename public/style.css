@@ -38,6 +38,15 @@ textarea {
   font-family: "MyFont", sans-serif;
 }
 
+.link {
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 .popup {
   display: none;
   position: fixed;

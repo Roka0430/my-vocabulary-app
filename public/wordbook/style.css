@@ -1,3 +1,12 @@
+.back-link {
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
 .outer {
   padding: 0 !important;
 }
