@@ -22,16 +22,8 @@
     <div class="outer" data-target="outer">
       <div class="container" data-container="setup">
         <form data-target="setupForm">
-          <select name="range" aria-label="select">
-            <option value="1-50">No.001 - 050</option>
-            <option value="51-100">No.051 - 100</option>
-            <option value="101-150">No.101 - 150</option>
-            <option value="151-200">No.151 - 200</option>
-            <option value="201-250">No.201 - 250</option>
-            <option value="251-300">No.251 - 300</option>
-            <option value="301-350">No.301 - 350</option>
-            <option value="351-400">No.351 - 400</option>
-          </select>
+          <select name="range" aria-label="select" data-target="rangeSelect"></select>
+          <div style="margin: 20px 0" data-target="levelList"></div>
           <div style="margin: 20px 0">
             <div>
               <label>
@@ -49,6 +41,12 @@
               <label>
                 <input type="radio" name="format" value="level12" />
                 <span>level1と2だけ</span>
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="format" value="level012" />
+                <span>level3以外</span>
               </label>
             </div>
             <div>

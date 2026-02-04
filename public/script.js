@@ -159,6 +159,8 @@ class App {
     this.loadLocal();
     this.getElements();
     this.bindEvents();
+    this.setRangeSelect();
+    this.changeRangeSelect();
 
     this.switchView("setup");
   }
@@ -169,6 +171,7 @@ class App {
   }
 
   bindEvents() {
+    this.ui.rangeSelect.addEventListener("change", () => this.changeRangeSelect());
     this.ui.setupForm.addEventListener("submit", (e) => this.startStudy(e));
     this.ui.openSettingButton.addEventListener("click", () => this.openSetting());
     this.ui.pullServerButton.addEventListener("click", () => this.handleServerAction("pull"));
@@ -176,6 +179,20 @@ class App {
     this.ui.answerButtonKnown.addEventListener("click", () => this.answer(true));
     this.ui.answerButtonUnknown.addEventListener("click", () => this.answer(false));
     this.ui.backHomeButton.addEventListener("click", () => this.switchView("setup"));
+  }
+
+  zfill(n) {
+    return ("000" + String(n)).slice(-3);
+  }
+
+  setRangeSelect() {
+    this.ui.rangeSelect.textContent = "";
+    for (let i = 0; i < Math.ceil(this.words.length / 50); i++) {
+      const start = i * 50 + 1;
+      const end = Math.min(this.words.length, (i + 1) * 50);
+      const html = `<option value="${start}-${end}">No.${this.zfill(start)} - ${this.zfill(end)}</option>`;
+      this.ui.rangeSelect.insertAdjacentHTML("beforeend", html);
+    }
   }
 
   loadLocal() {
@@ -231,6 +248,20 @@ class App {
     this.containers[container].classList.remove("hide");
   }
 
+  changeRangeSelect() {
+    const range = this.ui.rangeSelect.value;
+    const [start, end] = range.split("-").map(Number);
+    const level = [0, 0, 0, 0];
+
+    for (const [i, ids] of Object.entries(Object.values(this.progress))) {
+      const matched = ids.filter((id) => id >= start && id <= end);
+      level[i] = matched.length;
+    }
+
+    const unlearned = 50 - level.reduce((sum, v) => sum + v, 0);
+    this.ui.levelList.innerHTML = `未学習: ${unlearned}<br />level0: ${level[0]}<br />level1: ${level[1]}<br />level2: ${level[2]}<br />level3: ${level[3]}`;
+  }
+
   startStudy(e) {
     e.preventDefault();
 
@@ -250,6 +281,11 @@ class App {
       }
       case "level12": {
         const filtered = Object.values(this.progress).slice(1, 3).flat();
+        this.current.words = words.filter((word) => filtered.includes(word.id));
+        break;
+      }
+      case "level012": {
+        const filtered = Object.values(this.progress).slice(0, 3).flat();
         this.current.words = words.filter((word) => filtered.includes(word.id));
         break;
       }
