@@ -1,6 +1,7 @@
 const cashed = localStorage.getItem("LocalWordsData");
 const words = cashed ? JSON.parse(cashed) : [];
 
+const coverEl = document.getElementById("cover");
 const wordbookTbodyEl = document.getElementById("wordbookTbody");
 const wordbookTemplateEl = document.getElementById("wordbookTemplate");
 
@@ -20,3 +21,16 @@ for (const word of words) {
 
   wordbookTbodyEl.appendChild(clone);
 }
+
+const openCover = () => {
+  if (coverEl.classList.contains("visible")) {
+    coverEl.classList.remove("visible");
+    return;
+  }
+  const definitions = document.getElementsByClassName("wordbook-table__definitions");
+  if (definitions.length === 0) return;
+  const definition = definitions[0];
+  const width = definition.clientWidth;
+  coverEl.style = `width: ${width}px;`;
+  coverEl.classList.add("visible");
+};
