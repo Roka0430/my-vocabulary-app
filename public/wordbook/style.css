@@ -3,6 +3,7 @@
 }
 
 .container {
+  padding: 0 0 50vh 0;
   overflow-y: scroll;
 }
 
@@ -19,8 +20,10 @@
   right: 0;
   bottom: 0;
   width: 100px;
-  height: 50%;
+  height: 50vh;
   background: var(--bg-sub);
+  border-radius: 10px 0 0 0;
+  pointer-events: none;
 }
 
 .cover.visible {
