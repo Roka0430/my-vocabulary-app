@@ -1,3 +1,7 @@
+.outer {
+  padding: 0 !important;
+}
+
 .container {
   overflow-y: scroll;
 }
