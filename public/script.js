@@ -203,6 +203,9 @@ class App {
   }
 
   saveLocal(saveWords = false) {
+    Object.values(this.progress).forEach((ids) => {
+      if (Array.isArray(ids)) ids.sort((a, b) => a - b);
+    });
     const data = { progress: this.progress, lastUpdate: this.lastUpdate };
     if (saveWords) data.words = this.words;
     this.dataRepository.saveToLocal(data);
