@@ -1,1 +1,1625 @@
-[{"id":1,"level":600,"word":"anyway","definitions":[{"parts":"adverb","meaning":"とにかく"}]},{"id":2,"level":600,"word":"following","definitions":[{"parts":"adjective","meaning":"次の、以下の"},{"parts":"preposition","meaning":"～に続いて"}]},{"id":3,"level":600,"word":"refer","definitions":[{"parts":"verb","meaning":"参照する、言及する、（人を）紹介する"}]},{"id":4,"level":600,"word":"available","definitions":[{"parts":"adjective","meaning":"入手できる、利用できる、購入できる、手が空いている"}]},{"id":5,"level":600,"word":"department","definitions":[{"parts":"noun","meaning":"部門、売り場"}]},{"id":6,"level":600,"word":"conference","definitions":[{"parts":"noun","meaning":"会議"}]},{"id":7,"level":600,"word":"according to","definitions":[{"parts":"preposition","meaning":"～によると、～に従って"}]},{"id":8,"level":600,"word":"likely","definitions":[{"parts":"adjective","meaning":"～しそうだ"},{"parts":"adverb","meaning":"おそらく"}]},{"id":9,"level":600,"word":"offer","definitions":[{"parts":"noun","meaning":"申し出、オファー"},{"parts":"verb","meaning":"申し出る、提供する"}]},{"id":10,"level":600,"word":"equipment","definitions":[{"parts":"noun","meaning":"機器、装備"}]},{"id":11,"level":600,"word":"provide","definitions":[{"parts":"verb","meaning":"提供する"}]},{"id":12,"level":600,"word":"local","definitions":[{"parts":"noun","meaning":"地元の人"},{"parts":"adjective","meaning":"地元の"}]},{"id":13,"level":600,"word":"purchase","definitions":[{"parts":"noun","meaning":"購入品"},{"parts":"verb","meaning":"購入する"}]},{"id":14,"level":600,"word":"opening","definitions":[{"parts":"noun","meaning":"空き、開店"}]},{"id":15,"level":600,"word":"construction","definitions":[{"parts":"noun","meaning":"建設"}]},{"id":16,"level":600,"word":"tour","definitions":[{"parts":"noun","meaning":"見学、旅行"},{"parts":"verb","meaning":"見学する、旅行する"}]},{"id":17,"level":600,"word":"research","definitions":[{"parts":"noun","meaning":"研究、調査"},{"parts":"verb","meaning":"研究する、調査する"}]},{"id":18,"level":600,"word":"attend","definitions":[{"parts":"verb","meaning":"出席する、参加する"}]},{"id":19,"level":600,"word":"delivery","definitions":[{"parts":"noun","meaning":"配達（物）"}]},{"id":20,"level":600,"word":"recently","definitions":[{"parts":"adverb","meaning":"最近"}]},{"id":21,"level":600,"word":"indicate","definitions":[{"parts":"verb","meaning":"示す"}]},{"id":22,"level":600,"word":"employee","definitions":[{"parts":"noun","meaning":"社員、従業員"}]},{"id":23,"level":600,"word":"additional","definitions":[{"parts":"adjective","meaning":"追加の"}]},{"id":24,"level":600,"word":"survey","definitions":[{"parts":"noun","meaning":"アンケート調査"},{"parts":"verb","meaning":"アンケート調査を行う"}]},{"id":25,"level":600,"word":"review","definitions":[{"parts":"noun","meaning":"検討、論評"},{"parts":"verb","meaning":"検討する、論評する"}]},{"id":26,"level":600,"word":"production","definitions":[{"parts":"noun","meaning":"生産、作品"}]},{"id":27,"level":600,"word":"located","definitions":[{"parts":"adjective","meaning":"位置して"}]},{"id":28,"level":600,"word":"detail","definitions":[{"parts":"noun","meaning":"詳細"},{"parts":"verb","meaning":"詳しく述べる"}]},{"id":29,"level":600,"word":"announce","definitions":[{"parts":"verb","meaning":"発表する"}]},{"id":30,"level":600,"word":"repair","definitions":[{"parts":"noun","meaning":"修理"},{"parts":"verb","meaning":"修理する"}]},{"id":31,"level":600,"word":"increase","definitions":[{"parts":"noun","meaning":"増加"},{"parts":"verb","meaning":"増える、増やす"}]},{"id":32,"level":600,"word":"include","definitions":[{"parts":"verb","meaning":"含む"}]},{"id":33,"level":600,"word":"currently","definitions":[{"parts":"adverb","meaning":"現在"}]},{"id":34,"level":600,"word":"advertising","definitions":[{"parts":"noun","meaning":"広告（業）、宣伝（活動）"}]},{"id":35,"level":600,"word":"charge","definitions":[{"parts":"noun","meaning":"料金、責任"},{"parts":"verb","meaning":"請求する"}]},{"id":36,"level":600,"word":"expect","definitions":[{"parts":"verb","meaning":"予期する、予定する"}]},{"id":37,"level":600,"word":"firm","definitions":[{"parts":"noun","meaning":"会社"}]},{"id":38,"level":600,"word":"client","definitions":[{"parts":"noun","meaning":"顧客、クライアント"}]},{"id":39,"level":600,"word":"financial","definitions":[{"parts":"adjective","meaning":"お金の、財務の、金融の"}]},{"id":40,"level":600,"word":"annual","definitions":[{"parts":"adjective","meaning":"年の1度の、毎年恒例の、年間の"}]},{"id":41,"level":600,"word":"payment","definitions":[{"parts":"noun","meaning":"支払い"}]},{"id":42,"level":600,"word":"budget","definitions":[{"parts":"noun","meaning":"予算"},{"parts":"verb","meaning":"予算に計上する"}]},{"id":43,"level":600,"word":"application","definitions":[{"parts":"noun","meaning":"応募用紙、応募、申請"}]},{"id":44,"level":600,"word":"contract","definitions":[{"parts":"noun","meaning":"契約（書）"}]},{"id":45,"level":600,"word":"management","definitions":[{"parts":"noun","meaning":"経営（陣）、管理"}]},{"id":46,"level":600,"word":"performance","definitions":[{"parts":"noun","meaning":"業績、仕事ぶり、性能、公演"}]},{"id":47,"level":600,"word":"pleased","definitions":[{"parts":"adjective","meaning":"喜んで、満足して"}]},{"id":48,"level":600,"word":"confirm","definitions":[{"parts":"verb","meaning":"確認する"}]},{"id":49,"level":600,"word":"award","definitions":[{"parts":"noun","meaning":"賞"},{"parts":"verb","meaning":"授与する"}]},{"id":50,"level":600,"word":"clothing","definitions":[{"parts":"noun","meaning":"衣類"}]},{"id":51,"level":600,"word":"display","definitions":[{"parts":"noun","meaning":"展示"},{"parts":"verb","meaning":"展示する"}]},{"id":52,"level":600,"word":"candidate","definitions":[{"parts":"noun","meaning":"候補者"}]},{"id":53,"level":600,"word":"state","definitions":[{"parts":"verb","meaning":"述べる"}]},{"id":54,"level":600,"word":"exhibit","definitions":[{"parts":"noun","meaning":"展示物、展示会"},{"parts":"verb","meaning":"展示する"}]},{"id":55,"level":600,"word":"session","definitions":[{"parts":"noun","meaning":"時間、集まり"}]},{"id":56,"level":600,"word":"note","definitions":[{"parts":"noun","meaning":"メモ"},{"parts":"verb","meaning":"注意する、述べる"}]},{"id":57,"level":600,"word":"process","definitions":[{"parts":"noun","meaning":"プロセス、過程、処理"},{"parts":"verb","meaning":"処理する"}]},{"id":58,"level":600,"word":"instruction","definitions":[{"parts":"noun","meaning":"説明書、説明、指示"}]},{"id":59,"level":600,"word":"membership","definitions":[{"parts":"noun","meaning":"会員（であること）、会員資格、会員数"}]},{"id":60,"level":600,"word":"agency","definitions":[{"parts":"noun","meaning":"代理店、機関"}]},{"id":61,"level":600,"word":"based","definitions":[{"parts":"adjective","meaning":"拠点のある、基づく"}]},{"id":62,"level":600,"word":"facility","definitions":[{"parts":"noun","meaning":"施設"}]},{"id":63,"level":600,"word":"advance","definitions":[{"parts":"noun","meaning":"進歩、前進"},{"parts":"adjective","meaning":"先行した、事前の"}]},{"id":64,"level":600,"word":"committee","definitions":[{"parts":"noun","meaning":"委員会"}]},{"id":65,"level":600,"word":"successful","definitions":[{"parts":"adjective","meaning":"成功した、うまくいく"}]},{"id":66,"level":600,"word":"excellent","definitions":[{"parts":"adjective","meaning":"素晴らしい"}]},{"id":67,"level":600,"word":"industry","definitions":[{"parts":"noun","meaning":"産業、業界"}]},{"id":68,"level":600,"word":"fee","definitions":[{"parts":"noun","meaning":"料金"}]},{"id":69,"level":600,"word":"accept","definitions":[{"parts":"verb","meaning":"受け入れる"}]},{"id":70,"level":600,"word":"upcoming","definitions":[{"parts":"adjective","meaning":"今度の"}]},{"id":71,"level":600,"word":"latest","definitions":[{"parts":"adjective","meaning":"最新の"}]},{"id":72,"level":600,"word":"submit","definitions":[{"parts":"verb","meaning":"提出する"}]},{"id":73,"level":600,"word":"transportation","definitions":[{"parts":"noun","meaning":"輸送手段"}]},{"id":74,"level":600,"word":"resume","definitions":[{"parts":"noun","meaning":"履歴書"}]},{"id":75,"level":600,"word":"executive","definitions":[{"parts":"noun","meaning":"重役"},{"parts":"adjective","meaning":"重役（用）の、高級な"}]},{"id":76,"level":600,"word":"introduce","definitions":[{"parts":"verb","meaning":"導入する、紹介する"}]},{"id":77,"level":600,"word":"previous","definitions":[{"parts":"adjective","meaning":"前の、以前の"}]},{"id":78,"level":600,"word":"proposal","definitions":[{"parts":"noun","meaning":"提案、提案書"}]},{"id":79,"level":600,"word":"supply","definitions":[{"parts":"noun","meaning":"必需品"},{"parts":"verb","meaning":"供給する"}]},{"id":80,"level":600,"word":"enclose","definitions":[{"parts":"verb","meaning":"同封する、囲む"}]},{"id":81,"level":600,"word":"policy","definitions":[{"parts":"noun","meaning":"規定、方針"}]},{"id":82,"level":600,"word":"register","definitions":[{"parts":"noun","meaning":"レジ"},{"parts":"verb","meaning":"登録する"}]},{"id":83,"level":600,"word":"arrange","definitions":[{"parts":"verb","meaning":"手配する、並べる"}]},{"id":84,"level":600,"word":"bill","definitions":[{"parts":"noun","meaning":"請求書"},{"parts":"verb","meaning":"請求書を送る"}]},{"id":85,"level":600,"word":"hire","definitions":[{"parts":"verb","meaning":"雇う"}]},{"id":86,"level":600,"word":"approve","definitions":[{"parts":"verb","meaning":"承認する、賛成する"}]},{"id":87,"level":600,"word":"conduct","definitions":[{"parts":"verb","meaning":"実行する、実施する"}]},{"id":88,"level":600,"word":"opportunity","definitions":[{"parts":"noun","meaning":"機会、チャンス"}]},{"id":89,"level":600,"word":"deadline","definitions":[{"parts":"noun","meaning":"締め切り、期限"}]},{"id":90,"level":600,"word":"corporate","definitions":[{"parts":"adjective","meaning":"企業の、法人の"}]},{"id":91,"level":600,"word":"warranty","definitions":[{"parts":"noun","meaning":"保障、保証書"}]},{"id":92,"level":600,"word":"necessary","definitions":[{"parts":"adjective","meaning":"必要な"}]},{"id":93,"level":600,"word":"reserve","definitions":[{"parts":"noun","meaning":"蓄え"},{"parts":"verb","meaning":"予約する、確保する"}]},{"id":94,"level":600,"word":"resident","definitions":[{"parts":"noun","meaning":"住民、住人"}]},{"id":95,"level":600,"word":"create","definitions":[{"parts":"verb","meaning":"創造する、作り出す"}]},{"id":96,"level":600,"word":"inform","definitions":[{"parts":"verb","meaning":"知らせる、影響を与える"}]},{"id":97,"level":600,"word":"allow","definitions":[{"parts":"verb","meaning":"許す、可能にする"}]},{"id":98,"level":600,"word":"mention","definitions":[{"parts":"noun","meaning":"言及"},{"parts":"verb","meaning":"述べる、言及する"}]},{"id":99,"level":600,"word":"appreciate","definitions":[{"parts":"verb","meaning":"感謝する"}]},{"id":100,"level":600,"word":"replacement","definitions":[{"parts":"noun","meaning":"交換、交換品、後任"}]},{"id":101,"level":600,"word":"update","definitions":[{"parts":"noun","meaning":"最新情報"},{"parts":"verb","meaning":"更新する"}]},{"id":102,"level":600,"word":"branch","definitions":[{"parts":"noun","meaning":"支店"}]},{"id":103,"level":600,"word":"paid","definitions":[{"parts":"adjective","meaning":"有給の、支払い済みの"}]},{"id":104,"level":600,"word":"unfortunately","definitions":[{"parts":"adverb","meaning":"残念なことに、残念ながら"}]},{"id":105,"level":600,"word":"original","definitions":[{"parts":"noun","meaning":"オリジナル、原本"},{"parts":"adjective","meaning":"元の、最初の"}]},{"id":106,"level":600,"word":"rent","definitions":[{"parts":"noun","meaning":"家賃"},{"parts":"verb","meaning":"賃貸借する"}]},{"id":107,"level":600,"word":"memo","definitions":[{"parts":"noun","meaning":"社内文書"}]},{"id":108,"level":600,"word":"luggage","definitions":[{"parts":"noun","meaning":"旅行かばん、手荷物"}]},{"id":109,"level":600,"word":"editor","definitions":[{"parts":"noun","meaning":"編集者"}]},{"id":110,"level":600,"word":"exhibition","definitions":[{"parts":"noun","meaning":"展示会、展示物、展示"}]},{"id":111,"level":600,"word":"leading","definitions":[{"parts":"adjective","meaning":"首位の、一流の"}]},{"id":112,"level":600,"word":"organization","definitions":[{"parts":"noun","meaning":"団体、会社、組織（化）"}]},{"id":113,"level":600,"word":"release","definitions":[{"parts":"noun","meaning":"発表"},{"parts":"verb","meaning":"発売する、公表する"}]},{"id":114,"level":600,"word":"limited","definitions":[{"parts":"adjective","meaning":"限られた"}]},{"id":115,"level":600,"word":"procedure","definitions":[{"parts":"noun","meaning":"手続き、手順"}]},{"id":116,"level":600,"word":"experienced","definitions":[{"parts":"adjective","meaning":"経験豊富な"}]},{"id":117,"level":600,"word":"personnel","definitions":[{"parts":"noun","meaning":"社員、人事部"}]},{"id":118,"level":600,"word":"author","definitions":[{"parts":"noun","meaning":"著者、作者"},{"parts":"verb","meaning":"（本を）書く"}]},{"id":119,"level":600,"word":"benefit","definitions":[{"parts":"noun","meaning":"特典、福利厚生"},{"parts":"verb","meaning":"～のためになる"}]},{"id":120,"level":600,"word":"focus","definitions":[{"parts":"noun","meaning":"焦点、集中"},{"parts":"verb","meaning":"（意見等を）～に集中させる、重点を置く"}]},{"id":121,"level":600,"word":"participate","definitions":[{"parts":"verb","meaning":"参加する"}]},{"id":122,"level":600,"word":"cause","definitions":[{"parts":"noun","meaning":"原因、大義"},{"parts":"verb","meaning":"引き起こす"}]},{"id":123,"level":600,"word":"degree","definitions":[{"parts":"noun","meaning":"学位、程度、（温度や角度の単位の）度"}]},{"id":124,"level":600,"word":"directly","definitions":[{"parts":"adverb","meaning":"直接"}]},{"id":125,"level":600,"word":"host","definitions":[{"parts":"noun","meaning":"司会者"},{"parts":"verb","meaning":"主催する"}]},{"id":126,"level":600,"word":"expert","definitions":[{"parts":"noun","meaning":"専門家"},{"parts":"adjective","meaning":"専門的な"}]},{"id":127,"level":600,"word":"impress","definitions":[{"parts":"verb","meaning":"感心させる、好印象を与える"}]},{"id":128,"level":600,"word":"mainly","definitions":[{"parts":"adverb","meaning":"主に"}]},{"id":129,"level":600,"word":"suggestion","definitions":[{"parts":"noun","meaning":"提案、提案書"}]},{"id":130,"level":600,"word":"supplier","definitions":[{"parts":"noun","meaning":"納入業者、供給業者"}]},{"id":131,"level":600,"word":"document","definitions":[{"parts":"noun","meaning":"書類"},{"parts":"verb","meaning":"（文書や映像等で）記録する"}]},{"id":132,"level":600,"word":"remind","definitions":[{"parts":"verb","meaning":"再確認する、念押しする"}]},{"id":133,"level":600,"word":"require","definitions":[{"parts":"verb","meaning":"求める、要求する"}]},{"id":134,"level":600,"word":"representative","definitions":[{"parts":"noun","meaning":"担当者、代表者"}]},{"id":135,"level":600,"word":"packaging","definitions":[{"parts":"noun","meaning":"梱包、パッケージ"}]},{"id":136,"level":600,"word":"description","definitions":[{"parts":"noun","meaning":"説明、気術、描写"}]},{"id":137,"level":600,"word":"property","definitions":[{"parts":"noun","meaning":"不動産、資産"}]},{"id":138,"level":600,"word":"extension","definitions":[{"parts":"noun","meaning":"内線、延長"}]},{"id":139,"level":600,"word":"inquire","definitions":[{"parts":"verb","meaning":"尋ねる、問い合わせる"}]},{"id":140,"level":600,"word":"merchandise","definitions":[{"parts":"noun","meaning":"商品"}]},{"id":141,"level":600,"word":"highly","definitions":[{"parts":"adverb","meaning":"非常に"}]},{"id":142,"level":600,"word":"result","definitions":[{"parts":"noun","meaning":"結果"},{"parts":"verb","meaning":"生じる、終わる"}]},{"id":143,"level":600,"word":"assistance","definitions":[{"parts":"noun","meaning":"支援、援助"}]},{"id":144,"level":600,"word":"encourage","definitions":[{"parts":"verb","meaning":"奨励する、促す"}]},{"id":145,"level":600,"word":"individual","definitions":[{"parts":"noun","meaning":"個人"},{"parts":"adjective","meaning":"個人の、個別の"}]},{"id":146,"level":600,"word":"laboratory","definitions":[{"parts":"noun","meaning":"研究所、実験室"}]},{"id":147,"level":600,"word":"consider","definitions":[{"parts":"verb","meaning":"考える、検討する"}]},{"id":148,"level":600,"word":"headquarters","definitions":[{"parts":"noun","meaning":"本社"}]},{"id":149,"level":600,"word":"ship","definitions":[{"parts":"noun","meaning":"船"},{"parts":"verb","meaning":"出荷する"}]},{"id":150,"level":600,"word":"commercial","definitions":[{"parts":"noun","meaning":"CM"},{"parts":"adjective","meaning":"商業（用）の、商業的な"}]},{"id":151,"level":600,"word":"device","definitions":[{"parts":"noun","meaning":"機器、装置"}]},{"id":152,"level":600,"word":"intended","definitions":[{"parts":"adjective","meaning":"意図された、向けられた"}]},{"id":153,"level":600,"word":"brochure","definitions":[{"parts":"noun","meaning":"パンフレット"}]},{"id":154,"level":600,"word":"mail","definitions":[{"parts":"noun","meaning":"郵便物、郵便配達"},{"parts":"verb","meaning":"輸送する"}]},{"id":155,"level":600,"word":"prefer","definitions":[{"parts":"verb","meaning":"～を（…よりも）好む"}]},{"id":156,"level":600,"word":"response","definitions":[{"parts":"noun","meaning":"返答、返事"}]},{"id":157,"level":600,"word":"region","definitions":[{"parts":"noun","meaning":"値域"}]},{"id":158,"level":600,"word":"donation","definitions":[{"parts":"noun","meaning":"寄付"}]},{"id":159,"level":600,"word":"quarter","definitions":[{"parts":"noun","meaning":"四半期"}]},{"id":160,"level":600,"word":"agreement","definitions":[{"parts":"noun","meaning":"契約（書）、同意（書）、合意"}]},{"id":161,"level":600,"word":"journal","definitions":[{"parts":"noun","meaning":"専門誌"}]},{"id":162,"level":600,"word":"distribute","definitions":[{"parts":"verb","meaning":"配布する、流通させる"}]},{"id":163,"level":600,"word":"potential","definitions":[{"parts":"noun","meaning":"可能性"},{"parts":"adjective","meaning":"見込みがある、潜在的な"}]},{"id":164,"level":600,"word":"reschedule","definitions":[{"parts":"verb","meaning":"スケジュールを変更する"}]},{"id":165,"level":600,"word":"renew","definitions":[{"parts":"verb","meaning":"更新する"}]},{"id":166,"level":600,"word":"warehouse","definitions":[{"parts":"noun","meaning":"倉庫"}]},{"id":167,"level":600,"word":"refund","definitions":[{"parts":"noun","meaning":"返金"},{"parts":"verb","meaning":"返金する"}]},{"id":168,"level":600,"word":"advise","definitions":[{"parts":"verb","meaning":"勧める、忠告する、助言する"}]},{"id":169,"level":600,"word":"immediately","definitions":[{"parts":"adverb","meaning":"すぐに、即座に"}]},{"id":170,"level":600,"word":"council","definitions":[{"parts":"noun","meaning":"議会"}]},{"id":171,"level":600,"word":"broadcast","definitions":[{"parts":"noun","meaning":"放送"},{"parts":"verb","meaning":"放送する"}]},{"id":172,"level":600,"word":"responsible","definitions":[{"parts":"adjective","meaning":"担当している、責任がある"}]},{"id":173,"level":600,"word":"avoid","definitions":[{"parts":"verb","meaning":"避ける"}]},{"id":174,"level":600,"word":"effective","definitions":[{"parts":"adjective","meaning":"効果的な"}]},{"id":175,"level":600,"word":"invitation","definitions":[{"parts":"noun","meaning":"招待（状）"}]},{"id":176,"level":600,"word":"reduce","definitions":[{"parts":"verb","meaning":"（値段を）下げる、減らす"}]},{"id":177,"level":600,"word":"vehicle","definitions":[{"parts":"noun","meaning":"乗り物、車両"}]},{"id":178,"level":600,"word":"efficient","definitions":[{"parts":"adjective","meaning":"効率的な"}]},{"id":179,"level":600,"word":"manufacturer","definitions":[{"parts":"noun","meaning":"メーカー、製造業者"}]},{"id":180,"level":600,"word":"comfortable","definitions":[{"parts":"adjective","meaning":"快適な、楽な、自信があ"}]},{"id":181,"level":600,"word":"correct","definitions":[{"parts":"verb","meaning":"修正する"},{"parts":"adjective","meaning":"正確な、正しい"}]},{"id":182,"level":600,"word":"downtown","definitions":[{"parts":"noun","meaning":"中心街"},{"parts":"adjective","meaning":"中心街の"},{"parts":"adverb","meaning":"中心街で"}]},{"id":183,"level":600,"word":"method","definitions":[{"parts":"noun","meaning":"方法"}]},{"id":184,"level":600,"word":"entire","definitions":[{"parts":"adjective","meaning":"全体の"}]},{"id":185,"level":600,"word":"range","definitions":[{"parts":"noun","meaning":"範囲"}]},{"id":186,"level":600,"word":"setting","definitions":[{"parts":"noun","meaning":"環境"}]},{"id":187,"level":600,"word":"apologize","definitions":[{"parts":"verb","meaning":"おわびする"}]},{"id":188,"level":600,"word":"frequent","definitions":[{"parts":"adjective","meaning":"頻繁な"}]},{"id":189,"level":600,"word":"promotion","definitions":[{"parts":"noun","meaning":"昇進、販売促進"}]},{"id":190,"level":600,"word":"regarding","definitions":[{"parts":"preposition","meaning":"～に関する"}]},{"id":191,"level":600,"word":"temporary","definitions":[{"parts":"adjective","meaning":"一時的な、臨時の"}]},{"id":192,"level":600,"word":"traditional","definitions":[{"parts":"adjective","meaning":"伝統的な、従来の"}]},{"id":193,"level":600,"word":"admission","definitions":[{"parts":"noun","meaning":"入場、入場料、入場許可"}]},{"id":194,"level":600,"word":"fit","definitions":[{"parts":"verb","meaning":"合う、入る"}]},{"id":195,"level":600,"word":"reference","definitions":[{"parts":"noun","meaning":"照会先、照会、参照"}]},{"id":196,"level":600,"word":"status","definitions":[{"parts":"noun","meaning":"状況、地位"}]},{"id":197,"level":600,"word":"fuel","definitions":[{"parts":"noun","meaning":"燃料"}]},{"id":198,"level":600,"word":"nearly","definitions":[{"parts":"adverb","meaning":"ほとんど、もう少しで"}]},{"id":199,"level":600,"word":"cafeteria","definitions":[{"parts":"noun","meaning":"社員食堂"}]},{"id":200,"level":600,"word":"determine","definitions":[{"parts":"verb","meaning":"決定する、判断する、決心する"}]},{"id":201,"level":600,"word":"expense","definitions":[{"parts":"noun","meaning":"費用、経費"}]},{"id":202,"level":600,"word":"overseas","definitions":[{"parts":"adjective","meaning":"海外の"},{"parts":"adverb","meaning":"海外で"}]},{"id":203,"level":600,"word":"satisfied","definitions":[{"parts":"adjective","meaning":"満足した"}]},{"id":204,"level":600,"word":"appear","definitions":[{"parts":"verb","meaning":"現れる、掲載される、～のように見える"}]},{"id":205,"level":600,"word":"develop","definitions":[{"parts":"verb","meaning":"（計画等を）作り出す、開発する、（スキルを）高める"}]},{"id":206,"level":600,"word":"improve","definitions":[{"parts":"verb","meaning":"改善する、改良する"}]},{"id":207,"level":600,"word":"reasonable","definitions":[{"parts":"adjective","meaning":"（値段が）手ごろな、妥当な"}]},{"id":208,"level":600,"word":"unable","definitions":[{"parts":"adjective","meaning":"（～することが）できない"}]},{"id":209,"level":600,"word":"delay","definitions":[{"parts":"noun","meaning":"遅れ"},{"parts":"verb","meaning":"遅らせる"}]},{"id":210,"level":600,"word":"legal","definitions":[{"parts":"adjective","meaning":"法律に関する、合法の"}]},{"id":211,"level":600,"word":"regulation","definitions":[{"parts":"noun","meaning":"規制、規則"}]},{"id":212,"level":600,"word":"expand","definitions":[{"parts":"verb","meaning":"拡大する、進出する"}]},{"id":213,"level":600,"word":"launch","definitions":[{"parts":"noun","meaning":"開始、発売"},{"parts":"verb","meaning":"開始する、発売する"}]},{"id":214,"level":600,"word":"recommendation","definitions":[{"parts":"noun","meaning":"推薦"}]},{"id":215,"level":600,"word":"direct","definitions":[{"parts":"verb","meaning":"向ける、管理する"},{"parts":"adjective","meaning":"直接の"}]},{"id":216,"level":600,"word":"profit","definitions":[{"parts":"noun","meaning":"利益"},{"parts":"verb","meaning":"利益を与える"}]},{"id":217,"level":600,"word":"seek","definitions":[{"parts":"verb","meaning":"探し求める"}]},{"id":218,"level":600,"word":"entry","definitions":[{"parts":"noun","meaning":"エントリー（作品）、入場"}]},{"id":219,"level":600,"word":"claim","definitions":[{"parts":"noun","meaning":"申し立て、主張、所有権"},{"parts":"verb","meaning":"主張する、所有権を主張する"}]},{"id":220,"level":600,"word":"crew","definitions":[{"parts":"noun","meaning":"グループ、班、乗員"}]},{"id":221,"level":600,"word":"demand","definitions":[{"parts":"noun","meaning":"需要"},{"parts":"verb","meaning":"要求する"}]},{"id":222,"level":600,"word":"figure","definitions":[{"parts":"noun","meaning":"数字、人物"}]},{"id":223,"level":600,"word":"raise","definitions":[{"parts":"noun","meaning":"昇級"},{"parts":"verb","meaning":"挙げる、（お金を）集める、高める"}]},{"id":224,"level":600,"word":"attach","definitions":[{"parts":"verb","meaning":"添付する"}]},{"id":225,"level":600,"word":"attract","definitions":[{"parts":"verb","meaning":"ひきつける、呼び込む"}]},{"id":226,"level":600,"word":"insurance","definitions":[{"parts":"noun","meaning":"保険"}]},{"id":227,"level":600,"word":"departure","definitions":[{"parts":"noun","meaning":"出発、逸脱"}]},{"id":228,"level":600,"word":"mayor","definitions":[{"parts":"noun","meaning":"町長、市長"}]},{"id":229,"level":600,"word":"balance","definitions":[{"parts":"noun","meaning":"残金、残額、バランス"}]},{"id":230,"level":600,"word":"estimate","definitions":[{"parts":"noun","meaning":"見積もり"},{"parts":"verb","meaning":"見積もる"}]},{"id":231,"level":600,"word":"district","definitions":[{"parts":"noun","meaning":"地区"}]},{"id":232,"level":600,"word":"former","definitions":[{"parts":"noun","meaning":"前者"},{"parts":"adjective","meaning":"前の、かつての"}]},{"id":233,"level":600,"word":"modern","definitions":[{"parts":"adjective","meaning":"現代的な、近代的な"}]},{"id":234,"level":600,"word":"tip","definitions":[{"parts":"noun","meaning":"アドバイス、コツ"}]},{"id":235,"level":600,"word":"establish","definitions":[{"parts":"verb","meaning":"設立する、創立する"}]},{"id":236,"level":600,"word":"option","definitions":[{"parts":"noun","meaning":"選択肢、オプション"}]},{"id":237,"level":600,"word":"retire","definitions":[{"parts":"verb","meaning":"退職する"}]},{"id":238,"level":600,"word":"search","definitions":[{"parts":"noun","meaning":"捜索、検索"},{"parts":"verb","meaning":"探す、検索する"}]},{"id":239,"level":600,"word":"specific","definitions":[{"parts":"adjective","meaning":"具体的な、特定の"}]},{"id":240,"level":600,"word":"agricultural","definitions":[{"parts":"adjective","meaning":"農業の"}]},{"id":241,"level":600,"word":"historical","definitions":[{"parts":"adjective","meaning":"歴史（上）の"}]},{"id":242,"level":600,"word":"helpful","definitions":[{"parts":"adjective","meaning":"役立つ、助けになる"}]},{"id":243,"level":600,"word":"complaint","definitions":[{"parts":"noun","meaning":"苦情、クレーム"}]},{"id":244,"level":600,"word":"related","definitions":[{"parts":"adjective","meaning":"関連した"}]},{"id":245,"level":600,"word":"simply","definitions":[{"parts":"adverb","meaning":"単純に、単に"}]},{"id":246,"level":600,"word":"unique","definitions":[{"parts":"adjective","meaning":"他にはない、独自の、特有の"}]},{"id":247,"level":600,"word":"concerning","definitions":[{"parts":"preposition","meaning":"～に関する"}]},{"id":248,"level":600,"word":"reputation","definitions":[{"parts":"noun","meaning":"評判"}]},{"id":249,"level":600,"word":"ability","definitions":[{"parts":"noun","meaning":"能力"}]},{"id":250,"level":600,"word":"arrival","definitions":[{"parts":"noun","meaning":"到着"}]},{"id":251,"level":600,"word":"familiar","definitions":[{"parts":"adjective","meaning":"よく知っている、おなじみの"}]},{"id":252,"level":600,"word":"ideal","definitions":[{"parts":"adjective","meaning":"理想的な"}]},{"id":253,"level":600,"word":"maintain","definitions":[{"parts":"verb","meaning":"維持する、主張する"}]},{"id":254,"level":600,"word":"landscaping","definitions":[{"parts":"noun","meaning":"造園"}]},{"id":255,"level":600,"word":"organize","definitions":[{"parts":"verb","meaning":"（イベントなどを）計画する、取りまとめる、組織化する"}]},{"id":256,"level":600,"word":"significant","definitions":[{"parts":"adjective","meaning":"かなりの、大幅な、重要な"}]},{"id":257,"level":600,"word":"occasion","definitions":[{"parts":"noun","meaning":"特別な行事、（何かが起こる）時、好機"}]},{"id":258,"level":600,"word":"standard","definitions":[{"parts":"noun","meaning":"基準"},{"parts":"adjective","meaning":"標準の"}]},{"id":259,"level":600,"word":"background","definitions":[{"parts":"noun","meaning":"経歴、拝啓"}]},{"id":260,"level":600,"word":"guided","definitions":[{"parts":"adjective","meaning":"ガイド付きの"}]},{"id":261,"level":600,"word":"advanced","definitions":[{"parts":"adjective","meaning":"進んだ、上級の、高度な"}]},{"id":262,"level":600,"word":"alternative","definitions":[{"parts":"noun","meaning":"代案"},{"parts":"adjective","meaning":"代わりの"}]},{"id":263,"level":600,"word":"confident","definitions":[{"parts":"adjective","meaning":"確信している、自信がある"}]},{"id":264,"level":600,"word":"decade","definitions":[{"parts":"noun","meaning":"10年間、10年"}]},{"id":265,"level":600,"word":"initial","definitions":[{"parts":"adjective","meaning":"始めの、当初の"}]},{"id":266,"level":600,"word":"separate","definitions":[{"parts":"noun","meaning":"分ける"},{"parts":"adjective","meaning":"別れた、別々の"}]},{"id":267,"level":600,"word":"celebration","definitions":[{"parts":"noun","meaning":"お祝い、祝典"}]},{"id":268,"level":600,"word":"concern","definitions":[{"parts":"noun","meaning":"心配、懸念、関心事"}]},{"id":269,"level":600,"word":"environment","definitions":[{"parts":"noun","meaning":"環境"}]},{"id":270,"level":600,"word":"operate","definitions":[{"parts":"verb","meaning":"操作する、運営する"}]},{"id":271,"level":600,"word":"various","definitions":[{"parts":"adjective","meaning":"さまざまな"}]},{"id":272,"level":600,"word":"brief","definitions":[{"parts":"adjective","meaning":"短い"}]},{"id":273,"level":600,"word":"full-time","definitions":[{"parts":"adjective","meaning":"常勤の"}]},{"id":274,"level":600,"word":"overall","definitions":[{"parts":"adjective","meaning":"全体の"},{"parts":"adverb","meaning":"全体として"}]},{"id":275,"level":600,"word":"achieve","definitions":[{"parts":"verb","meaning":"達成する"}]},{"id":276,"level":600,"word":"basis","definitions":[{"parts":"noun","meaning":"ベース、基準、根拠"}]},{"id":277,"level":600,"word":"complex","definitions":[{"parts":"noun","meaning":"複合施設、集合住宅"},{"parts":"adjective","meaning":"複雑な"}]},{"id":278,"level":600,"word":"delighted","definitions":[{"parts":"adjective","meaning":"とても喜んでいる"}]},{"id":279,"level":600,"word":"obtain","definitions":[{"parts":"verb","meaning":"得る、取得する"}]},{"id":280,"level":600,"word":"honor","definitions":[{"parts":"noun","meaning":"名誉"},{"parts":"verb","meaning":"称える、（契約等を）守る"}]},{"id":281,"level":600,"word":"properly","definitions":[{"parts":"adverb","meaning":"ちゃんと、適切に"}]},{"id":282,"level":600,"word":"suitable","definitions":[{"parts":"adjective","meaning":"ふさわしい、適切な"}]},{"id":283,"level":600,"word":"electronic","definitions":[{"parts":"adjective","meaning":"電子の、電子的な"}]},{"id":284,"level":600,"word":"finalize","definitions":[{"parts":"verb","meaning":"取りまとめる、仕上げる、最終決定する"}]},{"id":285,"level":600,"word":"generous","definitions":[{"parts":"adjective","meaning":"寛大な、気前のよい"}]},{"id":286,"level":600,"word":"preparation","definitions":[{"parts":"noun","meaning":"準備、用意"}]},{"id":287,"level":600,"word":"duty","definitions":[{"parts":"noun","meaning":"任務、職務、関税"}]},{"id":288,"level":600,"word":"earn","definitions":[{"parts":"verb","meaning":"得る、もたらす"}]},{"id":289,"level":600,"word":"willing","definitions":[{"parts":"adjective","meaning":"～することを嫌がらない、～する気がある"}]},{"id":290,"level":600,"word":"worth","definitions":[{"parts":"preposition","meaning":"価値がある"}]},{"id":291,"level":600,"word":"fund","definitions":[{"parts":"noun","meaning":"資金、基金"},{"parts":"verb","meaning":"資金を提供する"}]},{"id":292,"level":600,"word":"overnight","definitions":[{"parts":"adjective","meaning":"一晩の、翌日配送の"},{"parts":"adverb","meaning":"一晩"}]},{"id":293,"level":600,"word":"particularly","definitions":[{"parts":"adverb","meaning":"特に"}]},{"id":294,"level":600,"word":"aspect","definitions":[{"parts":"noun","meaning":"面、曲面"}]},{"id":295,"level":600,"word":"hesitate","definitions":[{"parts":"verb","meaning":"ためらう"}]},{"id":296,"level":600,"word":"involved","definitions":[{"parts":"adjective","meaning":"かかわった"}]},{"id":297,"level":600,"word":"regularly","definitions":[{"parts":"adverb","meaning":"定期的に"}]},{"id":298,"level":600,"word":"scholarship","definitions":[{"parts":"noun","meaning":"奨学金"}]},{"id":299,"level":600,"word":"shortly","definitions":[{"parts":"adverb","meaning":"じきに、まもなく"}]},{"id":300,"level":600,"word":"automobile","definitions":[{"parts":"noun","meaning":"自動車"},{"parts":"adjective","meaning":"自動車の"}]},{"id":301,"level":600,"word":"deposit","definitions":[{"parts":"noun","meaning":"頭金、敷金、保証金"},{"parts":"verb","meaning":"預け入れる"}]},{"id":302,"level":600,"word":"contain","definitions":[{"parts":"verb","meaning":"含む、所有する"}]},{"id":303,"level":600,"word":"content","definitions":[{"parts":"noun","meaning":"内容、中身"},{"parts":"adjective","meaning":"満足している"}]},{"id":304,"level":600,"word":"proof","definitions":[{"parts":"noun","meaning":"証拠、証明"}]},{"id":305,"level":600,"word":"affect","definitions":[{"parts":"verb","meaning":"影響する"}]},{"id":306,"level":600,"word":"recognize","definitions":[{"parts":"verb","meaning":"(業績等を)認める、(人を)称える、識別する"}]},{"id":307,"level":600,"word":"represent","definitions":[{"parts":"verb","meaning":"代表を務める、相当する、表す"}]},{"id":308,"level":600,"word":"transfer","definitions":[{"parts":"noun","meaning":"転勤、移動"},{"parts":"verb","meaning":"転勤させる(する)、移動させる(する)"}]},{"id":309,"level":600,"word":"anniversary","definitions":[{"parts":"noun","meaning":"～周年、記念日"}]},{"id":310,"level":600,"word":"automatically","definitions":[{"parts":"adverb","meaning":"自動的に"}]},{"id":311,"level":600,"word":"capacity","definitions":[{"parts":"noun","meaning":"(生産)能力、収容能力、役割"}]},{"id":312,"level":600,"word":"destination","definitions":[{"parts":"noun","meaning":"目的地、行き先"}]},{"id":313,"level":600,"word":"grant","definitions":[{"parts":"noun","meaning":"補助金、助成金"},{"parts":"verb","meaning":"与える、許可する"}]},{"id":314,"level":600,"word":"publish","definitions":[{"parts":"verb","meaning":"出版する"}]},{"id":315,"level":600,"word":"accompany","definitions":[{"parts":"verb","meaning":"添付する、同行する"}]},{"id":316,"level":600,"word":"economic","definitions":[{"parts":"adjective","meaning":"経済の、経済上の"}]},{"id":317,"level":600,"word":"extremely","definitions":[{"parts":"adverb","meaning":"極めて、非常に"}]},{"id":318,"level":600,"word":"institution","definitions":[{"parts":"noun","meaning":"機関、団体、しきたり"}]},{"id":319,"level":600,"word":"accurate","definitions":[{"parts":"adjective","meaning":"正確な"}]},{"id":320,"level":600,"word":"compete","definitions":[{"parts":"verb","meaning":"競う"}]},{"id":321,"level":600,"word":"emphasize","definitions":[{"parts":"verb","meaning":"強調する"}]},{"id":322,"level":600,"word":"aware","definitions":[{"parts":"adjective","meaning":"気づいて"}]},{"id":323,"level":600,"word":"crowded","definitions":[{"parts":"adjective","meaning":"混雑した"}]},{"id":324,"level":600,"word":"praise","definitions":[{"parts":"noun","meaning":"称賛"},{"parts":"verb","meaning":"誉める"}]},{"id":325,"level":600,"word":"valuable","definitions":[{"parts":"adjective","meaning":"貴重な"}]},{"id":326,"level":600,"word":"explore","definitions":[{"parts":"verb","meaning":"調査する、探索する"}]},{"id":327,"level":600,"word":"found","definitions":[{"parts":"verb","meaning":"設立する、創立する"}]},{"id":328,"level":600,"word":"function","definitions":[{"parts":"noun","meaning":"機能"},{"parts":"verb","meaning":"機能する"}]},{"id":329,"level":600,"word":"impact","definitions":[{"parts":"noun","meaning":"影響"}]},{"id":330,"level":600,"word":"amazing","definitions":[{"parts":"adjective","meaning":"驚くべき"}]},{"id":331,"level":600,"word":"assure","definitions":[{"parts":"verb","meaning":"保証する、請け合う"}]},{"id":332,"level":600,"word":"cooperation","definitions":[{"parts":"noun","meaning":"協力"}]},{"id":333,"level":600,"word":"popularity","definitions":[{"parts":"noun","meaning":"人気"}]},{"id":334,"level":600,"word":"permit","definitions":[{"parts":"noun","meaning":"許可証"},{"parts":"verb","meaning":"許可する"}]},{"id":335,"level":600,"word":"solve","definitions":[{"parts":"verb","meaning":"解決する"}]},{"id":336,"level":600,"word":"vote","definitions":[{"parts":"noun","meaning":"投票"},{"parts":"verb","meaning":"投票する"}]},{"id":337,"level":600,"word":"crop","definitions":[{"parts":"noun","meaning":"作物、収穫量"}]},{"id":338,"level":600,"word":"neighborhood","definitions":[{"parts":"noun","meaning":"近所、地域"}]},{"id":339,"level":600,"word":"permanent","definitions":[{"parts":"adjective","meaning":"常設の、常雇用の、永久の"}]},{"id":340,"level":600,"word":"regret","definitions":[{"parts":"verb","meaning":"残念に思う"}]},{"id":341,"level":600,"word":"slightly","definitions":[{"parts":"adverb","meaning":"わずかに、少し"}]},{"id":342,"level":600,"word":"complicated","definitions":[{"parts":"adjective","meaning":"複雑な"}]},{"id":343,"level":600,"word":"factor","definitions":[{"parts":"noun","meaning":"要因、要素"}]},{"id":344,"level":600,"word":"favorable","definitions":[{"parts":"adjective","meaning":"好意的な、有利な"}]},{"id":345,"level":600,"word":"guarantee","definitions":[{"parts":"noun","meaning":"保証"},{"parts":"verb","meaning":"保証する"}]},{"id":346,"level":600,"word":"mechanical","definitions":[{"parts":"adjective","meaning":"機会の"}]},{"id":347,"level":600,"word":"priority","definitions":[{"parts":"noun","meaning":"優先順位、優先事項"}]},{"id":348,"level":600,"word":"relatively","definitions":[{"parts":"adverb","meaning":"比較的"}]},{"id":349,"level":600,"word":"resource","definitions":[{"parts":"noun","meaning":"資源"}]},{"id":350,"level":600,"word":"shuttle","definitions":[{"parts":"noun","meaning":"定期往復便"}]},{"id":351,"level":600,"word":"divide","definitions":[{"parts":"verb","meaning":"分ける"}]},{"id":352,"level":600,"word":"native","definitions":[{"parts":"noun","meaning":"出身の人"},{"parts":"adjective","meaning":"出身の"}]},{"id":353,"level":600,"word":"afford","definitions":[{"parts":"verb","meaning":"～する余裕がある"}]},{"id":354,"level":600,"word":"income","definitions":[{"parts":"noun","meaning":"収入"}]},{"id":355,"level":600,"word":"occur","definitions":[{"parts":"verb","meaning":"起こる、発生する、行われる"}]},{"id":356,"level":600,"word":"saving","definitions":[{"parts":"noun","meaning":"値引き、貯蓄、節約"}]},{"id":357,"level":600,"word":"findings","definitions":[{"parts":"noun","meaning":"(研究・調査の)結果、わかったこと"}]},{"id":358,"level":600,"word":"locate","definitions":[{"parts":"verb","meaning":"見つける"}]},{"id":359,"level":600,"word":"postpone","definitions":[{"parts":"verb","meaning":"延期する"}]},{"id":360,"level":600,"word":"preserve","definitions":[{"parts":"noun","meaning":"保護区"},{"parts":"verb","meaning":"保護する、保存する"}]},{"id":361,"level":600,"word":"prove","definitions":[{"parts":"verb","meaning":"わかる、判明する、証明する"}]},{"id":362,"level":600,"word":"exact","definitions":[{"parts":"adjective","meaning":"正確な"}]},{"id":363,"level":600,"word":"gain","definitions":[{"parts":"noun","meaning":"増加、利益"},{"parts":"verb","meaning":"得る"}]},{"id":364,"level":600,"word":"labor","definitions":[{"parts":"noun","meaning":"労働、労働者"}]},{"id":365,"level":600,"word":"regard","definitions":[{"parts":"noun","meaning":"点"},{"parts":"verb","meaning":"みなす、評価する"}]},{"id":366,"level":600,"word":"closely","definitions":[{"parts":"adverb","meaning":"密に、注意深く"}]},{"id":367,"level":600,"word":"deserve","definitions":[{"parts":"verb","meaning":"値する"}]},{"id":368,"level":600,"word":"identify","definitions":[{"parts":"verb","meaning":"特定する"}]},{"id":369,"level":600,"word":"loyal","definitions":[{"parts":"adjective","meaning":"忠実な"}]},{"id":370,"level":600,"word":"promising","definitions":[{"parts":"adjective","meaning":"有望な"}]},{"id":371,"level":600,"word":"stress","definitions":[{"parts":"noun","meaning":"ストレス、強調"},{"parts":"verb","meaning":"強調する"}]},{"id":372,"level":600,"word":"analyze","definitions":[{"parts":"verb","meaning":"分析する"}]},{"id":373,"level":600,"word":"commission","definitions":[{"parts":"noun","meaning":"委員会、歩合"},{"parts":"verb","meaning":"委託する、委任する"}]},{"id":374,"level":600,"word":"committed","definitions":[{"parts":"adjective","meaning":"熱心に取り組む、献身的な"}]},{"id":375,"level":600,"word":"comparison","definitions":[{"parts":"noun","meaning":"比較"}]},{"id":376,"level":600,"word":"component","definitions":[{"parts":"noun","meaning":"部品"}]},{"id":377,"level":600,"word":"enable","definitions":[{"parts":"verb","meaning":"可能にする"}]},{"id":378,"level":600,"word":"enjoyable","definitions":[{"parts":"adjective","meaning":"楽しい"}]},{"id":379,"level":600,"word":"existing","definitions":[{"parts":"adjective","meaning":"従来の、既存の"}]},{"id":380,"level":600,"word":"flyer","definitions":[{"parts":"noun","meaning":"チラシ、(飛行機の)乗客"}]},{"id":381,"level":600,"word":"proceed","definitions":[{"parts":"verb","meaning":"進む"}]},{"id":382,"level":600,"word":"prevent","definitions":[{"parts":"verb","meaning":"防ぐ、阻む"}]},{"id":383,"level":600,"word":"alike","definitions":[{"parts":"adjective","meaning":"よく似た"},{"parts":"adverb","meaning":"同様に"}]},{"id":384,"level":600,"word":"appoint","definitions":[{"parts":"verb","meaning":"指名する、任命する"}]},{"id":385,"level":600,"word":"connection","definitions":[{"parts":"noun","meaning":"接続、つながり、関連、乗り継ぎ"}]},{"id":386,"level":600,"word":"eager","definitions":[{"parts":"adjective","meaning":"～したがる、熱望する"}]},{"id":387,"level":600,"word":"ease","definitions":[{"parts":"noun","meaning":"容易さ、たやすさ"},{"parts":"verb","meaning":"やわらげる、容易にする"}]},{"id":388,"level":600,"word":"fairly","definitions":[{"parts":"adverb","meaning":"かなり"}]},{"id":389,"level":600,"word":"absolutely","definitions":[{"parts":"adverb","meaning":"完全に、間違いなく"}]},{"id":390,"level":600,"word":"atmosphere","definitions":[{"parts":"noun","meaning":"雰囲気"}]},{"id":391,"level":600,"word":"calculate","definitions":[{"parts":"verb","meaning":"計算する"}]},{"id":392,"level":600,"word":"contrast","definitions":[{"parts":"noun","meaning":"対照、はっきりした違い"},{"parts":"verb","meaning":"対照的である"}]},{"id":393,"level":600,"word":"monitor","definitions":[{"parts":"noun","meaning":"(コンピュータの)モニター"},{"parts":"verb","meaning":"監視する"}]},{"id":394,"level":600,"word":"occasionally","definitions":[{"parts":"adverb","meaning":"時々"}]},{"id":395,"level":600,"word":"practical","definitions":[{"parts":"adjective","meaning":"実務の、実際の、実用的な"}]},{"id":396,"level":600,"word":"serious","definitions":[{"parts":"adjective","meaning":"重大な、真剣な、重要な"}]},{"id":397,"level":600,"word":"strength","definitions":[{"parts":"noun","meaning":"強さ、強度、(液体等の)濃さ"}]},{"id":398,"level":600,"word":"equally","definitions":[{"parts":"adverb","meaning":"同じように、均等に"}]},{"id":399,"level":600,"word":"import","definitions":[{"parts":"noun","meaning":"輸入、輸入品"},{"parts":"verb","meaning":"輸入する"}]},{"id":400,"level":600,"word":"informal","definitions":[{"parts":"adjective","meaning":"非公式の、カジュアルな"}]}]
+[
+  { "id": 1, "level": 600, "word": "anyway", "definitions": [{ "parts": "adverb", "meaning": "とにかく" }] },
+  {
+    "id": 2,
+    "level": 600,
+    "word": "following",
+    "definitions": [
+      { "parts": "adjective", "meaning": "次の、以下の" },
+      { "parts": "preposition", "meaning": "～に続いて" }
+    ]
+  },
+  { "id": 3, "level": 600, "word": "refer", "definitions": [{ "parts": "verb", "meaning": "参照する、言及する、（人を）紹介する" }] },
+  { "id": 4, "level": 600, "word": "available", "definitions": [{ "parts": "adjective", "meaning": "入手できる、利用できる、購入できる、手が空いている" }] },
+  { "id": 5, "level": 600, "word": "department", "definitions": [{ "parts": "noun", "meaning": "部門、売り場" }] },
+  { "id": 6, "level": 600, "word": "conference", "definitions": [{ "parts": "noun", "meaning": "会議" }] },
+  { "id": 7, "level": 600, "word": "according to", "definitions": [{ "parts": "preposition", "meaning": "～によると、～に従って" }] },
+  {
+    "id": 8,
+    "level": 600,
+    "word": "likely",
+    "definitions": [
+      { "parts": "adjective", "meaning": "～しそうだ" },
+      { "parts": "adverb", "meaning": "おそらく" }
+    ]
+  },
+  {
+    "id": 9,
+    "level": 600,
+    "word": "offer",
+    "definitions": [
+      { "parts": "noun", "meaning": "申し出、オファー" },
+      { "parts": "verb", "meaning": "申し出る、提供する" }
+    ]
+  },
+  { "id": 10, "level": 600, "word": "equipment", "definitions": [{ "parts": "noun", "meaning": "機器、装備" }] },
+  { "id": 11, "level": 600, "word": "provide", "definitions": [{ "parts": "verb", "meaning": "提供する" }] },
+  {
+    "id": 12,
+    "level": 600,
+    "word": "local",
+    "definitions": [
+      { "parts": "noun", "meaning": "地元の人" },
+      { "parts": "adjective", "meaning": "地元の" }
+    ]
+  },
+  {
+    "id": 13,
+    "level": 600,
+    "word": "purchase",
+    "definitions": [
+      { "parts": "noun", "meaning": "購入品" },
+      { "parts": "verb", "meaning": "購入する" }
+    ]
+  },
+  { "id": 14, "level": 600, "word": "opening", "definitions": [{ "parts": "noun", "meaning": "空き、開店" }] },
+  { "id": 15, "level": 600, "word": "construction", "definitions": [{ "parts": "noun", "meaning": "建設" }] },
+  {
+    "id": 16,
+    "level": 600,
+    "word": "tour",
+    "definitions": [
+      { "parts": "noun", "meaning": "見学、旅行" },
+      { "parts": "verb", "meaning": "見学する、旅行する" }
+    ]
+  },
+  {
+    "id": 17,
+    "level": 600,
+    "word": "research",
+    "definitions": [
+      { "parts": "noun", "meaning": "研究、調査" },
+      { "parts": "verb", "meaning": "研究する、調査する" }
+    ]
+  },
+  { "id": 18, "level": 600, "word": "attend", "definitions": [{ "parts": "verb", "meaning": "出席する、参加する" }] },
+  { "id": 19, "level": 600, "word": "delivery", "definitions": [{ "parts": "noun", "meaning": "配達（物）" }] },
+  { "id": 20, "level": 600, "word": "recently", "definitions": [{ "parts": "adverb", "meaning": "最近" }] },
+  { "id": 21, "level": 600, "word": "indicate", "definitions": [{ "parts": "verb", "meaning": "示す" }] },
+  { "id": 22, "level": 600, "word": "employee", "definitions": [{ "parts": "noun", "meaning": "社員、従業員" }] },
+  { "id": 23, "level": 600, "word": "additional", "definitions": [{ "parts": "adjective", "meaning": "追加の" }] },
+  {
+    "id": 24,
+    "level": 600,
+    "word": "survey",
+    "definitions": [
+      { "parts": "noun", "meaning": "アンケート調査" },
+      { "parts": "verb", "meaning": "アンケート調査を行う" }
+    ]
+  },
+  {
+    "id": 25,
+    "level": 600,
+    "word": "review",
+    "definitions": [
+      { "parts": "noun", "meaning": "検討、論評" },
+      { "parts": "verb", "meaning": "検討する、論評する" }
+    ]
+  },
+  { "id": 26, "level": 600, "word": "production", "definitions": [{ "parts": "noun", "meaning": "生産、作品" }] },
+  { "id": 27, "level": 600, "word": "located", "definitions": [{ "parts": "adjective", "meaning": "位置して" }] },
+  {
+    "id": 28,
+    "level": 600,
+    "word": "detail",
+    "definitions": [
+      { "parts": "noun", "meaning": "詳細" },
+      { "parts": "verb", "meaning": "詳しく述べる" }
+    ]
+  },
+  { "id": 29, "level": 600, "word": "announce", "definitions": [{ "parts": "verb", "meaning": "発表する" }] },
+  {
+    "id": 30,
+    "level": 600,
+    "word": "repair",
+    "definitions": [
+      { "parts": "noun", "meaning": "修理" },
+      { "parts": "verb", "meaning": "修理する" }
+    ]
+  },
+  {
+    "id": 31,
+    "level": 600,
+    "word": "increase",
+    "definitions": [
+      { "parts": "noun", "meaning": "増加" },
+      { "parts": "verb", "meaning": "増える、増やす" }
+    ]
+  },
+  { "id": 32, "level": 600, "word": "include", "definitions": [{ "parts": "verb", "meaning": "含む" }] },
+  { "id": 33, "level": 600, "word": "currently", "definitions": [{ "parts": "adverb", "meaning": "現在" }] },
+  { "id": 34, "level": 600, "word": "advertising", "definitions": [{ "parts": "noun", "meaning": "広告（業）、宣伝（活動）" }] },
+  {
+    "id": 35,
+    "level": 600,
+    "word": "charge",
+    "definitions": [
+      { "parts": "noun", "meaning": "料金、責任" },
+      { "parts": "verb", "meaning": "請求する" }
+    ]
+  },
+  { "id": 36, "level": 600, "word": "expect", "definitions": [{ "parts": "verb", "meaning": "予期する、予定する" }] },
+  { "id": 37, "level": 600, "word": "firm", "definitions": [{ "parts": "noun", "meaning": "会社" }] },
+  { "id": 38, "level": 600, "word": "client", "definitions": [{ "parts": "noun", "meaning": "顧客、クライアント" }] },
+  { "id": 39, "level": 600, "word": "financial", "definitions": [{ "parts": "adjective", "meaning": "お金の、財務の、金融の" }] },
+  { "id": 40, "level": 600, "word": "annual", "definitions": [{ "parts": "adjective", "meaning": "年の1度の、毎年恒例の、年間の" }] },
+  { "id": 41, "level": 600, "word": "payment", "definitions": [{ "parts": "noun", "meaning": "支払い" }] },
+  {
+    "id": 42,
+    "level": 600,
+    "word": "budget",
+    "definitions": [
+      { "parts": "noun", "meaning": "予算" },
+      { "parts": "verb", "meaning": "予算に計上する" }
+    ]
+  },
+  { "id": 43, "level": 600, "word": "application", "definitions": [{ "parts": "noun", "meaning": "応募用紙、応募、申請" }] },
+  { "id": 44, "level": 600, "word": "contract", "definitions": [{ "parts": "noun", "meaning": "契約（書）" }] },
+  { "id": 45, "level": 600, "word": "management", "definitions": [{ "parts": "noun", "meaning": "経営（陣）、管理" }] },
+  { "id": 46, "level": 600, "word": "performance", "definitions": [{ "parts": "noun", "meaning": "業績、仕事ぶり、性能、公演" }] },
+  { "id": 47, "level": 600, "word": "pleased", "definitions": [{ "parts": "adjective", "meaning": "喜んで、満足して" }] },
+  { "id": 48, "level": 600, "word": "confirm", "definitions": [{ "parts": "verb", "meaning": "確認する" }] },
+  {
+    "id": 49,
+    "level": 600,
+    "word": "award",
+    "definitions": [
+      { "parts": "noun", "meaning": "賞" },
+      { "parts": "verb", "meaning": "授与する" }
+    ]
+  },
+  { "id": 50, "level": 600, "word": "clothing", "definitions": [{ "parts": "noun", "meaning": "衣類" }] },
+  {
+    "id": 51,
+    "level": 600,
+    "word": "display",
+    "definitions": [
+      { "parts": "noun", "meaning": "展示" },
+      { "parts": "verb", "meaning": "展示する" }
+    ]
+  },
+  { "id": 52, "level": 600, "word": "candidate", "definitions": [{ "parts": "noun", "meaning": "候補者" }] },
+  { "id": 53, "level": 600, "word": "state", "definitions": [{ "parts": "verb", "meaning": "述べる" }] },
+  {
+    "id": 54,
+    "level": 600,
+    "word": "exhibit",
+    "definitions": [
+      { "parts": "noun", "meaning": "展示物、展示会" },
+      { "parts": "verb", "meaning": "展示する" }
+    ]
+  },
+  { "id": 55, "level": 600, "word": "session", "definitions": [{ "parts": "noun", "meaning": "時間、集まり" }] },
+  {
+    "id": 56,
+    "level": 600,
+    "word": "note",
+    "definitions": [
+      { "parts": "noun", "meaning": "メモ" },
+      { "parts": "verb", "meaning": "注意する、述べる" }
+    ]
+  },
+  {
+    "id": 57,
+    "level": 600,
+    "word": "process",
+    "definitions": [
+      { "parts": "noun", "meaning": "プロセス、過程、処理" },
+      { "parts": "verb", "meaning": "処理する" }
+    ]
+  },
+  { "id": 58, "level": 600, "word": "instruction", "definitions": [{ "parts": "noun", "meaning": "説明書、説明、指示" }] },
+  { "id": 59, "level": 600, "word": "membership", "definitions": [{ "parts": "noun", "meaning": "会員（であること）、会員資格、会員数" }] },
+  { "id": 60, "level": 600, "word": "agency", "definitions": [{ "parts": "noun", "meaning": "代理店、機関" }] },
+  { "id": 61, "level": 600, "word": "based", "definitions": [{ "parts": "adjective", "meaning": "拠点のある、基づく" }] },
+  { "id": 62, "level": 600, "word": "facility", "definitions": [{ "parts": "noun", "meaning": "施設" }] },
+  {
+    "id": 63,
+    "level": 600,
+    "word": "advance",
+    "definitions": [
+      { "parts": "noun", "meaning": "進歩、前進" },
+      { "parts": "adjective", "meaning": "先行した、事前の" }
+    ]
+  },
+  { "id": 64, "level": 600, "word": "committee", "definitions": [{ "parts": "noun", "meaning": "委員会" }] },
+  { "id": 65, "level": 600, "word": "successful", "definitions": [{ "parts": "adjective", "meaning": "成功した、うまくいく" }] },
+  { "id": 66, "level": 600, "word": "excellent", "definitions": [{ "parts": "adjective", "meaning": "素晴らしい" }] },
+  { "id": 67, "level": 600, "word": "industry", "definitions": [{ "parts": "noun", "meaning": "産業、業界" }] },
+  { "id": 68, "level": 600, "word": "fee", "definitions": [{ "parts": "noun", "meaning": "料金" }] },
+  { "id": 69, "level": 600, "word": "accept", "definitions": [{ "parts": "verb", "meaning": "受け入れる" }] },
+  { "id": 70, "level": 600, "word": "upcoming", "definitions": [{ "parts": "adjective", "meaning": "今度の" }] },
+  { "id": 71, "level": 600, "word": "latest", "definitions": [{ "parts": "adjective", "meaning": "最新の" }] },
+  { "id": 72, "level": 600, "word": "submit", "definitions": [{ "parts": "verb", "meaning": "提出する" }] },
+  { "id": 73, "level": 600, "word": "transportation", "definitions": [{ "parts": "noun", "meaning": "輸送手段" }] },
+  { "id": 74, "level": 600, "word": "resume", "definitions": [{ "parts": "noun", "meaning": "履歴書" }] },
+  {
+    "id": 75,
+    "level": 600,
+    "word": "executive",
+    "definitions": [
+      { "parts": "noun", "meaning": "重役" },
+      { "parts": "adjective", "meaning": "重役（用）の、高級な" }
+    ]
+  },
+  { "id": 76, "level": 600, "word": "introduce", "definitions": [{ "parts": "verb", "meaning": "導入する、紹介する" }] },
+  { "id": 77, "level": 600, "word": "previous", "definitions": [{ "parts": "adjective", "meaning": "前の、以前の" }] },
+  { "id": 78, "level": 600, "word": "proposal", "definitions": [{ "parts": "noun", "meaning": "提案、提案書" }] },
+  {
+    "id": 79,
+    "level": 600,
+    "word": "supply",
+    "definitions": [
+      { "parts": "noun", "meaning": "必需品" },
+      { "parts": "verb", "meaning": "供給する" }
+    ]
+  },
+  { "id": 80, "level": 600, "word": "enclose", "definitions": [{ "parts": "verb", "meaning": "同封する、囲む" }] },
+  { "id": 81, "level": 600, "word": "policy", "definitions": [{ "parts": "noun", "meaning": "規定、方針" }] },
+  {
+    "id": 82,
+    "level": 600,
+    "word": "register",
+    "definitions": [
+      { "parts": "noun", "meaning": "レジ" },
+      { "parts": "verb", "meaning": "登録する" }
+    ]
+  },
+  { "id": 83, "level": 600, "word": "arrange", "definitions": [{ "parts": "verb", "meaning": "手配する、並べる" }] },
+  {
+    "id": 84,
+    "level": 600,
+    "word": "bill",
+    "definitions": [
+      { "parts": "noun", "meaning": "請求書" },
+      { "parts": "verb", "meaning": "請求書を送る" }
+    ]
+  },
+  { "id": 85, "level": 600, "word": "hire", "definitions": [{ "parts": "verb", "meaning": "雇う" }] },
+  { "id": 86, "level": 600, "word": "approve", "definitions": [{ "parts": "verb", "meaning": "承認する、賛成する" }] },
+  { "id": 87, "level": 600, "word": "conduct", "definitions": [{ "parts": "verb", "meaning": "実行する、実施する" }] },
+  { "id": 88, "level": 600, "word": "opportunity", "definitions": [{ "parts": "noun", "meaning": "機会、チャンス" }] },
+  { "id": 89, "level": 600, "word": "deadline", "definitions": [{ "parts": "noun", "meaning": "締め切り、期限" }] },
+  { "id": 90, "level": 600, "word": "corporate", "definitions": [{ "parts": "adjective", "meaning": "企業の、法人の" }] },
+  { "id": 91, "level": 600, "word": "warranty", "definitions": [{ "parts": "noun", "meaning": "保障、保証書" }] },
+  { "id": 92, "level": 600, "word": "necessary", "definitions": [{ "parts": "adjective", "meaning": "必要な" }] },
+  {
+    "id": 93,
+    "level": 600,
+    "word": "reserve",
+    "definitions": [
+      { "parts": "noun", "meaning": "蓄え" },
+      { "parts": "verb", "meaning": "予約する、確保する" }
+    ]
+  },
+  { "id": 94, "level": 600, "word": "resident", "definitions": [{ "parts": "noun", "meaning": "住民、住人" }] },
+  { "id": 95, "level": 600, "word": "create", "definitions": [{ "parts": "verb", "meaning": "創造する、作り出す" }] },
+  { "id": 96, "level": 600, "word": "inform", "definitions": [{ "parts": "verb", "meaning": "知らせる、影響を与える" }] },
+  { "id": 97, "level": 600, "word": "allow", "definitions": [{ "parts": "verb", "meaning": "許す、可能にする" }] },
+  {
+    "id": 98,
+    "level": 600,
+    "word": "mention",
+    "definitions": [
+      { "parts": "noun", "meaning": "言及" },
+      { "parts": "verb", "meaning": "述べる、言及する" }
+    ]
+  },
+  { "id": 99, "level": 600, "word": "appreciate", "definitions": [{ "parts": "verb", "meaning": "感謝する" }] },
+  { "id": 100, "level": 600, "word": "replacement", "definitions": [{ "parts": "noun", "meaning": "交換、交換品、後任" }] },
+  {
+    "id": 101,
+    "level": 600,
+    "word": "update",
+    "definitions": [
+      { "parts": "noun", "meaning": "最新情報" },
+      { "parts": "verb", "meaning": "更新する" }
+    ]
+  },
+  { "id": 102, "level": 600, "word": "branch", "definitions": [{ "parts": "noun", "meaning": "支店" }] },
+  { "id": 103, "level": 600, "word": "paid", "definitions": [{ "parts": "adjective", "meaning": "有給の、支払い済みの" }] },
+  { "id": 104, "level": 600, "word": "unfortunately", "definitions": [{ "parts": "adverb", "meaning": "残念なことに、残念ながら" }] },
+  {
+    "id": 105,
+    "level": 600,
+    "word": "original",
+    "definitions": [
+      { "parts": "noun", "meaning": "オリジナル、原本" },
+      { "parts": "adjective", "meaning": "元の、最初の" }
+    ]
+  },
+  {
+    "id": 106,
+    "level": 600,
+    "word": "rent",
+    "definitions": [
+      { "parts": "noun", "meaning": "家賃" },
+      { "parts": "verb", "meaning": "賃貸借する" }
+    ]
+  },
+  { "id": 107, "level": 600, "word": "memo", "definitions": [{ "parts": "noun", "meaning": "社内文書" }] },
+  { "id": 108, "level": 600, "word": "luggage", "definitions": [{ "parts": "noun", "meaning": "旅行かばん、手荷物" }] },
+  { "id": 109, "level": 600, "word": "editor", "definitions": [{ "parts": "noun", "meaning": "編集者" }] },
+  { "id": 110, "level": 600, "word": "exhibition", "definitions": [{ "parts": "noun", "meaning": "展示会、展示物、展示" }] },
+  { "id": 111, "level": 600, "word": "leading", "definitions": [{ "parts": "adjective", "meaning": "首位の、一流の" }] },
+  { "id": 112, "level": 600, "word": "organization", "definitions": [{ "parts": "noun", "meaning": "団体、会社、組織（化）" }] },
+  {
+    "id": 113,
+    "level": 600,
+    "word": "release",
+    "definitions": [
+      { "parts": "noun", "meaning": "発表" },
+      { "parts": "verb", "meaning": "発売する、公表する" }
+    ]
+  },
+  { "id": 114, "level": 600, "word": "limited", "definitions": [{ "parts": "adjective", "meaning": "限られた" }] },
+  { "id": 115, "level": 600, "word": "procedure", "definitions": [{ "parts": "noun", "meaning": "手続き、手順" }] },
+  { "id": 116, "level": 600, "word": "experienced", "definitions": [{ "parts": "adjective", "meaning": "経験豊富な" }] },
+  { "id": 117, "level": 600, "word": "personnel", "definitions": [{ "parts": "noun", "meaning": "社員、人事部" }] },
+  {
+    "id": 118,
+    "level": 600,
+    "word": "author",
+    "definitions": [
+      { "parts": "noun", "meaning": "著者、作者" },
+      { "parts": "verb", "meaning": "（本を）書く" }
+    ]
+  },
+  {
+    "id": 119,
+    "level": 600,
+    "word": "benefit",
+    "definitions": [
+      { "parts": "noun", "meaning": "特典、福利厚生" },
+      { "parts": "verb", "meaning": "～のためになる" }
+    ]
+  },
+  {
+    "id": 120,
+    "level": 600,
+    "word": "focus",
+    "definitions": [
+      { "parts": "noun", "meaning": "焦点、集中" },
+      { "parts": "verb", "meaning": "（意見等を）～に集中させる、重点を置く" }
+    ]
+  },
+  { "id": 121, "level": 600, "word": "participate", "definitions": [{ "parts": "verb", "meaning": "参加する" }] },
+  {
+    "id": 122,
+    "level": 600,
+    "word": "cause",
+    "definitions": [
+      { "parts": "noun", "meaning": "原因、大義" },
+      { "parts": "verb", "meaning": "引き起こす" }
+    ]
+  },
+  { "id": 123, "level": 600, "word": "degree", "definitions": [{ "parts": "noun", "meaning": "学位、程度、（温度や角度の単位の）度" }] },
+  { "id": 124, "level": 600, "word": "directly", "definitions": [{ "parts": "adverb", "meaning": "直接" }] },
+  {
+    "id": 125,
+    "level": 600,
+    "word": "host",
+    "definitions": [
+      { "parts": "noun", "meaning": "司会者" },
+      { "parts": "verb", "meaning": "主催する" }
+    ]
+  },
+  {
+    "id": 126,
+    "level": 600,
+    "word": "expert",
+    "definitions": [
+      { "parts": "noun", "meaning": "専門家" },
+      { "parts": "adjective", "meaning": "専門的な" }
+    ]
+  },
+  { "id": 127, "level": 600, "word": "impress", "definitions": [{ "parts": "verb", "meaning": "感心させる、好印象を与える" }] },
+  { "id": 128, "level": 600, "word": "mainly", "definitions": [{ "parts": "adverb", "meaning": "主に" }] },
+  { "id": 129, "level": 600, "word": "suggestion", "definitions": [{ "parts": "noun", "meaning": "提案、提案書" }] },
+  { "id": 130, "level": 600, "word": "supplier", "definitions": [{ "parts": "noun", "meaning": "納入業者、供給業者" }] },
+  {
+    "id": 131,
+    "level": 600,
+    "word": "document",
+    "definitions": [
+      { "parts": "noun", "meaning": "書類" },
+      { "parts": "verb", "meaning": "（文書や映像等で）記録する" }
+    ]
+  },
+  { "id": 132, "level": 600, "word": "remind", "definitions": [{ "parts": "verb", "meaning": "再確認する、念押しする" }] },
+  { "id": 133, "level": 600, "word": "require", "definitions": [{ "parts": "verb", "meaning": "求める、要求する" }] },
+  { "id": 134, "level": 600, "word": "representative", "definitions": [{ "parts": "noun", "meaning": "担当者、代表者" }] },
+  { "id": 135, "level": 600, "word": "packaging", "definitions": [{ "parts": "noun", "meaning": "梱包、パッケージ" }] },
+  { "id": 136, "level": 600, "word": "description", "definitions": [{ "parts": "noun", "meaning": "説明、記述、描写" }] },
+  { "id": 137, "level": 600, "word": "property", "definitions": [{ "parts": "noun", "meaning": "不動産、資産" }] },
+  { "id": 138, "level": 600, "word": "extension", "definitions": [{ "parts": "noun", "meaning": "内線、延長" }] },
+  { "id": 139, "level": 600, "word": "inquire", "definitions": [{ "parts": "verb", "meaning": "尋ねる、問い合わせる" }] },
+  { "id": 140, "level": 600, "word": "merchandise", "definitions": [{ "parts": "noun", "meaning": "商品" }] },
+  { "id": 141, "level": 600, "word": "highly", "definitions": [{ "parts": "adverb", "meaning": "非常に" }] },
+  {
+    "id": 142,
+    "level": 600,
+    "word": "result",
+    "definitions": [
+      { "parts": "noun", "meaning": "結果" },
+      { "parts": "verb", "meaning": "生じる、終わる" }
+    ]
+  },
+  { "id": 143, "level": 600, "word": "assistance", "definitions": [{ "parts": "noun", "meaning": "支援、援助" }] },
+  { "id": 144, "level": 600, "word": "encourage", "definitions": [{ "parts": "verb", "meaning": "奨励する、促す" }] },
+  {
+    "id": 145,
+    "level": 600,
+    "word": "individual",
+    "definitions": [
+      { "parts": "noun", "meaning": "個人" },
+      { "parts": "adjective", "meaning": "個人の、個別の" }
+    ]
+  },
+  { "id": 146, "level": 600, "word": "laboratory", "definitions": [{ "parts": "noun", "meaning": "研究所、実験室" }] },
+  { "id": 147, "level": 600, "word": "consider", "definitions": [{ "parts": "verb", "meaning": "考える、検討する" }] },
+  { "id": 148, "level": 600, "word": "headquarters", "definitions": [{ "parts": "noun", "meaning": "本社" }] },
+  {
+    "id": 149,
+    "level": 600,
+    "word": "ship",
+    "definitions": [
+      { "parts": "noun", "meaning": "船" },
+      { "parts": "verb", "meaning": "出荷する" }
+    ]
+  },
+  {
+    "id": 150,
+    "level": 600,
+    "word": "commercial",
+    "definitions": [
+      { "parts": "noun", "meaning": "CM" },
+      { "parts": "adjective", "meaning": "商業（用）の、商業的な" }
+    ]
+  },
+  { "id": 151, "level": 600, "word": "device", "definitions": [{ "parts": "noun", "meaning": "機器、装置" }] },
+  { "id": 152, "level": 600, "word": "intended", "definitions": [{ "parts": "adjective", "meaning": "意図された、向けられた" }] },
+  { "id": 153, "level": 600, "word": "brochure", "definitions": [{ "parts": "noun", "meaning": "パンフレット" }] },
+  {
+    "id": 154,
+    "level": 600,
+    "word": "mail",
+    "definitions": [
+      { "parts": "noun", "meaning": "郵便物、郵便配達" },
+      { "parts": "verb", "meaning": "輸送する" }
+    ]
+  },
+  { "id": 155, "level": 600, "word": "prefer", "definitions": [{ "parts": "verb", "meaning": "～を（…よりも）好む" }] },
+  { "id": 156, "level": 600, "word": "response", "definitions": [{ "parts": "noun", "meaning": "返答、返事" }] },
+  { "id": 157, "level": 600, "word": "region", "definitions": [{ "parts": "noun", "meaning": "値域" }] },
+  { "id": 158, "level": 600, "word": "donation", "definitions": [{ "parts": "noun", "meaning": "寄付" }] },
+  { "id": 159, "level": 600, "word": "quarter", "definitions": [{ "parts": "noun", "meaning": "四半期" }] },
+  { "id": 160, "level": 600, "word": "agreement", "definitions": [{ "parts": "noun", "meaning": "契約（書）、同意（書）、合意" }] },
+  { "id": 161, "level": 600, "word": "journal", "definitions": [{ "parts": "noun", "meaning": "専門誌" }] },
+  { "id": 162, "level": 600, "word": "distribute", "definitions": [{ "parts": "verb", "meaning": "配布する、流通させる" }] },
+  {
+    "id": 163,
+    "level": 600,
+    "word": "potential",
+    "definitions": [
+      { "parts": "noun", "meaning": "可能性" },
+      { "parts": "adjective", "meaning": "見込みがある、潜在的な" }
+    ]
+  },
+  { "id": 164, "level": 600, "word": "reschedule", "definitions": [{ "parts": "verb", "meaning": "スケジュールを変更する" }] },
+  { "id": 165, "level": 600, "word": "renew", "definitions": [{ "parts": "verb", "meaning": "更新する" }] },
+  { "id": 166, "level": 600, "word": "warehouse", "definitions": [{ "parts": "noun", "meaning": "倉庫" }] },
+  {
+    "id": 167,
+    "level": 600,
+    "word": "refund",
+    "definitions": [
+      { "parts": "noun", "meaning": "返金" },
+      { "parts": "verb", "meaning": "返金する" }
+    ]
+  },
+  { "id": 168, "level": 600, "word": "advise", "definitions": [{ "parts": "verb", "meaning": "勧める、忠告する、助言する" }] },
+  { "id": 169, "level": 600, "word": "immediately", "definitions": [{ "parts": "adverb", "meaning": "すぐに、即座に" }] },
+  { "id": 170, "level": 600, "word": "council", "definitions": [{ "parts": "noun", "meaning": "議会" }] },
+  {
+    "id": 171,
+    "level": 600,
+    "word": "broadcast",
+    "definitions": [
+      { "parts": "noun", "meaning": "放送" },
+      { "parts": "verb", "meaning": "放送する" }
+    ]
+  },
+  { "id": 172, "level": 600, "word": "responsible", "definitions": [{ "parts": "adjective", "meaning": "担当している、責任がある" }] },
+  { "id": 173, "level": 600, "word": "avoid", "definitions": [{ "parts": "verb", "meaning": "避ける" }] },
+  { "id": 174, "level": 600, "word": "effective", "definitions": [{ "parts": "adjective", "meaning": "効果的な" }] },
+  { "id": 175, "level": 600, "word": "invitation", "definitions": [{ "parts": "noun", "meaning": "招待（状）" }] },
+  { "id": 176, "level": 600, "word": "reduce", "definitions": [{ "parts": "verb", "meaning": "（値段を）下げる、減らす" }] },
+  { "id": 177, "level": 600, "word": "vehicle", "definitions": [{ "parts": "noun", "meaning": "乗り物、車両" }] },
+  { "id": 178, "level": 600, "word": "efficient", "definitions": [{ "parts": "adjective", "meaning": "効率的な" }] },
+  { "id": 179, "level": 600, "word": "manufacturer", "definitions": [{ "parts": "noun", "meaning": "メーカー、製造業者" }] },
+  { "id": 180, "level": 600, "word": "comfortable", "definitions": [{ "parts": "adjective", "meaning": "快適な、楽な、自信があ" }] },
+  {
+    "id": 181,
+    "level": 600,
+    "word": "correct",
+    "definitions": [
+      { "parts": "verb", "meaning": "修正する" },
+      { "parts": "adjective", "meaning": "正確な、正しい" }
+    ]
+  },
+  {
+    "id": 182,
+    "level": 600,
+    "word": "downtown",
+    "definitions": [
+      { "parts": "noun", "meaning": "中心街" },
+      { "parts": "adjective", "meaning": "中心街の" },
+      { "parts": "adverb", "meaning": "中心街で" }
+    ]
+  },
+  { "id": 183, "level": 600, "word": "method", "definitions": [{ "parts": "noun", "meaning": "方法" }] },
+  { "id": 184, "level": 600, "word": "entire", "definitions": [{ "parts": "adjective", "meaning": "全体の" }] },
+  { "id": 185, "level": 600, "word": "range", "definitions": [{ "parts": "noun", "meaning": "範囲" }] },
+  { "id": 186, "level": 600, "word": "setting", "definitions": [{ "parts": "noun", "meaning": "環境" }] },
+  { "id": 187, "level": 600, "word": "apologize", "definitions": [{ "parts": "verb", "meaning": "おわびする" }] },
+  { "id": 188, "level": 600, "word": "frequent", "definitions": [{ "parts": "adjective", "meaning": "頻繁な" }] },
+  { "id": 189, "level": 600, "word": "promotion", "definitions": [{ "parts": "noun", "meaning": "昇進、販売促進" }] },
+  { "id": 190, "level": 600, "word": "regarding", "definitions": [{ "parts": "preposition", "meaning": "～に関する" }] },
+  { "id": 191, "level": 600, "word": "temporary", "definitions": [{ "parts": "adjective", "meaning": "一時的な、臨時の" }] },
+  { "id": 192, "level": 600, "word": "traditional", "definitions": [{ "parts": "adjective", "meaning": "伝統的な、従来の" }] },
+  { "id": 193, "level": 600, "word": "admission", "definitions": [{ "parts": "noun", "meaning": "入場、入場料、入場許可" }] },
+  { "id": 194, "level": 600, "word": "fit", "definitions": [{ "parts": "verb", "meaning": "合う、入る" }] },
+  { "id": 195, "level": 600, "word": "reference", "definitions": [{ "parts": "noun", "meaning": "照会先、照会、参照" }] },
+  { "id": 196, "level": 600, "word": "status", "definitions": [{ "parts": "noun", "meaning": "状況、地位" }] },
+  { "id": 197, "level": 600, "word": "fuel", "definitions": [{ "parts": "noun", "meaning": "燃料" }] },
+  { "id": 198, "level": 600, "word": "nearly", "definitions": [{ "parts": "adverb", "meaning": "ほとんど、もう少しで" }] },
+  { "id": 199, "level": 600, "word": "cafeteria", "definitions": [{ "parts": "noun", "meaning": "社員食堂" }] },
+  { "id": 200, "level": 600, "word": "determine", "definitions": [{ "parts": "verb", "meaning": "決定する、判断する、決心する" }] },
+  { "id": 201, "level": 600, "word": "expense", "definitions": [{ "parts": "noun", "meaning": "費用、経費" }] },
+  {
+    "id": 202,
+    "level": 600,
+    "word": "overseas",
+    "definitions": [
+      { "parts": "adjective", "meaning": "海外の" },
+      { "parts": "adverb", "meaning": "海外で" }
+    ]
+  },
+  { "id": 203, "level": 600, "word": "satisfied", "definitions": [{ "parts": "adjective", "meaning": "満足した" }] },
+  { "id": 204, "level": 600, "word": "appear", "definitions": [{ "parts": "verb", "meaning": "現れる、掲載される、～のように見える" }] },
+  { "id": 205, "level": 600, "word": "develop", "definitions": [{ "parts": "verb", "meaning": "（計画等を）作り出す、開発する、（スキルを）高める" }] },
+  { "id": 206, "level": 600, "word": "improve", "definitions": [{ "parts": "verb", "meaning": "改善する、改良する" }] },
+  { "id": 207, "level": 600, "word": "reasonable", "definitions": [{ "parts": "adjective", "meaning": "（値段が）手ごろな、妥当な" }] },
+  { "id": 208, "level": 600, "word": "unable", "definitions": [{ "parts": "adjective", "meaning": "（～することが）できない" }] },
+  {
+    "id": 209,
+    "level": 600,
+    "word": "delay",
+    "definitions": [
+      { "parts": "noun", "meaning": "遅れ" },
+      { "parts": "verb", "meaning": "遅らせる" }
+    ]
+  },
+  { "id": 210, "level": 600, "word": "legal", "definitions": [{ "parts": "adjective", "meaning": "法律に関する、合法の" }] },
+  { "id": 211, "level": 600, "word": "regulation", "definitions": [{ "parts": "noun", "meaning": "規制、規則" }] },
+  { "id": 212, "level": 600, "word": "expand", "definitions": [{ "parts": "verb", "meaning": "拡大する、進出する" }] },
+  {
+    "id": 213,
+    "level": 600,
+    "word": "launch",
+    "definitions": [
+      { "parts": "noun", "meaning": "開始、発売" },
+      { "parts": "verb", "meaning": "開始する、発売する" }
+    ]
+  },
+  { "id": 214, "level": 600, "word": "recommendation", "definitions": [{ "parts": "noun", "meaning": "推薦" }] },
+  {
+    "id": 215,
+    "level": 600,
+    "word": "direct",
+    "definitions": [
+      { "parts": "verb", "meaning": "向ける、管理する" },
+      { "parts": "adjective", "meaning": "直接の" }
+    ]
+  },
+  {
+    "id": 216,
+    "level": 600,
+    "word": "profit",
+    "definitions": [
+      { "parts": "noun", "meaning": "利益" },
+      { "parts": "verb", "meaning": "利益を与える" }
+    ]
+  },
+  { "id": 217, "level": 600, "word": "seek", "definitions": [{ "parts": "verb", "meaning": "探し求める" }] },
+  { "id": 218, "level": 600, "word": "entry", "definitions": [{ "parts": "noun", "meaning": "エントリー（作品）、入場" }] },
+  {
+    "id": 219,
+    "level": 600,
+    "word": "claim",
+    "definitions": [
+      { "parts": "noun", "meaning": "申し立て、主張、所有権" },
+      { "parts": "verb", "meaning": "主張する、所有権を主張する" }
+    ]
+  },
+  { "id": 220, "level": 600, "word": "crew", "definitions": [{ "parts": "noun", "meaning": "グループ、班、乗員" }] },
+  {
+    "id": 221,
+    "level": 600,
+    "word": "demand",
+    "definitions": [
+      { "parts": "noun", "meaning": "需要" },
+      { "parts": "verb", "meaning": "要求する" }
+    ]
+  },
+  { "id": 222, "level": 600, "word": "figure", "definitions": [{ "parts": "noun", "meaning": "数字、人物" }] },
+  {
+    "id": 223,
+    "level": 600,
+    "word": "raise",
+    "definitions": [
+      { "parts": "noun", "meaning": "昇級" },
+      { "parts": "verb", "meaning": "挙げる、（お金を）集める、高める" }
+    ]
+  },
+  { "id": 224, "level": 600, "word": "attach", "definitions": [{ "parts": "verb", "meaning": "添付する" }] },
+  { "id": 225, "level": 600, "word": "attract", "definitions": [{ "parts": "verb", "meaning": "ひきつける、呼び込む" }] },
+  { "id": 226, "level": 600, "word": "insurance", "definitions": [{ "parts": "noun", "meaning": "保険" }] },
+  { "id": 227, "level": 600, "word": "departure", "definitions": [{ "parts": "noun", "meaning": "出発、逸脱" }] },
+  { "id": 228, "level": 600, "word": "mayor", "definitions": [{ "parts": "noun", "meaning": "町長、市長" }] },
+  { "id": 229, "level": 600, "word": "balance", "definitions": [{ "parts": "noun", "meaning": "残金、残額、バランス" }] },
+  {
+    "id": 230,
+    "level": 600,
+    "word": "estimate",
+    "definitions": [
+      { "parts": "noun", "meaning": "見積もり" },
+      { "parts": "verb", "meaning": "見積もる" }
+    ]
+  },
+  { "id": 231, "level": 600, "word": "district", "definitions": [{ "parts": "noun", "meaning": "地区" }] },
+  {
+    "id": 232,
+    "level": 600,
+    "word": "former",
+    "definitions": [
+      { "parts": "noun", "meaning": "前者" },
+      { "parts": "adjective", "meaning": "前の、かつての" }
+    ]
+  },
+  { "id": 233, "level": 600, "word": "modern", "definitions": [{ "parts": "adjective", "meaning": "現代的な、近代的な" }] },
+  { "id": 234, "level": 600, "word": "tip", "definitions": [{ "parts": "noun", "meaning": "アドバイス、コツ" }] },
+  { "id": 235, "level": 600, "word": "establish", "definitions": [{ "parts": "verb", "meaning": "設立する、創立する" }] },
+  { "id": 236, "level": 600, "word": "option", "definitions": [{ "parts": "noun", "meaning": "選択肢、オプション" }] },
+  { "id": 237, "level": 600, "word": "retire", "definitions": [{ "parts": "verb", "meaning": "退職する" }] },
+  {
+    "id": 238,
+    "level": 600,
+    "word": "search",
+    "definitions": [
+      { "parts": "noun", "meaning": "捜索、検索" },
+      { "parts": "verb", "meaning": "探す、検索する" }
+    ]
+  },
+  { "id": 239, "level": 600, "word": "specific", "definitions": [{ "parts": "adjective", "meaning": "具体的な、特定の" }] },
+  { "id": 240, "level": 600, "word": "agricultural", "definitions": [{ "parts": "adjective", "meaning": "農業の" }] },
+  { "id": 241, "level": 600, "word": "historical", "definitions": [{ "parts": "adjective", "meaning": "歴史（上）の" }] },
+  { "id": 242, "level": 600, "word": "helpful", "definitions": [{ "parts": "adjective", "meaning": "役立つ、助けになる" }] },
+  { "id": 243, "level": 600, "word": "complaint", "definitions": [{ "parts": "noun", "meaning": "苦情、クレーム" }] },
+  { "id": 244, "level": 600, "word": "related", "definitions": [{ "parts": "adjective", "meaning": "関連した" }] },
+  { "id": 245, "level": 600, "word": "simply", "definitions": [{ "parts": "adverb", "meaning": "単純に、単に" }] },
+  { "id": 246, "level": 600, "word": "unique", "definitions": [{ "parts": "adjective", "meaning": "他にはない、独自の、特有の" }] },
+  { "id": 247, "level": 600, "word": "concerning", "definitions": [{ "parts": "preposition", "meaning": "～に関する" }] },
+  { "id": 248, "level": 600, "word": "reputation", "definitions": [{ "parts": "noun", "meaning": "評判" }] },
+  { "id": 249, "level": 600, "word": "ability", "definitions": [{ "parts": "noun", "meaning": "能力" }] },
+  { "id": 250, "level": 600, "word": "arrival", "definitions": [{ "parts": "noun", "meaning": "到着" }] },
+  { "id": 251, "level": 600, "word": "familiar", "definitions": [{ "parts": "adjective", "meaning": "よく知っている、おなじみの" }] },
+  { "id": 252, "level": 600, "word": "ideal", "definitions": [{ "parts": "adjective", "meaning": "理想的な" }] },
+  { "id": 253, "level": 600, "word": "maintain", "definitions": [{ "parts": "verb", "meaning": "維持する、主張する" }] },
+  { "id": 254, "level": 600, "word": "landscaping", "definitions": [{ "parts": "noun", "meaning": "造園" }] },
+  { "id": 255, "level": 600, "word": "organize", "definitions": [{ "parts": "verb", "meaning": "（イベントなどを）計画する、取りまとめる、組織化する" }] },
+  { "id": 256, "level": 600, "word": "significant", "definitions": [{ "parts": "adjective", "meaning": "かなりの、大幅な、重要な" }] },
+  { "id": 257, "level": 600, "word": "occasion", "definitions": [{ "parts": "noun", "meaning": "特別な行事、（何かが起こる）時、好機" }] },
+  {
+    "id": 258,
+    "level": 600,
+    "word": "standard",
+    "definitions": [
+      { "parts": "noun", "meaning": "基準" },
+      { "parts": "adjective", "meaning": "標準の" }
+    ]
+  },
+  { "id": 259, "level": 600, "word": "background", "definitions": [{ "parts": "noun", "meaning": "経歴、拝啓" }] },
+  { "id": 260, "level": 600, "word": "guided", "definitions": [{ "parts": "adjective", "meaning": "ガイド付きの" }] },
+  { "id": 261, "level": 600, "word": "advanced", "definitions": [{ "parts": "adjective", "meaning": "進んだ、上級の、高度な" }] },
+  {
+    "id": 262,
+    "level": 600,
+    "word": "alternative",
+    "definitions": [
+      { "parts": "noun", "meaning": "代案" },
+      { "parts": "adjective", "meaning": "代わりの" }
+    ]
+  },
+  { "id": 263, "level": 600, "word": "confident", "definitions": [{ "parts": "adjective", "meaning": "確信している、自信がある" }] },
+  { "id": 264, "level": 600, "word": "decade", "definitions": [{ "parts": "noun", "meaning": "10年間、10年" }] },
+  { "id": 265, "level": 600, "word": "initial", "definitions": [{ "parts": "adjective", "meaning": "始めの、当初の" }] },
+  {
+    "id": 266,
+    "level": 600,
+    "word": "separate",
+    "definitions": [
+      { "parts": "noun", "meaning": "分ける" },
+      { "parts": "adjective", "meaning": "別れた、別々の" }
+    ]
+  },
+  { "id": 267, "level": 600, "word": "celebration", "definitions": [{ "parts": "noun", "meaning": "お祝い、祝典" }] },
+  { "id": 268, "level": 600, "word": "concern", "definitions": [{ "parts": "noun", "meaning": "心配、懸念、関心事" }] },
+  { "id": 269, "level": 600, "word": "environment", "definitions": [{ "parts": "noun", "meaning": "環境" }] },
+  { "id": 270, "level": 600, "word": "operate", "definitions": [{ "parts": "verb", "meaning": "操作する、運営する" }] },
+  { "id": 271, "level": 600, "word": "various", "definitions": [{ "parts": "adjective", "meaning": "さまざまな" }] },
+  { "id": 272, "level": 600, "word": "brief", "definitions": [{ "parts": "adjective", "meaning": "短い" }] },
+  { "id": 273, "level": 600, "word": "full-time", "definitions": [{ "parts": "adjective", "meaning": "常勤の" }] },
+  {
+    "id": 274,
+    "level": 600,
+    "word": "overall",
+    "definitions": [
+      { "parts": "adjective", "meaning": "全体の" },
+      { "parts": "adverb", "meaning": "全体として" }
+    ]
+  },
+  { "id": 275, "level": 600, "word": "achieve", "definitions": [{ "parts": "verb", "meaning": "達成する" }] },
+  { "id": 276, "level": 600, "word": "basis", "definitions": [{ "parts": "noun", "meaning": "ベース、基準、根拠" }] },
+  {
+    "id": 277,
+    "level": 600,
+    "word": "complex",
+    "definitions": [
+      { "parts": "noun", "meaning": "複合施設、集合住宅" },
+      { "parts": "adjective", "meaning": "複雑な" }
+    ]
+  },
+  { "id": 278, "level": 600, "word": "delighted", "definitions": [{ "parts": "adjective", "meaning": "とても喜んでいる" }] },
+  { "id": 279, "level": 600, "word": "obtain", "definitions": [{ "parts": "verb", "meaning": "得る、取得する" }] },
+  {
+    "id": 280,
+    "level": 600,
+    "word": "honor",
+    "definitions": [
+      { "parts": "noun", "meaning": "名誉" },
+      { "parts": "verb", "meaning": "称える、（契約等を）守る" }
+    ]
+  },
+  { "id": 281, "level": 600, "word": "properly", "definitions": [{ "parts": "adverb", "meaning": "ちゃんと、適切に" }] },
+  { "id": 282, "level": 600, "word": "suitable", "definitions": [{ "parts": "adjective", "meaning": "ふさわしい、適切な" }] },
+  { "id": 283, "level": 600, "word": "electronic", "definitions": [{ "parts": "adjective", "meaning": "電子の、電子的な" }] },
+  { "id": 284, "level": 600, "word": "finalize", "definitions": [{ "parts": "verb", "meaning": "取りまとめる、仕上げる、最終決定する" }] },
+  { "id": 285, "level": 600, "word": "generous", "definitions": [{ "parts": "adjective", "meaning": "寛大な、気前のよい" }] },
+  { "id": 286, "level": 600, "word": "preparation", "definitions": [{ "parts": "noun", "meaning": "準備、用意" }] },
+  { "id": 287, "level": 600, "word": "duty", "definitions": [{ "parts": "noun", "meaning": "任務、職務、関税" }] },
+  { "id": 288, "level": 600, "word": "earn", "definitions": [{ "parts": "verb", "meaning": "得る、もたらす" }] },
+  { "id": 289, "level": 600, "word": "willing", "definitions": [{ "parts": "adjective", "meaning": "～することを嫌がらない、～する気がある" }] },
+  { "id": 290, "level": 600, "word": "worth", "definitions": [{ "parts": "preposition", "meaning": "価値がある" }] },
+  {
+    "id": 291,
+    "level": 600,
+    "word": "fund",
+    "definitions": [
+      { "parts": "noun", "meaning": "資金、基金" },
+      { "parts": "verb", "meaning": "資金を提供する" }
+    ]
+  },
+  {
+    "id": 292,
+    "level": 600,
+    "word": "overnight",
+    "definitions": [
+      { "parts": "adjective", "meaning": "一晩の、翌日配送の" },
+      { "parts": "adverb", "meaning": "一晩" }
+    ]
+  },
+  { "id": 293, "level": 600, "word": "particularly", "definitions": [{ "parts": "adverb", "meaning": "特に" }] },
+  { "id": 294, "level": 600, "word": "aspect", "definitions": [{ "parts": "noun", "meaning": "面、曲面" }] },
+  { "id": 295, "level": 600, "word": "hesitate", "definitions": [{ "parts": "verb", "meaning": "ためらう" }] },
+  { "id": 296, "level": 600, "word": "involved", "definitions": [{ "parts": "adjective", "meaning": "かかわった" }] },
+  { "id": 297, "level": 600, "word": "regularly", "definitions": [{ "parts": "adverb", "meaning": "定期的に" }] },
+  { "id": 298, "level": 600, "word": "scholarship", "definitions": [{ "parts": "noun", "meaning": "奨学金" }] },
+  { "id": 299, "level": 600, "word": "shortly", "definitions": [{ "parts": "adverb", "meaning": "じきに、まもなく" }] },
+  {
+    "id": 300,
+    "level": 600,
+    "word": "automobile",
+    "definitions": [
+      { "parts": "noun", "meaning": "自動車" },
+      { "parts": "adjective", "meaning": "自動車の" }
+    ]
+  },
+  {
+    "id": 301,
+    "level": 600,
+    "word": "deposit",
+    "definitions": [
+      { "parts": "noun", "meaning": "頭金、敷金、保証金" },
+      { "parts": "verb", "meaning": "預け入れる" }
+    ]
+  },
+  { "id": 302, "level": 600, "word": "contain", "definitions": [{ "parts": "verb", "meaning": "含む、所有する" }] },
+  {
+    "id": 303,
+    "level": 600,
+    "word": "content",
+    "definitions": [
+      { "parts": "noun", "meaning": "内容、中身" },
+      { "parts": "adjective", "meaning": "満足している" }
+    ]
+  },
+  { "id": 304, "level": 600, "word": "proof", "definitions": [{ "parts": "noun", "meaning": "証拠、証明" }] },
+  { "id": 305, "level": 600, "word": "affect", "definitions": [{ "parts": "verb", "meaning": "影響する" }] },
+  { "id": 306, "level": 600, "word": "recognize", "definitions": [{ "parts": "verb", "meaning": "(業績等を)認める、(人を)称える、識別する" }] },
+  { "id": 307, "level": 600, "word": "represent", "definitions": [{ "parts": "verb", "meaning": "代表を務める、相当する、表す" }] },
+  {
+    "id": 308,
+    "level": 600,
+    "word": "transfer",
+    "definitions": [
+      { "parts": "noun", "meaning": "転勤、移動" },
+      { "parts": "verb", "meaning": "転勤させる(する)、移動させる(する)" }
+    ]
+  },
+  { "id": 309, "level": 600, "word": "anniversary", "definitions": [{ "parts": "noun", "meaning": "～周年、記念日" }] },
+  { "id": 310, "level": 600, "word": "automatically", "definitions": [{ "parts": "adverb", "meaning": "自動的に" }] },
+  { "id": 311, "level": 600, "word": "capacity", "definitions": [{ "parts": "noun", "meaning": "(生産)能力、収容能力、役割" }] },
+  { "id": 312, "level": 600, "word": "destination", "definitions": [{ "parts": "noun", "meaning": "目的地、行き先" }] },
+  {
+    "id": 313,
+    "level": 600,
+    "word": "grant",
+    "definitions": [
+      { "parts": "noun", "meaning": "補助金、助成金" },
+      { "parts": "verb", "meaning": "与える、許可する" }
+    ]
+  },
+  { "id": 314, "level": 600, "word": "publish", "definitions": [{ "parts": "verb", "meaning": "出版する" }] },
+  { "id": 315, "level": 600, "word": "accompany", "definitions": [{ "parts": "verb", "meaning": "添付する、同行する" }] },
+  { "id": 316, "level": 600, "word": "economic", "definitions": [{ "parts": "adjective", "meaning": "経済の、経済上の" }] },
+  { "id": 317, "level": 600, "word": "extremely", "definitions": [{ "parts": "adverb", "meaning": "極めて、非常に" }] },
+  { "id": 318, "level": 600, "word": "institution", "definitions": [{ "parts": "noun", "meaning": "機関、団体、しきたり" }] },
+  { "id": 319, "level": 600, "word": "accurate", "definitions": [{ "parts": "adjective", "meaning": "正確な" }] },
+  { "id": 320, "level": 600, "word": "compete", "definitions": [{ "parts": "verb", "meaning": "競う" }] },
+  { "id": 321, "level": 600, "word": "emphasize", "definitions": [{ "parts": "verb", "meaning": "強調する" }] },
+  { "id": 322, "level": 600, "word": "aware", "definitions": [{ "parts": "adjective", "meaning": "気づいて" }] },
+  { "id": 323, "level": 600, "word": "crowded", "definitions": [{ "parts": "adjective", "meaning": "混雑した" }] },
+  {
+    "id": 324,
+    "level": 600,
+    "word": "praise",
+    "definitions": [
+      { "parts": "noun", "meaning": "称賛" },
+      { "parts": "verb", "meaning": "誉める" }
+    ]
+  },
+  { "id": 325, "level": 600, "word": "valuable", "definitions": [{ "parts": "adjective", "meaning": "貴重な" }] },
+  { "id": 326, "level": 600, "word": "explore", "definitions": [{ "parts": "verb", "meaning": "調査する、探索する" }] },
+  { "id": 327, "level": 600, "word": "found", "definitions": [{ "parts": "verb", "meaning": "設立する、創立する" }] },
+  {
+    "id": 328,
+    "level": 600,
+    "word": "function",
+    "definitions": [
+      { "parts": "noun", "meaning": "機能" },
+      { "parts": "verb", "meaning": "機能する" }
+    ]
+  },
+  { "id": 329, "level": 600, "word": "impact", "definitions": [{ "parts": "noun", "meaning": "影響" }] },
+  { "id": 330, "level": 600, "word": "amazing", "definitions": [{ "parts": "adjective", "meaning": "驚くべき" }] },
+  { "id": 331, "level": 600, "word": "assure", "definitions": [{ "parts": "verb", "meaning": "保証する、請け合う" }] },
+  { "id": 332, "level": 600, "word": "cooperation", "definitions": [{ "parts": "noun", "meaning": "協力" }] },
+  { "id": 333, "level": 600, "word": "popularity", "definitions": [{ "parts": "noun", "meaning": "人気" }] },
+  {
+    "id": 334,
+    "level": 600,
+    "word": "permit",
+    "definitions": [
+      { "parts": "noun", "meaning": "許可証" },
+      { "parts": "verb", "meaning": "許可する" }
+    ]
+  },
+  { "id": 335, "level": 600, "word": "solve", "definitions": [{ "parts": "verb", "meaning": "解決する" }] },
+  {
+    "id": 336,
+    "level": 600,
+    "word": "vote",
+    "definitions": [
+      { "parts": "noun", "meaning": "投票" },
+      { "parts": "verb", "meaning": "投票する" }
+    ]
+  },
+  { "id": 337, "level": 600, "word": "crop", "definitions": [{ "parts": "noun", "meaning": "作物、収穫量" }] },
+  { "id": 338, "level": 600, "word": "neighborhood", "definitions": [{ "parts": "noun", "meaning": "近所、地域" }] },
+  { "id": 339, "level": 600, "word": "permanent", "definitions": [{ "parts": "adjective", "meaning": "常設の、常雇用の、永久の" }] },
+  { "id": 340, "level": 600, "word": "regret", "definitions": [{ "parts": "verb", "meaning": "残念に思う" }] },
+  { "id": 341, "level": 600, "word": "slightly", "definitions": [{ "parts": "adverb", "meaning": "わずかに、少し" }] },
+  { "id": 342, "level": 600, "word": "complicated", "definitions": [{ "parts": "adjective", "meaning": "複雑な" }] },
+  { "id": 343, "level": 600, "word": "factor", "definitions": [{ "parts": "noun", "meaning": "要因、要素" }] },
+  { "id": 344, "level": 600, "word": "favorable", "definitions": [{ "parts": "adjective", "meaning": "好意的な、有利な" }] },
+  {
+    "id": 345,
+    "level": 600,
+    "word": "guarantee",
+    "definitions": [
+      { "parts": "noun", "meaning": "保証" },
+      { "parts": "verb", "meaning": "保証する" }
+    ]
+  },
+  { "id": 346, "level": 600, "word": "mechanical", "definitions": [{ "parts": "adjective", "meaning": "機械の" }] },
+  { "id": 347, "level": 600, "word": "priority", "definitions": [{ "parts": "noun", "meaning": "優先順位、優先事項" }] },
+  { "id": 348, "level": 600, "word": "relatively", "definitions": [{ "parts": "adverb", "meaning": "比較的" }] },
+  { "id": 349, "level": 600, "word": "resource", "definitions": [{ "parts": "noun", "meaning": "資源" }] },
+  { "id": 350, "level": 600, "word": "shuttle", "definitions": [{ "parts": "noun", "meaning": "定期往復便" }] },
+  { "id": 351, "level": 600, "word": "divide", "definitions": [{ "parts": "verb", "meaning": "分ける" }] },
+  {
+    "id": 352,
+    "level": 600,
+    "word": "native",
+    "definitions": [
+      { "parts": "noun", "meaning": "出身の人" },
+      { "parts": "adjective", "meaning": "出身の" }
+    ]
+  },
+  { "id": 353, "level": 600, "word": "afford", "definitions": [{ "parts": "verb", "meaning": "～する余裕がある" }] },
+  { "id": 354, "level": 600, "word": "income", "definitions": [{ "parts": "noun", "meaning": "収入" }] },
+  { "id": 355, "level": 600, "word": "occur", "definitions": [{ "parts": "verb", "meaning": "起こる、発生する、行われる" }] },
+  { "id": 356, "level": 600, "word": "saving", "definitions": [{ "parts": "noun", "meaning": "値引き、貯蓄、節約" }] },
+  { "id": 357, "level": 600, "word": "findings", "definitions": [{ "parts": "noun", "meaning": "(研究・調査の)結果、わかったこと" }] },
+  { "id": 358, "level": 600, "word": "locate", "definitions": [{ "parts": "verb", "meaning": "見つける" }] },
+  { "id": 359, "level": 600, "word": "postpone", "definitions": [{ "parts": "verb", "meaning": "延期する" }] },
+  {
+    "id": 360,
+    "level": 600,
+    "word": "preserve",
+    "definitions": [
+      { "parts": "noun", "meaning": "保護区" },
+      { "parts": "verb", "meaning": "保護する、保存する" }
+    ]
+  },
+  { "id": 361, "level": 600, "word": "prove", "definitions": [{ "parts": "verb", "meaning": "わかる、判明する、証明する" }] },
+  { "id": 362, "level": 600, "word": "exact", "definitions": [{ "parts": "adjective", "meaning": "正確な" }] },
+  {
+    "id": 363,
+    "level": 600,
+    "word": "gain",
+    "definitions": [
+      { "parts": "noun", "meaning": "増加、利益" },
+      { "parts": "verb", "meaning": "得る" }
+    ]
+  },
+  { "id": 364, "level": 600, "word": "labor", "definitions": [{ "parts": "noun", "meaning": "労働、労働者" }] },
+  {
+    "id": 365,
+    "level": 600,
+    "word": "regard",
+    "definitions": [
+      { "parts": "noun", "meaning": "点" },
+      { "parts": "verb", "meaning": "みなす、評価する" }
+    ]
+  },
+  { "id": 366, "level": 600, "word": "closely", "definitions": [{ "parts": "adverb", "meaning": "密に、注意深く" }] },
+  { "id": 367, "level": 600, "word": "deserve", "definitions": [{ "parts": "verb", "meaning": "値する" }] },
+  { "id": 368, "level": 600, "word": "identify", "definitions": [{ "parts": "verb", "meaning": "特定する" }] },
+  { "id": 369, "level": 600, "word": "loyal", "definitions": [{ "parts": "adjective", "meaning": "忠実な" }] },
+  { "id": 370, "level": 600, "word": "promising", "definitions": [{ "parts": "adjective", "meaning": "有望な" }] },
+  {
+    "id": 371,
+    "level": 600,
+    "word": "stress",
+    "definitions": [
+      { "parts": "noun", "meaning": "ストレス、強調" },
+      { "parts": "verb", "meaning": "強調する" }
+    ]
+  },
+  { "id": 372, "level": 600, "word": "analyze", "definitions": [{ "parts": "verb", "meaning": "分析する" }] },
+  {
+    "id": 373,
+    "level": 600,
+    "word": "commission",
+    "definitions": [
+      { "parts": "noun", "meaning": "委員会、歩合" },
+      { "parts": "verb", "meaning": "委託する、委任する" }
+    ]
+  },
+  { "id": 374, "level": 600, "word": "committed", "definitions": [{ "parts": "adjective", "meaning": "熱心に取り組む、献身的な" }] },
+  { "id": 375, "level": 600, "word": "comparison", "definitions": [{ "parts": "noun", "meaning": "比較" }] },
+  { "id": 376, "level": 600, "word": "component", "definitions": [{ "parts": "noun", "meaning": "部品" }] },
+  { "id": 377, "level": 600, "word": "enable", "definitions": [{ "parts": "verb", "meaning": "可能にする" }] },
+  { "id": 378, "level": 600, "word": "enjoyable", "definitions": [{ "parts": "adjective", "meaning": "楽しい" }] },
+  { "id": 379, "level": 600, "word": "existing", "definitions": [{ "parts": "adjective", "meaning": "従来の、既存の" }] },
+  { "id": 380, "level": 600, "word": "flyer", "definitions": [{ "parts": "noun", "meaning": "チラシ、(飛行機の)乗客" }] },
+  { "id": 381, "level": 600, "word": "proceed", "definitions": [{ "parts": "verb", "meaning": "進む" }] },
+  { "id": 382, "level": 600, "word": "prevent", "definitions": [{ "parts": "verb", "meaning": "防ぐ、阻む" }] },
+  {
+    "id": 383,
+    "level": 600,
+    "word": "alike",
+    "definitions": [
+      { "parts": "adjective", "meaning": "よく似た" },
+      { "parts": "adverb", "meaning": "同様に" }
+    ]
+  },
+  { "id": 384, "level": 600, "word": "appoint", "definitions": [{ "parts": "verb", "meaning": "指名する、任命する" }] },
+  { "id": 385, "level": 600, "word": "connection", "definitions": [{ "parts": "noun", "meaning": "接続、つながり、関連、乗り継ぎ" }] },
+  { "id": 386, "level": 600, "word": "eager", "definitions": [{ "parts": "adjective", "meaning": "～したがる、熱望する" }] },
+  {
+    "id": 387,
+    "level": 600,
+    "word": "ease",
+    "definitions": [
+      { "parts": "noun", "meaning": "容易さ、たやすさ" },
+      { "parts": "verb", "meaning": "やわらげる、容易にする" }
+    ]
+  },
+  { "id": 388, "level": 600, "word": "fairly", "definitions": [{ "parts": "adverb", "meaning": "かなり" }] },
+  { "id": 389, "level": 600, "word": "absolutely", "definitions": [{ "parts": "adverb", "meaning": "完全に、間違いなく" }] },
+  { "id": 390, "level": 600, "word": "atmosphere", "definitions": [{ "parts": "noun", "meaning": "雰囲気" }] },
+  { "id": 391, "level": 600, "word": "calculate", "definitions": [{ "parts": "verb", "meaning": "計算する" }] },
+  {
+    "id": 392,
+    "level": 600,
+    "word": "contrast",
+    "definitions": [
+      { "parts": "noun", "meaning": "対照、はっきりした違い" },
+      { "parts": "verb", "meaning": "対照的である" }
+    ]
+  },
+  {
+    "id": 393,
+    "level": 600,
+    "word": "monitor",
+    "definitions": [
+      { "parts": "noun", "meaning": "(コンピュータの)モニター" },
+      { "parts": "verb", "meaning": "監視する" }
+    ]
+  },
+  { "id": 394, "level": 600, "word": "occasionally", "definitions": [{ "parts": "adverb", "meaning": "時々" }] },
+  { "id": 395, "level": 600, "word": "practical", "definitions": [{ "parts": "adjective", "meaning": "実務の、実際の、実用的な" }] },
+  { "id": 396, "level": 600, "word": "serious", "definitions": [{ "parts": "adjective", "meaning": "重大な、真剣な、重要な" }] },
+  { "id": 397, "level": 600, "word": "strength", "definitions": [{ "parts": "noun", "meaning": "強さ、強度、(液体等の)濃さ" }] },
+  { "id": 398, "level": 600, "word": "equally", "definitions": [{ "parts": "adverb", "meaning": "同じように、均等に" }] },
+  {
+    "id": 399,
+    "level": 600,
+    "word": "import",
+    "definitions": [
+      { "parts": "noun", "meaning": "輸入、輸入品" },
+      { "parts": "verb", "meaning": "輸入する" }
+    ]
+  },
+  { "id": 400, "level": 600, "word": "informal", "definitions": [{ "parts": "adjective", "meaning": "非公式の、カジュアルな" }] },
+  { "id": 401, "level": 600, "word": "lately", "definitions": [{ "parts": "adverb", "meaning": "最近、この頃" }] },
+  { "id": 402, "level": 600, "word": "profession", "definitions": [{ "parts": "noun", "meaning": "専門的職業" }] },
+  { "id": 403, "level": 600, "word": "supervisor", "definitions": [{ "parts": "noun", "meaning": "上司、責任者" }] },
+  { "id": 404, "level": 600, "word": "ensure", "definitions": [{ "parts": "verb", "meaning": "保証する、請け合う" }] },
+  { "id": 405, "level": 600, "word": "submission", "definitions": [{ "parts": "noun", "meaning": "提出物、提出" }] },
+  { "id": 406, "level": 600, "word": "notify", "definitions": [{ "parts": "verb", "meaning": "知らせる" }] },
+  { "id": 407, "level": 600, "word": "definitely", "definitions": [{ "parts": "adverb", "meaning": "間違いなく、絶対に" }] },
+  { "id": 408, "level": 600, "word": "eligible", "definitions": [{ "parts": "adjective", "meaning": "資格がある" }] },
+  { "id": 409, "level": 600, "word": "paperwork", "definitions": [{ "parts": "noun", "meaning": "書類、書類作業" }] },
+  { "id": 410, "level": 600, "word": "complimentary", "definitions": [{ "parts": "adjective", "meaning": "無料の" }] },
+  { "id": 411, "level": 600, "word": "revise", "definitions": [{ "parts": "verb", "meaning": "修正する、見直す" }] },
+  {
+    "id": 412,
+    "level": 600,
+    "word": "track",
+    "definitions": [
+      { "parts": "noun", "meaning": "線路、走路" },
+      { "parts": "verb", "meaning": "追跡する" }
+    ]
+  },
+  { "id": 413, "level": 600, "word": "administrative", "definitions": [{ "parts": "adjective", "meaning": "管理の" }] },
+  { "id": 414, "level": 600, "word": "retail", "definitions": [{ "parts": "noun", "meaning": "小売り" }] },
+  { "id": 415, "level": 600, "word": "inventory", "definitions": [{ "parts": "noun", "meaning": "在庫(表)、棚卸" }] },
+  { "id": 416, "level": 600, "word": "extensive", "definitions": [{ "parts": "adjective", "meaning": "詳細な、幅広い、大規模な" }] },
+  { "id": 417, "level": 600, "word": "promotional", "definitions": [{ "parts": "adjective", "meaning": "販売促進用の、販促の" }] },
+  { "id": 418, "level": 600, "word": "catering", "definitions": [{ "parts": "noun", "meaning": "仕出し、出前、ケータリング" }] },
+  { "id": 419, "level": 600, "word": "wildlife", "definitions": [{ "parts": "noun", "meaning": "野生動物" }] },
+  { "id": 420, "level": 600, "word": "assign", "definitions": [{ "parts": "verb", "meaning": "割り当てる、任命する" }] },
+  { "id": 421, "level": 600, "word": "imply", "definitions": [{ "parts": "verb", "meaning": "ほのめかす、暗示する" }] },
+  { "id": 422, "level": 600, "word": "banquet", "definitions": [{ "parts": "noun", "meaning": "夕食会" }] },
+  { "id": 423, "level": 600, "word": "valid", "definitions": [{ "parts": "adjective", "meaning": "有効な" }] },
+  { "id": 424, "level": 600, "word": "affordable", "definitions": [{ "parts": "adjective", "meaning": "手ごろな" }] },
+  { "id": 425, "level": 600, "word": "renovate", "definitions": [{ "parts": "verb", "meaning": "改装する" }] },
+  { "id": 426, "level": 600, "word": "guidelines", "definitions": [{ "parts": "noun", "meaning": "指針、ガイドライン" }] },
+  { "id": 427, "level": 600, "word": "certificate", "definitions": [{ "parts": "noun", "meaning": "認定証、終了証" }] },
+  { "id": 428, "level": 600, "word": "innovative", "definitions": [{ "parts": "adjective", "meaning": "革新的な" }] },
+  { "id": 429, "level": 600, "word": "agenda", "definitions": [{ "parts": "noun", "meaning": "議題、協議事項" }] },
+  { "id": 430, "level": 600, "word": "assembly", "definitions": [{ "parts": "noun", "meaning": "組立、集会" }] },
+  { "id": 431, "level": 600, "word": "install", "definitions": [{ "parts": "verb", "meaning": "設置する、導入する、(プログラム等を)インストールする" }] },
+  { "id": 432, "level": 600, "word": "orientation", "definitions": [{ "parts": "noun", "meaning": "新入社員向け説明会" }] },
+  { "id": 433, "level": 600, "word": "renowned", "definitions": [{ "parts": "adjective", "meaning": "名高い、著名な" }] },
+  { "id": 434, "level": 600, "word": "appropriate", "definitions": [{ "parts": "adjective", "meaning": "適切な、適した" }] },
+  { "id": 435, "level": 600, "word": "ingredient", "definitions": [{ "parts": "noun", "meaning": "(料理の)材料" }] },
+  { "id": 436, "level": 600, "word": "storage", "definitions": [{ "parts": "noun", "meaning": "保管、貯蔵" }] },
+  { "id": 437, "level": 600, "word": "beverage", "definitions": [{ "parts": "noun", "meaning": "飲料" }] },
+  { "id": 438, "level": 600, "word": "prior", "definitions": [{ "parts": "adjective", "meaning": "前の" }] },
+  { "id": 439, "level": 600, "word": "merger", "definitions": [{ "parts": "noun", "meaning": "合併、統合" }] },
+  { "id": 440, "level": 600, "word": "inn", "definitions": [{ "parts": "noun", "meaning": "宿、ホテル" }] },
+  { "id": 441, "level": 600, "word": "equip", "definitions": [{ "parts": "verb", "meaning": "備え付ける、装備する" }] },
+  { "id": 442, "level": 600, "word": "summary", "definitions": [{ "parts": "noun", "meaning": "ようやく" }] },
+  {
+    "id": 443,
+    "level": 600,
+    "word": "lease",
+    "definitions": [
+      { "parts": "noun", "meaning": "賃貸借(契約)" },
+      { "parts": "verb", "meaning": "賃貸借する" }
+    ]
+  },
+  { "id": 444, "level": 600, "word": "defective", "definitions": [{ "parts": "adjective", "meaning": "欠陥のある、不良の" }] },
+  {
+    "id": 445,
+    "level": 600,
+    "word": "quarterly",
+    "definitions": [
+      { "parts": "adjective", "meaning": "年に4回の、四半期ごとの" },
+      { "parts": "adverb", "meaning": "年に4回" }
+    ]
+  },
+  { "id": 446, "level": 600, "word": "extended", "definitions": [{ "parts": "adjective", "meaning": "長期の、長時間の" }] },
+  { "id": 447, "level": 600, "word": "architect", "definitions": [{ "parts": "noun", "meaning": "建築家" }] },
+  {
+    "id": 448,
+    "level": 600,
+    "word": "grocery",
+    "definitions": [
+      { "parts": "noun", "meaning": "食品雑貨" },
+      { "parts": "adjective", "meaning": "食品雑貨の" }
+    ]
+  },
+  { "id": 449, "level": 600, "word": "sculpture", "definitions": [{ "parts": "noun", "meaning": "彫刻" }] },
+  { "id": 450, "level": 600, "word": "itinerary", "definitions": [{ "parts": "noun", "meaning": "旅程表" }] },
+  { "id": 451, "level": 600, "word": "directory", "definitions": [{ "parts": "noun", "meaning": "名簿" }] },
+  { "id": 452, "level": 600, "word": "expire", "definitions": [{ "parts": "verb", "meaning": "期限が切れる" }] },
+  { "id": 453, "level": 600, "word": "vendor", "definitions": [{ "parts": "noun", "meaning": "業者、露天商" }] },
+  { "id": 454, "level": 600, "word": "colleague", "definitions": [{ "parts": "noun", "meaning": "同僚" }] },
+  { "id": 455, "level": 600, "word": "patron", "definitions": [{ "parts": "noun", "meaning": "愛用者、利用者" }] },
+  { "id": 456, "level": 600, "word": "relocate", "definitions": [{ "parts": "verb", "meaning": "移転させる、引っ越す" }] },
+  { "id": 457, "level": 600, "word": "tourism", "definitions": [{ "parts": "noun", "meaning": "観光事業" }] },
+  { "id": 458, "level": 600, "word": "remodel", "definitions": [{ "parts": "verb", "meaning": "改築する、リフォームする" }] },
+  { "id": 459, "level": 600, "word": "consumer", "definitions": [{ "parts": "noun", "meaning": "消費者" }] },
+  { "id": 460, "level": 600, "word": "inspect", "definitions": [{ "parts": "verb", "meaning": "検査する" }] },
+  { "id": 461, "level": 600, "word": "numerous", "definitions": [{ "parts": "adjective", "meaning": "数多くの" }] },
+  { "id": 462, "level": 600, "word": "payroll", "definitions": [{ "parts": "noun", "meaning": "給与、給与管理、賃金台帳" }] },
+  { "id": 463, "level": 600, "word": "qualified", "definitions": [{ "parts": "adjective", "meaning": "資格のある、適任の" }] },
+  { "id": 464, "level": 600, "word": "appliance", "definitions": [{ "parts": "noun", "meaning": "電化製品" }] },
+  { "id": 465, "level": 600, "word": "competitive", "definitions": [{ "parts": "adjective", "meaning": "他に負けない、競争の激しい" }] },
+  { "id": 466, "level": 600, "word": "specialize", "definitions": [{ "parts": "verb", "meaning": "専門とする" }] },
+  { "id": 467, "level": 600, "word": "questionnaire", "definitions": [{ "parts": "noun", "meaning": "アンケート用紙" }] },
+  { "id": 468, "level": 600, "word": "approximately", "definitions": [{ "parts": "adverb", "meaning": "おおよそ、約" }] },
+  { "id": 469, "level": 600, "word": "contribute", "definitions": [{ "parts": "verb", "meaning": "貢献する、寄付する" }] },
+  { "id": 470, "level": 600, "word": "productivity", "definitions": [{ "parts": "noun", "meaning": "生産性" }] },
+  { "id": 471, "level": 600, "word": "promptly", "definitions": [{ "parts": "adverb", "meaning": "すばやく、(時刻)きっかりに、即座に" }] },
+  { "id": 472, "level": 600, "word": "strategy", "definitions": [{ "parts": "noun", "meaning": "戦略" }] },
+  { "id": 473, "level": 600, "word": "dedicated", "definitions": [{ "parts": "adjective", "meaning": "献身的な、専用の、特化した" }] },
+  { "id": 474, "level": 600, "word": "exceptional", "definitions": [{ "parts": "adjective", "meaning": "並外れた、非常に素晴らしい" }] },
+  { "id": 475, "level": 600, "word": "luncheon", "definitions": [{ "parts": "noun", "meaning": "昼食会" }] },
+  { "id": 476, "level": 600, "word": "exceed", "definitions": [{ "parts": "verb", "meaning": "超える" }] },
+  { "id": 477, "level": 600, "word": "multiple", "definitions": [{ "parts": "adjective", "meaning": "複数の" }] },
+  { "id": 478, "level": 600, "word": "specify", "definitions": [{ "parts": "verb", "meaning": "明確に述べる、明記する" }] },
+  { "id": 479, "level": 600, "word": "venue", "definitions": [{ "parts": "noun", "meaning": "会場" }] },
+  {
+    "id": 480,
+    "level": 600,
+    "word": "household",
+    "definitions": [
+      { "parts": "noun", "meaning": "家庭" },
+      { "parts": "adjective", "meaning": "家庭用の" }
+    ]
+  },
+  { "id": 481, "level": 600, "word": "evaluate", "definitions": [{ "parts": "verb", "meaning": "評価する" }] },
+  { "id": 482, "level": 600, "word": "negotiate", "definitions": [{ "parts": "verb", "meaning": "交渉する" }] },
+  { "id": 483, "level": 600, "word": "booking", "definitions": [{ "parts": "noun", "meaning": "予約" }] },
+  { "id": 484, "level": 600, "word": "circulation", "definitions": [{ "parts": "noun", "meaning": "発行部数、流通、(図書館の)貸出" }] },
+  { "id": 485, "level": 600, "word": "completion", "definitions": [{ "parts": "noun", "meaning": "完了、終了" }] },
+  { "id": 486, "level": 600, "word": "relevant", "definitions": [{ "parts": "adjective", "meaning": "関連した" }] },
+  { "id": 487, "level": 600, "word": "thorough", "definitions": [{ "parts": "adjective", "meaning": "徹底的な" }] },
+  { "id": 488, "level": 600, "word": "valid", "definitions": [{ "parts": "preposition", "meaning": "～を経由して" }] },
+  { "id": 489, "level": 600, "word": "workplace", "definitions": [{ "parts": "noun", "meaning": "職場" }] },
+  { "id": 490, "level": 600, "word": "accommodations", "definitions": [{ "parts": "noun", "meaning": "宿泊施設" }] },
+  { "id": 491, "level": 600, "word": "flexible", "definitions": [{ "parts": "adjective", "meaning": "柔軟な、フレキシブルな" }] },
+  { "id": 492, "level": 600, "word": "predict", "definitions": [{ "parts": "verb", "meaning": "予測する" }] },
+  { "id": 493, "level": 600, "word": "preference", "definitions": [{ "parts": "noun", "meaning": "好み、希望" }] },
+  { "id": 494, "level": 600, "word": "substantial", "definitions": [{ "parts": "adjective", "meaning": "かなりの、頑丈な" }] },
+  { "id": 495, "level": 600, "word": "accessible", "definitions": [{ "parts": "adjective", "meaning": "到達できる、利用できる" }] },
+  { "id": 496, "level": 600, "word": "coverage", "definitions": [{ "parts": "noun", "meaning": "報道、(保険の)補填" }] },
+  { "id": 497, "level": 600, "word": "generate", "definitions": [{ "parts": "verb", "meaning": "生み出す" }] },
+  { "id": 498, "level": 600, "word": "refreshment", "definitions": [{ "parts": "noun", "meaning": "軽い飲食物" }] },
+  { "id": 499, "level": 600, "word": "reliable", "definitions": [{ "parts": "adjective", "meaning": "信頼できる、頼りになる" }] },
+  { "id": 500, "level": 600, "word": "revenue", "definitions": [{ "parts": "noun", "meaning": "収入" }] },
+  { "id": 501, "level": 600, "word": "fund-raising", "definitions": [{ "parts": "adjective", "meaning": "資産調達のための、慈善の" }] },
+  { "id": 502, "level": 600, "word": "accomplished", "definitions": [{ "parts": "adjective", "meaning": "熟達した、スキルの高い" }] },
+  { "id": 503, "level": 600, "word": "acquire", "definitions": [{ "parts": "verb", "meaning": "買収する、得る、獲得する" }] },
+  { "id": 504, "level": 600, "word": "accordingly", "definitions": [{ "parts": "adverb", "meaning": "それに応じて、結果として" }] },
+  { "id": 505, "level": 600, "word": "critic", "definitions": [{ "parts": "noun", "meaning": "評論家、批評家" }] },
+  {
+    "id": 506,
+    "level": 600,
+    "word": "highlight",
+    "definitions": [
+      { "parts": "noun", "meaning": "見どころ" },
+      { "parts": "verb", "meaning": "強調する、スポットを当てる" }
+    ]
+  },
+  {
+    "id": 507,
+    "level": 600,
+    "word": "profile",
+    "definitions": [
+      { "parts": "noun", "meaning": "プロフィール" },
+      { "parts": "verb", "meaning": "人物紹介する" }
+    ]
+  },
+  { "id": 508, "level": 600, "word": "motivate", "definitions": [{ "parts": "verb", "meaning": "やる気にさせる" }] },
+  { "id": 509, "level": 600, "word": "subscription", "definitions": [{ "parts": "noun", "meaning": "購読、加入、会費" }] },
+  { "id": 510, "level": 600, "word": "encounter", "definitions": [{ "parts": "verb", "meaning": "(問題や困難に)直面する、遭う、出くわす" }] },
+  {
+    "id": 511,
+    "level": 600,
+    "word": "luxury",
+    "definitions": [
+      { "parts": "noun", "meaning": "高級、ぜいたく" },
+      { "parts": "adjective", "meaning": "高級な" }
+    ]
+  },
+  { "id": 512, "level": 600, "word": "prohibit", "definitions": [{ "parts": "verb", "meaning": "禁止する" }] },
+  { "id": 513, "level": 600, "word": "resolve", "definitions": [{ "parts": "verb", "meaning": "解決する" }] },
+  { "id": 514, "level": 600, "word": "restore", "definitions": [{ "parts": "verb", "meaning": "復旧させる、取り戻す、修復する" }] },
+  { "id": 515, "level": 600, "word": "surrounding", "definitions": [{ "parts": "adjective", "meaning": "周辺の" }] },
+  {
+    "id": 516,
+    "level": 600,
+    "word": "alert",
+    "definitions": [
+      { "parts": "noun", "meaning": "警報" },
+      { "parts": "verb", "meaning": "(重要なことを)知らせる" },
+      { "parts": "adjective", "meaning": "警戒した" }
+    ]
+  },
+  { "id": 517, "level": 600, "word": "anticipated", "definitions": [{ "parts": "adjective", "meaning": "待ち望まれた" }] },
+  { "id": 518, "level": 600, "word": "consistently", "definitions": [{ "parts": "adverb", "meaning": "常に、変わらず" }] },
+  { "id": 519, "level": 600, "word": "dairy", "definitions": [{ "parts": "noun", "meaning": "乳製品、酪農場、酪農業" }] },
+  { "id": 520, "level": 600, "word": "phase", "definitions": [{ "parts": "noun", "meaning": "段階" }] },
+  { "id": 521, "level": 600, "word": "manuscript", "definitions": [{ "parts": "noun", "meaning": "原稿" }] },
+  {
+    "id": 522,
+    "level": 600,
+    "word": "overtime",
+    "definitions": [
+      { "parts": "noun", "meaning": "残業" },
+      { "parts": "adverb", "meaning": "時間外に" }
+    ]
+  },
+  { "id": 523, "level": 600, "word": "premises", "definitions": [{ "parts": "noun", "meaning": "敷地" }] },
+  { "id": 524, "level": 600, "word": "utility", "definitions": [{ "parts": "noun", "meaning": "公共料金、公共サービス" }] },
+  { "id": 525, "level": 600, "word": "laundry", "definitions": [{ "parts": "noun", "meaning": "洗濯(物)" }] },
+  { "id": 526, "level": 600, "word": "enthusiastic", "definitions": [{ "parts": "adjective", "meaning": "熱心な、関心が高い、乗り気である" }] },
+  {
+    "id": 527,
+    "level": 600,
+    "word": "outline",
+    "definitions": [
+      { "parts": "noun", "meaning": "概要" },
+      { "parts": "verb", "meaning": "概要を説明する" }
+    ]
+  },
+  { "id": 528, "level": 600, "word": "packet", "definitions": [{ "parts": "noun", "meaning": "小包、袋" }] },
+  { "id": 529, "level": 600, "word": "retain", "definitions": [{ "parts": "verb", "meaning": "保管する" }] },
+  { "id": 530, "level": 600, "word": "belongings", "definitions": [{ "parts": "noun", "meaning": "所持品、所有物" }] },
+  { "id": 531, "level": 600, "word": "conservation", "definitions": [{ "parts": "noun", "meaning": "節約、環境保護" }] },
+  { "id": 532, "level": 600, "word": "routine", "definitions": [{ "parts": "adjective", "meaning": "所定の、日常的に行われる" }] },
+  { "id": 533, "level": 600, "word": "urban", "definitions": [{ "parts": "adjective", "meaning": "都会の、都市の、都会での" }] },
+  { "id": 534, "level": 600, "word": "workforce", "definitions": [{ "parts": "noun", "meaning": "全従業員" }] },
+  { "id": 535, "level": 600, "word": "biography", "definitions": [{ "parts": "noun", "meaning": "人物紹介、伝記" }] },
+  { "id": 536, "level": 600, "word": "ownership", "definitions": [{ "parts": "noun", "meaning": "所有(権)、所有者であること" }] },
+  { "id": 537, "level": 600, "word": "pastry", "definitions": [{ "parts": "noun", "meaning": "焼き菓子" }] },
+  { "id": 538, "level": 600, "word": "tenant", "definitions": [{ "parts": "noun", "meaning": "賃借人、入居者" }] },
+  { "id": 539, "level": 600, "word": "workload", "definitions": [{ "parts": "noun", "meaning": "仕事量" }] },
+  { "id": 540, "level": 600, "word": "sufficient", "definitions": [{ "parts": "adjective", "meaning": "十分な" }] },
+  {
+    "id": 541,
+    "level": 600,
+    "word": "characteristic",
+    "definitions": [
+      { "parts": "noun", "meaning": "特徴" },
+      { "parts": "adjective", "meaning": "特徴的な" }
+    ]
+  },
+  { "id": 542, "level": 600, "word": "combined", "definitions": [{ "parts": "adjective", "meaning": "共同の、連合の" }] },
+  { "id": 543, "level": 600, "word": "conclude", "definitions": [{ "parts": "verb", "meaning": "終わる、終える、結論を出す" }] },
+  {
+    "id": 544,
+    "level": 600,
+    "word": "associate",
+    "definitions": [
+      { "parts": "noun", "meaning": "同僚、アシスタント" },
+      { "parts": "verb", "meaning": "関連付ける" },
+      { "parts": "adjective", "meaning": "アシスタントの" }
+    ]
+  },
+  { "id": 545, "level": 600, "word": "conflict", "definitions": [{ "parts": "noun", "meaning": "衝突、対立" }] },
+  { "id": 546, "level": 600, "word": "investment", "definitions": [{ "parts": "noun", "meaning": "投資" }] },
+  { "id": 547, "level": 600, "word": "physician", "definitions": [{ "parts": "noun", "meaning": "医師" }] },
+  { "id": 548, "level": 600, "word": "token", "definitions": [{ "parts": "noun", "meaning": "印" }] },
+  { "id": 549, "level": 600, "word": "partial", "definitions": [{ "parts": "adjective", "meaning": "部分的な、一部の" }] },
+  { "id": 550, "level": 600, "word": "resume", "definitions": [{ "parts": "verb", "meaning": "再開する" }] },
+  { "id": 551, "level": 600, "word": "dealership", "definitions": [{ "parts": "noun", "meaning": "販売特約店" }] },
+  { "id": 552, "level": 600, "word": "garment", "definitions": [{ "parts": "noun", "meaning": "衣料品" }] },
+  { "id": 553, "level": 600, "word": "implement", "definitions": [{ "parts": "verb", "meaning": "実行する、実施する" }] },
+  { "id": 554, "level": 600, "word": "paycheck", "definitions": [{ "parts": "noun", "meaning": "給与、給与小切手" }] },
+  {
+    "id": 555,
+    "level": 600,
+    "word": "recruit",
+    "definitions": [
+      { "parts": "noun", "meaning": "新人" },
+      { "parts": "verb", "meaning": "採用する、応募する" }
+    ]
+  },
+  {
+    "id": 556,
+    "level": 600,
+    "word": "substitute",
+    "definitions": [
+      { "parts": "noun", "meaning": "代わりを務める人、代用品" },
+      { "parts": "verb", "meaning": "～を代わりに用いる" }
+    ]
+  },
+  { "id": 557, "level": 600, "word": "typically", "definitions": [{ "parts": "adverb", "meaning": "通常、典型的に" }] },
+  { "id": 558, "level": 600, "word": "authorize", "definitions": [{ "parts": "verb", "meaning": "公認する、権限を与える" }] },
+  { "id": 559, "level": 600, "word": "comparable", "definitions": [{ "parts": "adjective", "meaning": "同等の、匹敵する、類似の" }] },
+  { "id": 560, "level": 600, "word": "faculty", "definitions": [{ "parts": "noun", "meaning": "(大学の)教員、学部" }] },
+  { "id": 561, "level": 600, "word": "initiative", "definitions": [{ "parts": "noun", "meaning": "新しい計画、主導権" }] },
+  { "id": 562, "level": 600, "word": "postage", "definitions": [{ "parts": "noun", "meaning": "郵便料金" }] },
+  { "id": 563, "level": 600, "word": "afterwords", "definitions": [{ "parts": "adverb", "meaning": "そのあとで" }] },
+  {
+    "id": 564,
+    "level": 600,
+    "word": "aim",
+    "definitions": [
+      { "parts": "noun", "meaning": "目標、狙い" },
+      { "parts": "verb", "meaning": "目指す、狙う" }
+    ]
+  },
+  { "id": 565, "level": 600, "word": "generally", "definitions": [{ "parts": "adverb", "meaning": "おおむね、通常、一般的に" }] },
+  { "id": 566, "level": 600, "word": "occupied", "definitions": [{ "parts": "adjective", "meaning": "(部屋、座席、ベッド等が)使われている" }] },
+  { "id": 567, "level": 600, "word": "solid", "definitions": [{ "parts": "adjective", "meaning": "確かな、信頼できる" }] },
+  {
+    "id": 568,
+    "level": 600,
+    "word": "attempt",
+    "definitions": [
+      { "parts": "noun", "meaning": "試み" },
+      { "parts": "verb", "meaning": "試みる" }
+    ]
+  },
+  { "id": 569, "level": 600, "word": "authority", "definitions": [{ "parts": "noun", "meaning": "権限、権力、権威、当局" }] },
+  { "id": 570, "level": 600, "word": "domestic", "definitions": [{ "parts": "adjective", "meaning": "国内の" }] },
+  { "id": 571, "level": 600, "word": "permission", "definitions": [{ "parts": "noun", "meaning": "許可" }] },
+  { "id": 572, "level": 600, "word": "presence", "definitions": [{ "parts": "noun", "meaning": "存在感、出席" }] },
+  { "id": 573, "level": 600, "word": "rapidly", "definitions": [{ "parts": "adverb", "meaning": "急速に" }] },
+  { "id": 574, "level": 600, "word": "relief", "definitions": [{ "parts": "noun", "meaning": "安心感、(苦痛・悩み等の)緩和" }] },
+  {
+    "id": 575,
+    "level": 600,
+    "word": "reward",
+    "definitions": [
+      { "parts": "noun", "meaning": "報酬、ほうび" },
+      { "parts": "verb", "meaning": "報いる、ほうびを与える" }
+    ]
+  },
+  { "id": 576, "level": 600, "word": "translate", "definitions": [{ "parts": "verb", "meaning": "翻訳する" }] },
+  { "id": 577, "level": 600, "word": "circumstance", "definitions": [{ "parts": "noun", "meaning": "状況" }] },
+  {
+    "id": 578,
+    "level": 600,
+    "word": "contrary",
+    "definitions": [
+      { "parts": "noun", "meaning": "正反対" },
+      { "parts": "adjective", "meaning": "正反対の" }
+    ]
+  },
+  { "id": 579, "level": 600, "word": "eventually", "definitions": [{ "parts": "adverb", "meaning": "最終的には、結局" }] },
+  { "id": 580, "level": 600, "word": "expose", "definitions": [{ "parts": "verb", "meaning": "さらす、触れさせる、暴露する" }] },
+  { "id": 581, "level": 600, "word": "panel", "definitions": [{ "parts": "noun", "meaning": "グループ、パネル" }] },
+  { "id": 582, "level": 600, "word": "portion", "definitions": [{ "parts": "noun", "meaning": "部分、ひとり分の食事" }] },
+  { "id": 583, "level": 600, "word": "primary", "definitions": [{ "parts": "adjective", "meaning": "主な" }] },
+  {
+    "id": 584,
+    "level": 600,
+    "word": "remark",
+    "definitions": [
+      { "parts": "noun", "meaning": "(スピーチでの)言葉、コメント、意見" },
+      { "parts": "verb", "meaning": "コメントする" }
+    ]
+  },
+  { "id": 585, "level": 600, "word": "timely", "definitions": [{ "parts": "adjective", "meaning": "タイミングの良い、タイムリーな" }] },
+  { "id": 586, "level": 600, "word": "commonly", "definitions": [{ "parts": "adverb", "meaning": "一般に、通常の、普通に" }] },
+  { "id": 587, "level": 600, "word": "consult", "definitions": [{ "parts": "verb", "meaning": "(医者、弁護士等の専門家に)相談する" }] },
+  { "id": 588, "level": 600, "word": "convert", "definitions": [{ "parts": "verb", "meaning": "改造する、変える" }] },
+  { "id": 589, "level": 600, "word": "obligation", "definitions": [{ "parts": "noun", "meaning": "義務" }] },
+  { "id": 590, "level": 600, "word": "resign", "definitions": [{ "parts": "verb", "meaning": "辞職する、辞任する" }] },
+  { "id": 591, "level": 600, "word": "securely", "definitions": [{ "parts": "adverb", "meaning": "しっかりと、安全に" }] },
+  { "id": 592, "level": 600, "word": "strive", "definitions": [{ "parts": "verb", "meaning": "懸命に努力する" }] },
+  { "id": 593, "level": 600, "word": "timeline", "definitions": [{ "parts": "noun", "meaning": "予定表" }] },
+  { "id": 594, "level": 600, "word": "urge", "definitions": [{ "parts": "verb", "meaning": "強く促す" }] },
+  { "id": 595, "level": 600, "word": "acknowledge", "definitions": [{ "parts": "verb", "meaning": "(受け取ったことを)知らせる、認める" }] },
+  { "id": 596, "level": 600, "word": "diverse", "definitions": [{ "parts": "adjective", "meaning": "多種多様な、たくさんの種類の" }] },
+  { "id": 597, "level": 600, "word": "transaction", "definitions": [{ "parts": "noun", "meaning": "取引" }] },
+  {
+    "id": 598,
+    "level": 600,
+    "word": "lack",
+    "definitions": [
+      { "parts": "noun", "meaning": "不足" },
+      { "parts": "verb", "meaning": "～が不足している" }
+    ]
+  },
+  { "id": 599, "level": 600, "word": "essential", "definitions": [{ "parts": "adjective", "meaning": "最も重要な、必要不可欠、本質的な" }] },
+  { "id": 600, "level": 600, "word": "majority", "definitions": [{ "parts": "noun", "meaning": "大多数、大部分" }] },
+  { "id": 601, "level": 600, "word": "observe", "definitions": [{ "parts": "verb", "meaning": "気づく、順守する、観察する" }] },
+  { "id": 602, "level": 600, "word": "possess", "definitions": [{ "parts": "verb", "meaning": "(財産、所有物等として)持つ、所有する" }] },
+  { "id": 603, "level": 600, "word": "sharply", "definitions": [{ "parts": "adverb", "meaning": "急激に、はっきりと" }] },
+  { "id": 604, "level": 600, "word": "adjustment", "definitions": [{ "parts": "noun", "meaning": "調整、調節" }] },
+  { "id": 605, "level": 600, "word": "aisle", "definitions": [{ "parts": "noun", "meaning": "通路" }] },
+  { "id": 606, "level": 600, "word": "capture", "definitions": [{ "parts": "verb", "meaning": "(映像や写真に)記録する、とらえる" }] },
+  { "id": 607, "level": 600, "word": "consist", "definitions": [{ "parts": "verb", "meaning": "～から成る" }] },
+  { "id": 608, "level": 600, "word": "desirable", "definitions": [{ "parts": "adjective", "meaning": "望ましい" }] },
+  { "id": 609, "level": 600, "word": "heavily", "definitions": [{ "parts": "adverb", "meaning": "大量に、非常に頻繁に" }] },
+  { "id": 610, "level": 600, "word": "investigate", "definitions": [{ "parts": "verb", "meaning": "調査する" }] },
+  { "id": 611, "level": 600, "word": "measurement", "definitions": [{ "parts": "noun", "meaning": "寸法、測定" }] },
+  { "id": 612, "level": 600, "word": "urgent", "definitions": [{ "parts": "adjective", "meaning": "緊急の" }] },
+  { "id": 613, "level": 600, "word": "checkout", "definitions": [{ "parts": "noun", "meaning": "レジ、(ホテルの)チェックアウト" }] },
+  { "id": 614, "level": 600, "word": "dispose", "definitions": [{ "parts": "verb", "meaning": "処分する" }] },
+  { "id": 615, "level": 600, "word": "modify", "definitions": [{ "parts": "verb", "meaning": "修正する" }] },
+  { "id": 616, "level": 600, "word": "outlet", "definitions": [{ "parts": "noun", "meaning": "店舗、コンセント" }] },
+  { "id": 617, "level": 600, "word": "prescription", "definitions": [{ "parts": "noun", "meaning": "処方せん" }] },
+  { "id": 618, "level": 600, "word": "situated", "definitions": [{ "parts": "adjective", "meaning": "位置している" }] },
+  { "id": 619, "level": 600, "word": "surprisingly", "definitions": [{ "parts": "adverb", "meaning": "驚いたことに" }] },
+  { "id": 620, "level": 600, "word": "transform", "definitions": [{ "parts": "verb", "meaning": "(姿、形、性質等を)一変させる" }] },
+  { "id": 621, "level": 600, "word": "undergo", "definitions": [{ "parts": "verb", "meaning": "(検査、修理等を)経験する、受ける" }] },
+  { "id": 622, "level": 600, "word": "blueprint", "definitions": [{ "parts": "noun", "meaning": "設計図、青写真" }] },
+  {
+    "id": 623,
+    "level": 600,
+    "word": "boost",
+    "definitions": [
+      { "parts": "noun", "meaning": "押し上げること" },
+      { "parts": "verb", "meaning": "押し上げる、引き上げる" }
+    ]
+  },
+  { "id": 624, "level": 600, "word": "considerably", "definitions": [{ "parts": "adverb", "meaning": "かなり" }] },
+  { "id": 625, "level": 600, "word": "eliminate", "definitions": [{ "parts": "verb", "meaning": "取り除く、排除する" }] },
+  { "id": 626, "level": 600, "word": "exclusively", "definitions": [{ "parts": "adverb", "meaning": "限定で、独占的に" }] },
+  {
+    "id": 627,
+    "level": 600,
+    "word": "leak",
+    "definitions": [
+      { "parts": "noun", "meaning": "漏れ" },
+      { "parts": "verb", "meaning": "漏れる、漏らす" }
+    ]
+  },
+  { "id": 628, "level": 600, "word": "preliminary", "definitions": [{ "parts": "adjective", "meaning": "仮の、暫定の、本番前の" }] },
+  { "id": 629, "level": 600, "word": "sophisticated", "definitions": [{ "parts": "adjective", "meaning": "洗練された、高性能の" }] },
+  { "id": 630, "level": 600, "word": "statistics", "definitions": [{ "parts": "noun", "meaning": "統計、統計学" }] },
+  { "id": 631, "level": 600, "word": "vacant", "definitions": [{ "parts": "adjective", "meaning": "空の、空いた、欠員の" }] },
+  { "id": 632, "level": 600, "word": "evidence", "definitions": [{ "parts": "noun", "meaning": "証拠、証明" }] },
+  { "id": 633, "level": 600, "word": "excursion", "definitions": [{ "parts": "noun", "meaning": "お出かけ、小旅行" }] },
+  {
+    "id": 634,
+    "level": 600,
+    "word": "influence",
+    "definitions": [
+      { "parts": "noun", "meaning": "影響" },
+      { "parts": "verb", "meaning": "影響を与える" }
+    ]
+  },
+  { "id": 635, "level": 600, "word": "ordinary", "definitions": [{ "parts": "adjective", "meaning": "普通の、通常の" }] },
+  { "id": 636, "level": 600, "word": "reject", "definitions": [{ "parts": "verb", "meaning": "却下する、拒否する" }] },
+  { "id": 637, "level": 600, "word": "tailor", "definitions": [{ "parts": "verb", "meaning": "(ニーズや目的に合うように)合わせる、調整する" }] },
+  { "id": 638, "level": 600, "word": "assume", "definitions": [{ "parts": "verb", "meaning": "引き受ける、思い込む、仮定する" }] },
+  { "id": 639, "level": 600, "word": "engagement", "definitions": [{ "parts": "noun", "meaning": "約束" }] },
+  { "id": 640, "level": 600, "word": "fame", "definitions": [{ "parts": "noun", "meaning": "名声" }] },
+  { "id": 641, "level": 600, "word": "modest", "definitions": [{ "parts": "adjective", "meaning": "少しの、高価ではない、謙虚な" }] },
+  { "id": 642, "level": 600, "word": "patent", "definitions": [{ "parts": "noun", "meaning": "特許" }] },
+  { "id": 643, "level": 600, "word": "pursue", "definitions": [{ "parts": "verb", "meaning": "追及する、追い求める" }] },
+  { "id": 644, "level": 600, "word": "remote", "definitions": [{ "parts": "adjective", "meaning": "人里離れた、可能性が低い" }] },
+  { "id": 645, "level": 600, "word": "reveal", "definitions": [{ "parts": "verb", "meaning": "明らかにする" }] },
+  { "id": 646, "level": 600, "word": "allowance", "definitions": [{ "parts": "noun", "meaning": "手当、小遣い、許容量" }] },
+  { "id": 647, "level": 600, "word": "crucial", "definitions": [{ "parts": "adjective", "meaning": "非常に重要な" }] },
+  { "id": 648, "level": 600, "word": "distinguished", "definitions": [{ "parts": "adjective", "meaning": "際立って優れた、傑出した" }] },
+  { "id": 649, "level": 600, "word": "disturb", "definitions": [{ "parts": "verb", "meaning": "邪魔する、悩ませる" }] },
+  { "id": 650, "level": 600, "word": "fluent", "definitions": [{ "parts": "adjective", "meaning": "流ちょうな、堪能な" }] },
+  { "id": 651, "level": 600, "word": "fulfill", "definitions": [{ "parts": "verb", "meaning": "満たす、果たす" }] },
+  { "id": 652, "level": 600, "word": "objective", "definitions": [{ "parts": "noun", "meaning": "目的、目標" }] },
+  { "id": 653, "level": 600, "word": "restrict", "definitions": [{ "parts": "verb", "meaning": "制限する" }] },
+  { "id": 654, "level": 600, "word": "steadily", "definitions": [{ "parts": "adverb", "meaning": "着実に" }] },
+  { "id": 655, "level": 600, "word": "adequate", "definitions": [{ "parts": "adjective", "meaning": "(要求を満たすのに)十分な、適切な" }] },
+  { "id": 656, "level": 600, "word": "assessment", "definitions": [{ "parts": "noun", "meaning": "評価、見積もり" }] },
+  { "id": 657, "level": 600, "word": "attribute", "definitions": [{ "parts": "verb", "meaning": "起因すると考える、おかげであるとする" }] },
+  { "id": 658, "level": 600, "word": "beforehand", "definitions": [{ "parts": "adverb", "meaning": "あらかじめ、事前に" }] },
+  { "id": 659, "level": 600, "word": "challenging", "definitions": [{ "parts": "adjective", "meaning": "(困難だが)やりがいのある" }] },
+  {
+    "id": 660,
+    "level": 600,
+    "word": "endeavor",
+    "definitions": [
+      { "parts": "noun", "meaning": "努力、試み" },
+      { "parts": "verb", "meaning": "努力する" }
+    ]
+  },
+  { "id": 661, "level": 600, "word": "inspiring", "definitions": [{ "parts": "adjective", "meaning": "やる気が出るような、活気づける" }] },
+  { "id": 662, "level": 600, "word": "remarkable", "definitions": [{ "parts": "adjective", "meaning": "驚くべき、注目すべき" }] },
+  {
+    "id": 663,
+    "level": 600,
+    "word": "measure",
+    "definitions": [
+      { "parts": "noun", "meaning": "対策、手段" },
+      { "parts": "verb", "meaning": "測定する、評価する" }
+    ]
+  },
+  { "id": 664, "level": 600, "word": "struggle", "definitions": [{ "parts": "verb", "meaning": "奮闘する" }] },
+  { "id": 665, "level": 600, "word": "wage", "definitions": [{ "parts": "noun", "meaning": "賃金" }] },
+  { "id": 666, "level": 600, "word": "adapt", "definitions": [{ "parts": "verb", "meaning": "適応する、適応させる、改作する" }] },
+  { "id": 667, "level": 600, "word": "ambitious", "definitions": [{ "parts": "adjective", "meaning": "意欲的な、野心的な" }] },
+  { "id": 668, "level": 600, "word": "capable", "definitions": [{ "parts": "adjective", "meaning": "能力がある" }] },
+  { "id": 669, "level": 600, "word": "consequence", "definitions": [{ "parts": "noun", "meaning": "(～が招いた)結果" }] },
+  { "id": 670, "level": 600, "word": "impose", "definitions": [{ "parts": "verb", "meaning": "課す、負わせる、強制する" }] },
+  { "id": 671, "level": 600, "word": "latter", "definitions": [{ "parts": "noun", "meaning": "後者" }] },
+  { "id": 672, "level": 600, "word": "output", "definitions": [{ "parts": "noun", "meaning": "生産高、生産量" }] },
+  { "id": 673, "level": 600, "word": "proudly", "definitions": [{ "parts": "adverb", "meaning": "誇らしげに、堂々と" }] },
+  { "id": 674, "level": 600, "word": "stable", "definitions": [{ "parts": "adjective", "meaning": "安定した" }] },
+  { "id": 675, "level": 600, "word": "transition", "definitions": [{ "parts": "noun", "meaning": "移行、転身" }] },
+  { "id": 676, "level": 600, "word": "consent", "definitions": [{ "parts": "noun", "meaning": "同意" }] },
+  { "id": 677, "level": 600, "word": "dependable", "definitions": [{ "parts": "adjective", "meaning": "信頼できる" }] },
+  { "id": 678, "level": 600, "word": "diligent", "definitions": [{ "parts": "adjective", "meaning": "勤勉な、まじめな" }] },
+  { "id": 679, "level": 600, "word": "illustrate", "definitions": [{ "parts": "verb", "meaning": "(例や図表を使って)説明する" }] },
+  { "id": 680, "level": 600, "word": "independently", "definitions": [{ "parts": "adverb", "meaning": "単独で、独立して" }] },
+  { "id": 681, "level": 600, "word": "mission", "definitions": [{ "parts": "noun", "meaning": "使命、ミッション" }] },
+  { "id": 682, "level": 600, "word": "moderate", "definitions": [{ "parts": "adjective", "meaning": "ほどほどの、適度な" }] },
+  { "id": 683, "level": 600, "word": "outlook", "definitions": [{ "parts": "noun", "meaning": "見通し、モノの見方" }] },
+  { "id": 684, "level": 600, "word": "precisely", "definitions": [{ "parts": "adverb", "meaning": "正確に" }] },
+  { "id": 685, "level": 600, "word": "concentrated", "definitions": [{ "parts": "adjective", "meaning": "集中的な、脳出された" }] },
+  { "id": 686, "level": 600, "word": "ample", "definitions": [{ "parts": "adjective", "meaning": "十分な、あり余るほどの" }] },
+  { "id": 687, "level": 600, "word": "asset", "definitions": [{ "parts": "noun", "meaning": "財産、役立つ人やモノ" }] },
+  { "id": 688, "level": 600, "word": "controversial", "definitions": [{ "parts": "adjective", "meaning": "議論を引き起こす、議論の的になる" }] },
+  { "id": 689, "level": 600, "word": "disappointing", "definitions": [{ "parts": "adjective", "meaning": "期待外れの、がっかりさせるような" }] },
+  { "id": 690, "level": 600, "word": "instrumental", "definitions": [{ "parts": "adjective", "meaning": "重要な役割を果たす" }] },
+  { "id": 691, "level": 600, "word": "interruption", "definitions": [{ "parts": "noun", "meaning": "中断" }] },
+  { "id": 692, "level": 600, "word": "perspective", "definitions": [{ "parts": "noun", "meaning": "観点、見方、考え方" }] },
+  { "id": 693, "level": 600, "word": "scope", "definitions": [{ "parts": "noun", "meaning": "範囲、余地" }] },
+  { "id": 694, "level": 600, "word": "speculation", "definitions": [{ "parts": "noun", "meaning": "推測、推量" }] },
+  {
+    "id": 695,
+    "level": 600,
+    "word": "supplement",
+    "definitions": [
+      { "parts": "noun", "meaning": "付録、付記、栄養補助食品" },
+      { "parts": "verb", "meaning": "補う" }
+    ]
+  },
+  { "id": 696, "level": 600, "word": "understaffed", "definitions": [{ "parts": "adjective", "meaning": "人手不足の" }] },
+  { "id": 697, "level": 600, "word": "rarely", "definitions": [{ "parts": "adverb", "meaning": "めったに～しない、まれに" }] },
+  {
+    "id": 698,
+    "level": 600,
+    "word": "caution",
+    "definitions": [
+      { "parts": "noun", "meaning": "注意、警告" },
+      { "parts": "verb", "meaning": "注意する、警告する" }
+    ]
+  },
+  { "id": 699, "level": 600, "word": "legislation", "definitions": [{ "parts": "noun", "meaning": "法律、法制化" }] },
+  { "id": 700, "level": 600, "word": "logical", "definitions": [{ "parts": "adjective", "meaning": "妥当な、論理的な、筋の通った" }] }
+]
