@@ -1,6 +1,11 @@
-@font-face {
+/* @font-face {
   font-family: "MyFont";
   src: url("/resource/LINESeed.ttf") format("trueType");
+} */
+
+@font-face {
+  font-family: "MyFont";
+  src: url("resource/LINESeed.ttf") format("trueType");
 }
 
 @font-face {
@@ -147,9 +152,60 @@ textarea {
   display: none;
 }
 
+.setup-form {
+  margin: 0 0 20px 0;
+  padding: 0 0 120px 0;
+  border-bottom: solid 1px var(--border);
+}
+
 .container {
   width: 100%;
   height: 100%;
+}
+
+.range-select {
+  width: 100%;
+  padding: 0 5px;
+}
+
+.level {
+  margin: 20px 0;
+}
+
+.level-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.level-table td {
+  text-align: center;
+  padding: 2px 0 1px 0;
+  border: solid 1px var(--border);
+}
+
+.level-table tr:nth-of-type(1) td {
+  font-size: 0.75rem;
+}
+
+.level-table tr:nth-of-type(2) td {
+  font-size: 1rem;
+}
+
+.format {
+  margin: 20px 0;
+  padding: 10px 15px;
+  border: solid 1px var(--border);
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 3px 10px;
+}
+
+.resource-button {
+  margin: 0 0 10px 0;
+  padding: 3px 10px;
 }
 
 .study {

@@ -8,6 +8,9 @@
     <title>MyApp</title>
   </head>
   <body>
+    <audio src="/resource/vocabulary.mp3" class="hide" data-target="audioPlayer" controls>
+      <track src="" />
+    </audio>
     <h1 class="hide">MyApp</h1>
     <div class="popup" id="popup">
       <div class="popup__cover"></div>
@@ -21,10 +24,29 @@
     </div>
     <div class="outer" data-target="outer">
       <div class="container" data-container="setup">
-        <form data-target="setupForm">
-          <select name="range" aria-label="select" data-target="rangeSelect"></select>
-          <div style="margin: 20px 0" data-target="levelList"></div>
-          <div style="margin: 20px 0">
+        <form class="setup-form" data-target="setupForm">
+          <select name="range" class="range-select" aria-label="select" data-target="rangeSelect"></select>
+          <div class="level">
+            <table class="level-table" aria-label="table">
+              <tbody>
+                <tr>
+                  <td>未学習</td>
+                  <td>Lv.0</td>
+                  <td>Lv.1</td>
+                  <td>Lv.2</td>
+                  <td>Lv.3</td>
+                </tr>
+                <tr data-target="levelList">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="format">
             <div>
               <label>
                 <input type="radio" name="format" value="all" checked />
@@ -56,14 +78,14 @@
               </label>
             </div>
           </div>
-          <div style="margin: 10px 0 0 0">
-            <button type="submit">学習を始める</button>
+          <div>
+            <button type="submit" class="submit-button">学習を始める</button>
           </div>
         </form>
-        <div style="margin: 100px 0 0 0">
-          <button data-target="openSettingButton">リソース管理</button>
+        <div>
+          <button class="resource-button" data-target="openSettingButton">リソース管理</button>
           <div>
-            <a href="/wordbook/" class="link">単語帳</a>
+            <a href="/wordbook/" class="link">単語帳へ</a>
           </div>
         </div>
       </div>

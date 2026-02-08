@@ -156,6 +156,7 @@ class App {
   }
 
   init() {
+    this.loadTimestamps();
     this.loadLocal();
     this.getElements();
     this.bindEvents();
@@ -171,6 +172,7 @@ class App {
   }
 
   bindEvents() {
+    this.ui.audioPlayer.addEventListener("timeupdate", () => this.audioTimeupdate());
     this.ui.rangeSelect.addEventListener("change", () => this.changeRangeSelect());
     this.ui.setupForm.addEventListener("submit", (e) => this.startStudy(e));
     this.ui.openSettingButton.addEventListener("click", () => this.openSetting());
@@ -179,6 +181,12 @@ class App {
     this.ui.answerButtonKnown.addEventListener("click", () => this.answer(true));
     this.ui.answerButtonUnknown.addEventListener("click", () => this.answer(false));
     this.ui.backHomeButton.addEventListener("click", () => this.switchView("setup"));
+  }
+
+  audioTimeupdate() {
+    if (this.current.end && this.ui.audioPlayer.currentTime > this.current.end) {
+      this.ui.audioPlayer.pause();
+    }
   }
 
   zfill(n) {
@@ -193,6 +201,11 @@ class App {
       const html = `<option value="${start}-${end}">No.${this.zfill(start)} - ${this.zfill(end)}</option>`;
       this.ui.rangeSelect.insertAdjacentHTML("beforeend", html);
     }
+  }
+
+  async loadTimestamps() {
+    const res = await fetch("/resource/timestamps.json");
+    this.timestamps = await res.json();
   }
 
   loadLocal() {
@@ -262,7 +275,7 @@ class App {
     }
 
     const unlearned = 50 - level.reduce((sum, v) => sum + v, 0);
-    this.ui.levelList.innerHTML = `未学習: ${unlearned}<br />level0: ${level[0]}<br />level1: ${level[1]}<br />level2: ${level[2]}<br />level3: ${level[3]}`;
+    this.ui.levelList.innerHTML = `<td>${unlearned}</td><td>${level[0]}</td><td>${level[1]}</td><td>${level[2]}</td><td>${level[3]}</td>`;
   }
 
   startStudy(e) {
@@ -331,6 +344,11 @@ class App {
       this.ui.studyDefinitions.insertAdjacentHTML("beforeend", html);
     }
 
+    const [start, end] = this.timestamps[currentWord.id - 1];
+    this.current.end = end;
+    this.ui.audioPlayer.currentTime = start;
+    this.ui.audioPlayer.play();
+
     setTimeout(() => {
       this.ui.studyDefinitions.classList.remove("hidden");
       this.ui.answerButtonKnown.disabled = false;
@@ -339,6 +357,7 @@ class App {
   }
 
   answer(isKnown) {
+    this.ui.audioPlayer.pause();
     const currentId = this.current.words[this.current.index].id;
     if (isKnown) {
       this.levelUpProgress(currentId);
